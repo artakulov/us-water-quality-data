@@ -1,0 +1,32 @@
+{
+  "name": "ZipCheckup U.S. Water Quality Dataset",
+  "description": "Water quality violations, lead/copper levels, radon zones, and Home Safety Scores for U.S. ZIP codes. Based on EPA SDWIS data.",
+  "license": "CC-BY-4.0",
+  "source": "U.S. EPA Safe Drinking Water Information System (SDWIS)",
+  "url": "https://zipcheckup.com",
+  "updated": "2026-03-16",
+  "total_zips": 1990,
+  "total_violations": 53959,
+  "states_covered": 51,
+  "fields": {
+    "zip": "5-digit ZIP code",
+    "city": "City name",
+    "state": "2-letter state abbreviation",
+    "system_name": "Primary water system name",
+    "pwsid": "EPA Public Water System ID",
+    "population": "Population served",
+    "water_source": "SW=Surface Water, GW=Groundwater",
+    "total_violations": "Total violations in past 5 years",
+    "health_violations": "Health-based violations in past 5 years",
+    "unresolved_violations": "Currently unresolved violations",
+    "lead_level_mg_l": "90th percentile lead level (mg/L), null if no data",
+    "copper_level_mg_l": "90th percentile copper level (mg/L), null if no data",
+    "radon_zone": "EPA radon zone (1=highest, 3=lowest), null if no data",
+    "home_safety_score": "Composite score 0-100, null if insufficient data",
+    "home_safety_grade": "A/B/C/D/F letter grade",
+    "latitude": "ZIP centroid latitude",
+    "longitude": "ZIP centroid longitude",
+    "contaminant_count": "Number of distinct health-based contaminants",
+    "health_contaminant_names": "Semicolon-separated list of health-based contaminant names"
+  }
+}
