@@ -4,9 +4,9 @@
   "license": "CC-BY-4.0",
   "source": "U.S. EPA Safe Drinking Water Information System (SDWIS)",
   "url": "https://zipcheckup.com",
-  "updated": "2026-03-16",
+  "updated": "2026-03-18",
   "total_zips": 6309,
-  "total_violations": 85495,
+  "total_violations": 45980,
   "states_covered": 51,
   "fields": {
     "zip": "5-digit ZIP code",
