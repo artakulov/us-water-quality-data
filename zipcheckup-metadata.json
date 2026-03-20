@@ -4,7 +4,7 @@
   "license": "CC-BY-4.0",
   "source": "U.S. EPA Safe Drinking Water Information System (SDWIS)",
   "url": "https://zipcheckup.com",
-  "updated": "2026-03-19",
+  "updated": "2026-03-20",
   "total_zips": 29217,
   "total_violations": 753139,
   "states_covered": 51,
@@ -27,6 +27,12 @@
     "latitude": "ZIP centroid latitude",
     "longitude": "ZIP centroid longitude",
     "contaminant_count": "Number of distinct health-based contaminants",
-    "health_contaminant_names": "Semicolon-separated list of health-based contaminant names"
+    "health_contaminant_names": "Semicolon-separated list of health-based contaminant names",
+    "ccr_contaminant_count": "Number of contaminants reported in Consumer Confidence Report (CCR), null if no CCR data",
+    "ccr_violation_count": "Number of violations reported in CCR, null if no CCR data",
+    "enforcement_action_count": "Total EPA/state enforcement actions against the water system",
+    "enforcement_health_violations": "Number of health-based violations from enforcement records",
+    "has_active_issues": "Whether the system has currently active enforcement or violation issues (true/false)",
+    "boil_water_advisories": "Number of boil water advisories issued"
   }
 }
