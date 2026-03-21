@@ -2,9 +2,24 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Updated Daily](https://img.shields.io/badge/updated-daily-brightgreen.svg)]()
-[![ZIP Codes](https://img.shields.io/badge/ZIP%20codes-3%2C500%2B-blue.svg)]()
+[![ZIP Codes](https://img.shields.io/badge/ZIP%20codes-29K%2B-blue.svg)]()
+[![CCR Systems](https://img.shields.io/badge/CCR%20systems-1%2C062-blue.svg)]()
 
-Structured water quality data for 3,500+ U.S. ZIP codes, derived from the EPA Safe Drinking Water Information System (SDWIS). Each record includes violation history, lead and copper sampling results, radon zone classification, water source type, and a composite Home Safety Score. The dataset is designed for researchers, developers, journalists, and data scientists who need machine-readable, ZIP-level water quality data without building their own EPA data pipeline.
+Structured water quality data for 29,000+ U.S. ZIP codes, derived from the EPA Safe Drinking Water Information System (SDWIS), Consumer Confidence Reports (CCR), EPA ECHO enforcement database, and state-level MCL databases. Each record includes violation history, lead and copper sampling results, radon zone classification, water source type, and a composite Home Safety Score. The dataset is designed for researchers, developers, journalists, and data scientists who need machine-readable, ZIP-level water quality data without building their own EPA data pipeline.
+
+---
+
+## Datasets
+
+| File | Records | Size | Description |
+|------|---------|------|-------------|
+| [zipcheckup-water-quality.csv](zipcheckup-water-quality.csv) | 29,217 ZIPs | ~3.5 MB | Main dataset — violations, lead/copper, scores |
+| [zipcheckup-water-quality.json](zipcheckup-water-quality.json) | 29,217 ZIPs | ~21 MB | Same as CSV in JSON array format |
+| [ccr-enriched.csv](ccr-enriched.csv) | 10,011 ZIPs | ~1.5 MB | Consumer Confidence Report data, 1,062 systems |
+| [state-mcl-crossref.json](state-mcl-crossref.json) | 201 comparisons | ~146 KB | State vs. federal MCL crossref, 22 violations |
+| [anomalies.json](anomalies.json) | 11,908 anomalies | ~5.3 MB | Pattern anomalies across 9 types |
+| [l3-metrics.csv](l3-metrics.csv) | 39,422 ZIPs | ~1.5 MB | L3 composite risk metrics |
+| [zipcheckup-metadata.json](zipcheckup-metadata.json) | — | ~3 KB | Dataset summary and field documentation |
 
 ---
 
@@ -12,20 +27,15 @@ Structured water quality data for 3,500+ U.S. ZIP codes, derived from the EPA Sa
 
 ### Download
 
-| Format | File | Size |
-|--------|------|------|
-| CSV | [zipcheckup-water-quality.csv](https://zipcheckup.com/data/open/zipcheckup-water-quality.csv) | ~1 MB |
-| JSON (array) | [zipcheckup-water-quality.json](https://zipcheckup.com/data/open/zipcheckup-water-quality.json) | ~2 MB |
-| Metadata | [zipcheckup-metadata.json](https://zipcheckup.com/data/open/zipcheckup-metadata.json) | < 5 KB |
-
-### curl examples
-
 ```bash
-# Download CSV
+# Main dataset (CSV)
 curl -O https://zipcheckup.com/data/open/zipcheckup-water-quality.csv
 
-# Download JSON
+# Main dataset (JSON)
 curl -O https://zipcheckup.com/data/open/zipcheckup-water-quality.json
+
+# CCR data
+curl -O https://zipcheckup.com/data/open/ccr-enriched.csv
 
 # Dataset metadata
 curl https://zipcheckup.com/data/open/zipcheckup-metadata.json
@@ -33,9 +43,9 @@ curl https://zipcheckup.com/data/open/zipcheckup-metadata.json
 
 ---
 
-## Data Format
+## Main Dataset Fields
 
-### CSV / JSON fields
+### zipcheckup-water-quality.csv / .json
 
 | Field | Type | Description |
 |-------|------|-------------|
@@ -58,6 +68,12 @@ curl https://zipcheckup.com/data/open/zipcheckup-metadata.json
 | `system_name` | string | Primary water system name |
 | `pwsid` | string | EPA Public Water System ID |
 | `population` | integer | Population served by the primary system |
+| `ccr_contaminant_count` | integer | Contaminants in Consumer Confidence Report (null if no CCR) |
+| `ccr_violation_count` | integer | Violations in Consumer Confidence Report |
+| `enforcement_action_count` | integer | Total EPA/state enforcement actions |
+| `enforcement_health_violations` | integer | Health-based enforcement violations |
+| `has_active_issues` | boolean | Currently active enforcement or violation issues |
+| `boil_water_advisories` | integer | Number of boil water advisories issued |
 
 ### Sample record (JSON)
 
@@ -87,10 +103,84 @@ curl https://zipcheckup.com/data/open/zipcheckup-metadata.json
 
 ---
 
+## Supplementary Datasets
+
+### ccr-enriched.csv — Consumer Confidence Reports
+
+CCR data parsed from 1,062 water system Consumer Confidence Reports, covering 10,011 ZIP codes.
+
+| Field | Description |
+|-------|-------------|
+| `zip` | ZIP code |
+| `ccr_available` | Whether a CCR was found for this ZIP's system |
+| `ccr_year` | Report year |
+| `ccr_system_name` | Water system name from CCR |
+| `ccr_pwsid` | EPA Public Water System ID |
+| `ccr_contaminant_count` | Number of contaminants in the CCR |
+| `ccr_violations` | Violations reported in the CCR |
+| `ccr_source_type` | Water source description from CCR |
+| `ccr_lead_90th_ppb` | 90th percentile lead level in ppb |
+| `ccr_copper_90th_ppb` | 90th percentile copper level in ppb |
+| `ccr_top_contaminants` | Top contaminants with levels and units (* = violation) |
+
+### state-mcl-crossref.json — State vs. Federal MCL Comparison
+
+Cross-reference of measured contaminant levels against state-specific Maximum Contaminant Limits (MCLs) that are stricter than federal EPA limits. Covers CA, NJ, MA, NH, VT, CT, HI, and NM.
+
+- **199 systems** with CCR data analyzed
+- **201 comparisons** across contaminants and states
+- **22 systems** fail their state MCL while passing the federal limit
+
+Key fields per comparison: `pwsid`, `system_name`, `state`, `contaminant`, `measured`, `federal_mcl`, `state_mcl`, `unit`, `passes_federal`, `fails_state`, `zip_codes`, `notes`.
+
+Notable findings:
+- California enforces secondary manganese standard as a primary MCL — several large utilities exceed it
+- New Jersey has a 1,4-dioxane MCL recommendation (0.33 ppb) not yet formally adopted
+- Massachusetts and Vermont use composite PFAS standards (sum of multiple compounds)
+
+### anomalies.json — Pattern Anomalies
+
+Statistical and pattern anomalies detected across 29,218 scanned ZIP codes. 11,908 total anomalies across 9 types.
+
+| Anomaly Type | Count | Description |
+|-------------|-------|-------------|
+| `enforcement-spike` | 5,662 | Sudden increase in enforcement actions |
+| `score-contradiction` | 3,051 | Score inconsistent with underlying data signals |
+| `pfas-cluster` | 1,207 | Adjacent ZIPs with PFAS exceedances suggesting shared source |
+| `island-of-safety` | 544 | Clean ZIP surrounded by high-risk neighbors |
+| `silent-danger` | 667 | High risk indicators but no official violations |
+| `wealth-paradox` | 633 | High-income area with poor water quality |
+| `school-zone-risk` | 133 | Elevated risk near schools |
+| `double-burden` | 10 | Low income + poor water quality |
+| `infrastructure-mismatch` | 1 | Infrastructure age inconsistent with compliance record |
+
+Each anomaly includes: `type`, `zip`, `severity` (1–10), `headline`, `description`, `sources`, `interestingness` score.
+
+### l3-metrics.csv — Composite Risk Metrics
+
+Derived L3 metrics for 39,422 ZIP codes combining EPA data, FEMA flood data, Census income data, and BLS utility rates.
+
+| Field | Description |
+|-------|-------------|
+| `zip` | ZIP code |
+| `lead_exposure_probability` | Estimated lead exposure probability 0–100 |
+| `lead_risk_label` | Low / Moderate / High / Critical |
+| `maintenance_debt_usd` | Estimated deferred infrastructure maintenance cost ($) |
+| `compliance_risk_score` | Likelihood of future violations 0–100 |
+| `compliance_risk_label` | Low / Moderate / High / Critical |
+| `energy_burden_pct` | Estimated % of household income spent on energy |
+| `energy_burden_label` | Low / Moderate / High / Severe |
+| `flood_annual_cost_usd` | Expected annual flood damage cost ($) |
+
+---
+
 ## Coverage
 
-- **ZIP codes:** 3,500+ (updated daily as new data is processed)
+- **ZIP codes (main):** 29,217 (updated daily as new data is processed)
+- **ZIP codes (L3 metrics):** 39,422
+- **ZIP codes (CCR enriched):** 10,011
 - **States:** All 50 U.S. states + D.C.
+- **Water systems (CCR):** 1,062 parsed reports
 - **Violation window:** Past 5 years (rolling)
 - **Lead/copper data:** Where EPA LCR sampling records are available
 - **Radon data:** County-level EPA radon zones (all covered ZIPs)
@@ -125,25 +215,38 @@ The per-ZIP API response includes additional fields not present in the flat data
 
 - **Real estate applications** — surface water quality risk alongside walk scores and school ratings
 - **Health research** — correlate ZIP-level water quality with health outcomes, demographics, or income data
-- **Investigative journalism** — identify ZIP codes with persistent unresolved violations or elevated lead levels
+- **Investigative journalism** — identify ZIP codes with persistent unresolved violations or elevated lead levels, PFAS clusters, or silent dangers
 - **Environmental advocacy** — map water quality disparities across income or racial demographics
 - **Home buying tools** — give prospective buyers a water quality signal before closing
 - **Public health dashboards** — embed ZipCheckup data alongside other environmental indicators
+- **Regulatory research** — compare state MCL enforcement against federal standards
 
 ---
 
-## Data Source & Methodology
+## Data Sources & Methodology
 
-**Primary source:** [EPA Safe Drinking Water Information System (SDWIS)](https://www.epa.gov/enviro/sdwis-overview)
+**Primary sources:**
+- [EPA Safe Drinking Water Information System (SDWIS)](https://www.epa.gov/enviro/sdwis-overview)
+- [EPA ECHO enforcement database](https://echo.epa.gov/)
+- Consumer Confidence Reports (CCR) — utility-submitted annual reports
+- State MCL databases: CA, NJ, MA, NH, VT, CT, HI, NM
 
-The pipeline queries the EPA SDWIS public API to retrieve water system violations and contaminant data for each state. ZIP codes are matched to water systems via EPA GEOGRAPHIC_AREA records and the `zipcodes` npm package. Lead and copper levels come from EPA Lead and Copper Rule (LCR) sampling results. Radon zone data is sourced from EPA county-level radon zone maps.
+**ZIP-to-system matching:** EPA GEOGRAPHIC_AREA records and the `zipcodes` npm package. Some ZIPs are served by multiple systems; the record reflects the primary system by population served.
 
 **Home Safety Score** is a composite 0–100 score that penalizes health-based violations, unresolved violations, lead exceedances, and contaminant count. A grade of A–F is assigned from the score. Full methodology: [zipcheckup.com/about/home-safety-score/](https://zipcheckup.com/about/home-safety-score/)
+
+**CCR pipeline:** Consumer Confidence Reports are fetched from EPA's CCR website, parsed for contaminant tables, cross-referenced against SDWIS PWSID records, and matched to ZIP codes via the GEOGRAPHIC_AREA table.
+
+**Anomaly detection:** Rule-based + threshold detection over the full SDWIS + ECHO + PFAS + Census dataset. Each anomaly is scored for severity (1–10) and interestingness.
+
+**L3 metrics:** Derived from SDWIS + FEMA National Flood Insurance Program data + Census ACS income data + BLS regional utility rate data.
 
 **Limitations:**
 - ZIP-to-water-system matching is approximate; some ZIPs are served by multiple systems
 - Lead/copper levels reflect 90th percentile tap sampling, not point-of-use measurements
 - Radon is county-level, not measured at the address level
+- CCR data reflects utility-reported levels, which may lag actual conditions
+- State MCL crossref covers only states with confirmed stricter-than-federal limits
 - Data lags EPA SDWIS by up to 24 hours
 
 ---
@@ -159,14 +262,14 @@ The pipeline queries the EPA SDWIS public API to retrieve water system violation
   year      = {2026},
   publisher = {ZipCheckup},
   url       = {https://github.com/artakulov/us-water-quality-data},
-  note      = {Data sourced from EPA SDWIS. Updated daily.},
+  note      = {Data sourced from EPA SDWIS, EPA ECHO, Consumer Confidence Reports, and state MCL databases. Updated daily.},
   license   = {CC BY 4.0}
 }
 ```
 
 **Plain text:**
 
-> Akulov, A. (2026). *US Water Quality Data by ZIP Code* [Dataset]. ZipCheckup. https://github.com/artakulov/us-water-quality-data. Data sourced from EPA Safe Drinking Water Information System (SDWIS). License: CC BY 4.0.
+> Akulov, A. (2026). *US Water Quality Data by ZIP Code* [Dataset]. ZipCheckup. https://github.com/artakulov/us-water-quality-data. Data sourced from EPA Safe Drinking Water Information System (SDWIS), EPA ECHO, Consumer Confidence Reports, and state MCL databases. License: CC BY 4.0.
 
 ---
 
@@ -176,7 +279,7 @@ Data is released under [Creative Commons Attribution 4.0 International (CC BY 4.
 
 You are free to share and adapt the data for any purpose, including commercial use, provided you give appropriate credit:
 
-> Data by [ZipCheckup.com](https://zipcheckup.com) — sourced from EPA SDWIS. License: CC BY 4.0.
+> Data by [ZipCheckup.com](https://zipcheckup.com) — sourced from EPA SDWIS, EPA ECHO, and Consumer Confidence Reports. License: CC BY 4.0.
 
 ---
 

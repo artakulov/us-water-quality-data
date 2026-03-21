@@ -1,14 +1,33 @@
 {
   "name": "ZipCheckup U.S. Water Quality Dataset",
-  "description": "Water quality violations, lead/copper levels, radon zones, and Home Safety Scores for U.S. ZIP codes. Based on EPA SDWIS data.",
+  "description": "Water quality violations, lead/copper levels, radon zones, CCR data, anomaly detection, and composite Home Safety Scores for U.S. ZIP codes. Based on EPA SDWIS, CCR, ECHO, and state agency data.",
   "license": "CC-BY-4.0",
-  "source": "U.S. EPA Safe Drinking Water Information System (SDWIS)",
+  "primary_source": "U.S. EPA Safe Drinking Water Information System (SDWIS)",
+  "additional_sources": ["EPA ECHO enforcement database", "Consumer Confidence Reports (CCR)", "EPA PFAS monitoring data", "State environmental agencies (CA, NJ, MA, NH, VT, CT, HI, NM)", "FEMA flood data", "U.S. Census ACS", "BLS utility rates"],
   "url": "https://zipcheckup.com",
-  "updated": "2026-03-20",
-  "total_zips": 29217,
-  "total_violations": 753139,
-  "states_covered": 51,
-  "fields": {
+  "updated": "2026-03-21",
+  "coverage": {
+    "total_zips": 29217,
+    "total_violations": 753139,
+    "states_covered": 51,
+    "ccr_zips": 10011,
+    "ccr_systems": 1062,
+    "l3_zips": 39422,
+    "anomaly_zips_scanned": 29218,
+    "total_anomalies": 11908,
+    "state_mcl_systems_analyzed": 199,
+    "state_mcl_fails": 22
+  },
+  "files": {
+    "zipcheckup-water-quality.csv": "Main dataset — 29K+ ZIPs with violations, lead/copper, scores (CSV)",
+    "zipcheckup-water-quality.json": "Main dataset — same as CSV in JSON array format",
+    "ccr-enriched.csv": "Consumer Confidence Report data — 10,011 ZIPs, 1,062 systems (CSV)",
+    "state-mcl-crossref.json": "State MCL crossref — 201 comparisons, 22 systems failing stricter state limits (JSON)",
+    "anomalies.json": "Anomaly detection — 11,908 anomalies across 9 types in 29K+ ZIPs (JSON)",
+    "l3-metrics.csv": "L3 composite metrics — lead exposure probability, maintenance debt, compliance risk, energy burden, flood cost for 39K+ ZIPs (CSV)",
+    "zipcheckup-metadata.json": "This file — dataset summary and field documentation"
+  },
+  "main_dataset_fields": {
     "zip": "5-digit ZIP code",
     "city": "City name",
     "state": "2-letter state abbreviation",
