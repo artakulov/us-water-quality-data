@@ -2,10 +2,10 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Updated Daily](https://img.shields.io/badge/updated-daily-brightgreen.svg)]()
-[![ZIP Codes](https://img.shields.io/badge/ZIP%20codes-29K%2B-blue.svg)]()
-[![CCR Systems](https://img.shields.io/badge/CCR%20systems-1%2C062-blue.svg)]()
+[![ZIP Codes](https://img.shields.io/badge/ZIP%20codes-41K%2B-blue.svg)]()
+[![CCR Systems](https://img.shields.io/badge/CCR%20systems-1%2C021-blue.svg)]()
 
-Structured water quality data for 29,000+ U.S. ZIP codes, derived from the EPA Safe Drinking Water Information System (SDWIS), Consumer Confidence Reports (CCR), EPA ECHO enforcement database, and state-level MCL databases. Each record includes violation history, lead and copper sampling results, radon zone classification, water source type, and a composite Home Safety Score. The dataset is designed for researchers, developers, journalists, and data scientists who need machine-readable, ZIP-level water quality data without building their own EPA data pipeline.
+Structured water quality data for 41,000+ U.S. ZIP codes, derived from 20 federal and state sources including EPA SDWIS, EPA ECHO, UCMR5, Consumer Confidence Reports (CCR), state MCL databases, CDC blood lead, FEMA flood claims, Census housing age, and USGS groundwater. Each record includes violation history, lead and copper sampling results, PFAS detections, radon zone classification, flood risk, and a composite Home Safety Score. The dataset is designed for researchers, developers, journalists, and data scientists who need machine-readable, ZIP-level water quality data without building their own EPA data pipeline. Also available on-chain via API3 Airnode oracle.
 
 ---
 
@@ -13,9 +13,9 @@ Structured water quality data for 29,000+ U.S. ZIP codes, derived from the EPA S
 
 | File | Records | Size | Description |
 |------|---------|------|-------------|
-| [zipcheckup-water-quality.csv](zipcheckup-water-quality.csv) | 29,217 ZIPs | ~3.5 MB | Main dataset — violations, lead/copper, scores |
-| [zipcheckup-water-quality.json](zipcheckup-water-quality.json) | 29,217 ZIPs | ~21 MB | Same as CSV in JSON array format |
-| [ccr-enriched.csv](ccr-enriched.csv) | 10,011 ZIPs | ~1.5 MB | Consumer Confidence Report data, 1,062 systems |
+| [zipcheckup-water-quality.csv](zipcheckup-water-quality.csv) | 41,344 ZIPs | ~3.5 MB | Main dataset — violations, lead/copper, scores |
+| [zipcheckup-water-quality.json](zipcheckup-water-quality.json) | 41,344 ZIPs | ~21 MB | Same as CSV in JSON array format |
+| [ccr-enriched.csv](ccr-enriched.csv) | 10,011 ZIPs | ~1.5 MB | Consumer Confidence Report data, 1,021 systems |
 | [state-mcl-crossref.json](state-mcl-crossref.json) | 201 comparisons | ~146 KB | State vs. federal MCL crossref, 22 violations |
 | [anomalies.json](anomalies.json) | 11,908 anomalies | ~5.3 MB | Pattern anomalies across 9 types |
 | [l3-metrics.csv](l3-metrics.csv) | 39,422 ZIPs | ~1.5 MB | L3 composite risk metrics |
@@ -107,7 +107,7 @@ curl https://zipcheckup.com/data/open/zipcheckup-metadata.json
 
 ### ccr-enriched.csv — Consumer Confidence Reports
 
-CCR data parsed from 1,062 water system Consumer Confidence Reports, covering 10,011 ZIP codes.
+CCR data parsed from 1,021 water system Consumer Confidence Reports, covering 10,011 ZIP codes.
 
 | Field | Description |
 |-------|-------------|
@@ -176,11 +176,11 @@ Derived L3 metrics for 39,422 ZIP codes combining EPA data, FEMA flood data, Cen
 
 ## Coverage
 
-- **ZIP codes (main):** 29,217 (updated daily as new data is processed)
+- **ZIP codes (main):** 41,344 (updated daily as new data is processed)
 - **ZIP codes (L3 metrics):** 39,422
 - **ZIP codes (CCR enriched):** 10,011
 - **States:** All 50 U.S. states + D.C.
-- **Water systems (CCR):** 1,062 parsed reports
+- **Water systems (CCR):** 1,021 parsed reports
 - **Violation window:** Past 5 years (rolling)
 - **Lead/copper data:** Where EPA LCR sampling records are available
 - **Radon data:** County-level EPA radon zones (all covered ZIPs)
@@ -285,10 +285,13 @@ You are free to share and adapt the data for any purpose, including commercial u
 
 ## Related
 
-- **Live site:** [zipcheckup.com](https://zipcheckup.com) — free water quality reports by ZIP code
+- **Live site:** [zipcheckup.com](https://zipcheckup.com) — free water quality reports for 41,000+ ZIP codes
+- **Developer Hub:** [zipcheckup.com/developers/](https://zipcheckup.com/developers/) — API docs, embed widget, Airnode oracle
+- **State Deep Dives:** [zipcheckup.com/states/](https://zipcheckup.com/states/) — 51 in-depth state reports
 - **Methodology:** [zipcheckup.com/about/home-safety-score/](https://zipcheckup.com/about/home-safety-score/)
 - **Open data page:** [zipcheckup.com/data/](https://zipcheckup.com/data/)
-- **Contaminants guide:** [zipcheckup.com/contaminants/](https://zipcheckup.com/contaminants/)
+- **Blockchain oracle:** API3 Airnode on Ethereum Sepolia — smart contracts can query water quality scores on-chain
+- **npm CLI:** [`zipcheckup`](https://www.npmjs.com/package/zipcheckup) — check any ZIP from the terminal
 
 ---
 
