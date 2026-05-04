@@ -1,5 +1,12 @@
 # US Water Quality Data by ZIP Code
 
+[![npm version](https://img.shields.io/npm/v/us-water-quality-data?label=npm&color=cb3837)](https://www.npmjs.com/package/us-water-quality-data)
+[![npm downloads/month](https://img.shields.io/npm/dm/us-water-quality-data?label=downloads%2Fmo&color=cb3837)](https://www.npmjs.com/package/us-water-quality-data)
+[![PyPI version](https://img.shields.io/pypi/v/us-water-quality-data?label=PyPI&color=3775a9)](https://pypi.org/project/us-water-quality-data/)
+[![Hugging Face](https://img.shields.io/badge/🤗-dataset-yellow)](https://huggingface.co/datasets/artakulov/us-water-quality-data)
+[![Kaggle](https://img.shields.io/badge/Kaggle-dataset-20beff)](https://www.kaggle.com/datasets/artakulov/us-water-quality-data)
+[![data.world](https://img.shields.io/badge/data.world-dataset-643093)](https://data.world/artakulov/u-s-water-quality-by-zip-code)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20000549.svg)](https://doi.org/10.5281/zenodo.20000549)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Updated Daily](https://img.shields.io/badge/updated-daily-brightgreen.svg)]()
 [![ZIP Codes](https://img.shields.io/badge/ZIP%20codes-41K%2B-blue.svg)]()
