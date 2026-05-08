@@ -1,0 +1,39 @@
+{
+  "title": "us-water-quality-data — U.S. Water Quality Data by ZIP Code (code)",
+  "description": "Code, schema definitions, and tooling for the U.S. Water Quality Data by ZIP Code dataset. Aggregates EPA SDWIS, EPA ECHO, UCMR5/PFAS, FEMA, USGS, Census ACS, CDC blood lead, and other federal/state sources into a single ZIP-level water quality dataset with composite Home Safety Scores.",
+  "license": "CC-BY-4.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Akulov, Artem",
+      "orcid": "0009-0000-1125-3060"
+    }
+  ],
+  "keywords": [
+    "water quality",
+    "EPA",
+    "EPA SDWIS",
+    "PFAS",
+    "lead",
+    "ZIP code",
+    "United States",
+    "public health",
+    "open data",
+    "environmental data",
+    "home safety"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.20000549",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "isAlternateIdentifier",
+      "identifier": "https://zipcheckup.com/data/",
+      "scheme": "url"
+    }
+  ]
+}
