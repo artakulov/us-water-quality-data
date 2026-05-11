@@ -1,22 +1,30 @@
 {
-  "title": "U.S. Water Quality by ZIP Code",
+  "title": "U.S. Home Safety Data by ZIP Code",
   "id": "artakulov/us-water-quality-data",
   "licenses": [
     {
       "name": "CC-BY-4.0"
     }
   ],
-  "description": "U.S. drinking water quality and home safety data for 85,358+ ZIP codes. EPA violations, lead/copper levels, PFAS, radon, flood risk, and Home Safety Scores from 49 federal/state sources. Updated weekly from zipcheckup.com.",
+  "description": "U.S. home safety data for 42,000+ residential ZIP codes across 17 risk verticals — water quality (EPA SDWIS/LCR/UCMR5), radon, lead, PFAS, flood (FEMA NFIP), wildfire/earthquake (FEMA NRI), air toxics (EPA NATA), product recalls (CPSC), energy rebates, housing data (Census ACS), and more. Aggregated from 50+ federal and state sources. Updated weekly from zipcheckup.com.",
   "keywords": [
     "water quality",
     "EPA",
+    "FEMA",
     "environmental",
     "public health",
     "lead",
+    "PFAS",
+    "radon",
+    "flood",
+    "wildfire",
+    "air quality",
+    "home safety",
     "drinking water",
     "ZIP code",
     "United States",
     "SDWIS",
-    "PFAS"
+    "civic data",
+    "open data"
   ]
 }
