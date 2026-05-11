@@ -12,7 +12,7 @@
 [![ZIP Codes](https://img.shields.io/badge/ZIP%20codes-41K%2B-blue.svg)]()
 [![CCR Systems](https://img.shields.io/badge/CCR%20systems-1%2C021-blue.svg)]()
 
-Structured water quality data for 41,000+ U.S. ZIP codes, derived from 20 federal and state sources including EPA SDWIS, EPA ECHO, UCMR5, Consumer Confidence Reports (CCR), state MCL databases, CDC blood lead, FEMA flood claims, Census housing age, and USGS groundwater. Each record includes violation history, lead and copper sampling results, PFAS detections, radon zone classification, flood risk, and a composite Home Safety Score. The dataset is designed for researchers, developers, journalists, and data scientists who need machine-readable, ZIP-level water quality data without building their own EPA data pipeline. Also available on-chain via API3 Airnode oracle.
+Structured water quality data for 41,000+ U.S. ZIP codes, derived from 50+ federal and state sources including EPA SDWIS, EPA ECHO, UCMR5, Consumer Confidence Reports (CCR), state MCL databases, CDC blood lead, FEMA flood claims, FEMA NRI, Census ACS, USGS groundwater, NOAA AirNow, CPSC recalls, and more. This water-quality slice is part of ZipCheckup's broader 17-vertical home-safety platform covering 278,000+ pages on zipcheckup.com. Each record includes violation history, lead and copper sampling results, PFAS detections, radon zone classification, flood risk, and a composite Home Safety Score. The dataset is designed for researchers, developers, journalists, and data scientists who need machine-readable, ZIP-level water quality data without building their own EPA data pipeline. Also available on-chain via API3 Airnode oracle.
 
 ---
 
