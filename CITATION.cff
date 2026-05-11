@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+type: dataset
+title: "U.S. Water Quality Data by ZIP Code"
+abstract: >-
+  Structured water quality data for 41,000+ U.S. ZIP codes, derived from
+  20+ federal and state sources including EPA SDWIS, EPA ECHO, UCMR5,
+  Consumer Confidence Reports, state MCL databases, CDC blood lead,
+  FEMA flood claims, Census housing age, and USGS groundwater. Each
+  record includes violation history, lead and copper sampling results,
+  PFAS detections, radon zone classification, flood risk, and a
+  composite Home Safety Score.
+authors:
+  - family-names: Akulov
+    given-names: Artem
+    orcid: "https://orcid.org/0009-0000-1125-3060"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20000549
+    description: "Current version DOI on Zenodo (data, recommended for citation)"
+  - type: doi
+    value: 10.5281/zenodo.20080506
+    description: "Software concept DOI on Zenodo (code, all versions)"
+  - type: doi
+    value: 10.17605/OSF.IO/3RXY5
+    description: "Mirror on Open Science Framework"
+keywords:
+  - water quality
+  - EPA SDWIS
+  - PFAS
+  - lead
+  - drinking water
+  - public health
+  - ZIP code
+  - United States
+  - open data
+  - environmental data
+  - home safety
+license: CC-BY-4.0
+repository-code: "https://github.com/artakulov/us-water-quality-data"
+url: "https://zipcheckup.com/data/"
+date-released: 2026-05-08
+version: "1.0.0"
+preferred-citation:
+  type: dataset
+  authors:
+    - family-names: Akulov
+      given-names: Artem
+      orcid: "https://orcid.org/0009-0000-1125-3060"
+  title: "U.S. Water Quality Data by ZIP Code"
+  year: 2026
+  publisher:
+    name: Zenodo
+  doi: 10.5281/zenodo.20000549
+  url: "https://doi.org/10.5281/zenodo.20000549"
+  version: "1.0.0"
