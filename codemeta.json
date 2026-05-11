@@ -1,0 +1,77 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "https://doi.org/10.5281/zenodo.20080506",
+  "name": "us-water-quality-data",
+  "description": "Open dataset and tooling for U.S. drinking water quality at the ZIP-code level. Aggregates 49+ federal and state sources (EPA SDWIS, EPA ECHO, UCMR5, Consumer Confidence Reports, state MCL databases, CDC blood lead, FEMA flood claims, Census ACS, USGS groundwater) into a unified ZIP-level dataset with violation history, lead/copper sampling, PFAS detection, radon zone classification, flood risk, and a composite Home Safety Score for 41,000+ U.S. ZIP codes.",
+  "codeRepository": "https://github.com/artakulov/us-water-quality-data",
+  "url": "https://zipcheckup.com/data/",
+  "license": "https://spdx.org/licenses/CC-BY-4.0",
+  "version": "1.0.0",
+  "datePublished": "2026-05-08",
+  "dateModified": "2026-05-10",
+  "programmingLanguage": [
+    {
+      "@type": "ComputerLanguage",
+      "name": "JavaScript",
+      "url": "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"
+    },
+    {
+      "@type": "ComputerLanguage",
+      "name": "Python",
+      "url": "https://www.python.org/"
+    }
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Artem",
+      "familyName": "Akulov",
+      "@id": "https://orcid.org/0009-0000-1125-3060"
+    }
+  ],
+  "maintainer": {
+    "@type": "Person",
+    "givenName": "Artem",
+    "familyName": "Akulov",
+    "@id": "https://orcid.org/0009-0000-1125-3060"
+  },
+  "keywords": [
+    "water quality",
+    "EPA SDWIS",
+    "PFAS",
+    "lead",
+    "drinking water",
+    "public health",
+    "ZIP code",
+    "United States",
+    "open data",
+    "environmental data",
+    "home safety",
+    "civic data"
+  ],
+  "applicationCategory": "Civic Data",
+  "operatingSystem": "Cross-platform",
+  "downloadUrl": "https://github.com/artakulov/us-water-quality-data/archive/refs/tags/v1.0.0.zip",
+  "issueTracker": "https://github.com/artakulov/us-water-quality-data/issues",
+  "readme": "https://github.com/artakulov/us-water-quality-data/blob/main/README.md",
+  "isPartOf": "https://zipcheckup.com",
+  "relatedLink": [
+    "https://doi.org/10.5281/zenodo.20000549",
+    "https://doi.org/10.17605/OSF.IO/3RXY5",
+    "https://zenodo.org/records/20080507",
+    "https://www.kaggle.com/datasets/artakulov/us-water-quality-data",
+    "https://huggingface.co/datasets/artakulov/us-water-quality-data",
+    "https://data.world/artakulov/u-s-water-quality-by-zip-code",
+    "https://figshare.com/articles/dataset/31939155",
+    "https://www.npmjs.com/package/us-water-quality-data",
+    "https://pypi.org/project/us-water-quality-data/"
+  ],
+  "developmentStatus": "active",
+  "funding": "Self-funded",
+  "softwareRequirements": [],
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://github.com/artakulov/us-water-quality-data#readme"
+  }
+}
