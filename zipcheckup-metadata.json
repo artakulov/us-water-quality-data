@@ -4,10 +4,11 @@
   "license": "CC-BY-4.0",
   "source": "U.S. EPA Safe Drinking Water Information System (SDWIS)",
   "url": "https://zipcheckup.com",
-  "updated": "2026-06-10",
+  "updated": "2026-06-11",
   "total_zips": 42679,
   "total_violations": 275456,
   "states_covered": 51,
+  "zips_without_enforcement_data": 7579,
   "fields": {
     "zip": "5-digit ZIP code",
     "city": "City name",
@@ -30,9 +31,15 @@
     "health_contaminant_names": "Semicolon-separated list of health-based contaminant names",
     "ccr_contaminant_count": "Number of contaminants reported in Consumer Confidence Report (CCR), null if no CCR data",
     "ccr_violation_count": "Number of violations reported in CCR, null if no CCR data",
-    "enforcement_action_count": "Total EPA/state enforcement actions against the water system",
-    "enforcement_health_violations": "Number of health-based violations from enforcement records",
-    "has_active_issues": "Whether the system has currently active enforcement or violation issues (true/false)",
-    "boil_water_advisories": "Number of boil water advisories issued"
+    "enforcement_action_count": "Total EPA/state enforcement actions against the water system. null = enforcement data not available for this ZIP (NOT measured-zero).",
+    "enforcement_health_violations": "Number of health-based violations from enforcement records. null = enforcement data not available for this ZIP (NOT measured-zero).",
+    "has_active_issues": "Whether the system has currently active enforcement or violation issues (true/false). null = enforcement data not available for this ZIP (NOT measured-false).",
+    "boil_water_advisories": "Number of boil water advisories issued. null = enforcement data not available for this ZIP (NOT measured-zero)."
+  },
+  "null_semantics": "A null / empty value means the underlying source did not have a record for that ZIP code (data not available / not yet matched), NOT a measured value of zero or false. This applies to all nullable fields above (lead_level_mg_l, copper_level_mg_l, radon_zone, home_safety_score, ccr_* , enforcement_action_count, enforcement_health_violations, has_active_issues, boil_water_advisories). Do not impute 0/false for absent records.",
+  "erratum": {
+    "affected_version": "pre-2026-06-10 exports (v1)",
+    "issue": "Earlier dataset versions emitted enforcement_action_count=0, enforcement_health_violations=0, has_active_issues=false, and boil_water_advisories=0 for ZIP codes that had no enforcement record in the source (7579 ZIPs in this export). This conflated \"data not available\" with \"measured zero / no active issues\".",
+    "correction": "From this version, those four fields are emitted as null (empty in CSV) when the ZIP is absent from the enforcement source. A 0/false now appears only when it is an actual measured value for a ZIP present in the source."
   }
 }
