@@ -12728,7 +12728,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30022,Alpharetta,GA,North Fulton County,GA1210005,434517,SW,25,0,9,0.0016,,1,51,D,34.0268,-84.2422,0,,11,0,10,0,false,0
 30023,Alpharetta,GA,North Fulton County,GA1210005,434517,SW,25,0,9,0.0016,,1,48,D,34.0754,-84.2941,0,,11,0,10,0,false,0
 30024,Suwanee,GA,GWINNETT CO. DEPT. OF WATER RESOURCES,GA1350004,975000,SW,0,0,0,,,1,45,D,34.0425,-84.0262,0,,13,0,5,0,false,0
-30025,Social Circle,GA,Social Circle,GA2970002,5470,SW,5,2,0,0.006,,2,79,B,33.6791,-83.6835,1,Haloacetic Acids (HAA5),,,10,3,true,0
+30025,Social Circle,GA,Social Circle,GA2970002,5470,SW,5,2,0,0.006,,2,79,B,33.6791,-83.6835,1,Haloacetic Acids (HAA5),5,0,10,3,true,0
 30026,North Metro,GA,GWINNETT CO. DEPT. OF WATER RESOURCES,GA1350004,975000,SW,0,0,0,,,1,40,D,33.9792,-84.1263,0,,13,0,,,,
 30028,Cumming,GA,Forsyth Company Water & Sewer,GA1170050,161200,SW,3,0,0,0.001,,2,82,B,34.2897,-84.1796,0,,6,0,10,0,false,0
 30029,North Metro,GA,GWINNETT CO. DEPT. OF WATER RESOURCES,GA1350004,975000,SW,0,0,0,,,1,40,D,33.9792,-84.1263,0,,13,0,,,,
@@ -12774,14 +12774,14 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30072,Pine Lake,GA,DEKALB COUNTY,GA0890001,743000,SW,0,0,0,,,,60,C,33.7906,-84.2053,0,,13,0,2,0,false,0
 30073,Decatur,GA,Dekalb County,GA0890001,743000,SW,1,0,0,0.0055,,1,69,C,33.7,-84.25,0,,13,0,2,0,false,0
 30074,Redan,GA,DEKALB COUNTY,GA0890001,743000,SW,0,0,0,,,,50,D,33.7454,-84.1316,0,,13,0,2,0,false,0
-30075,Roswell,GA,Roswell,GA1210009,14300,SW,8,0,3,0.0032,1.63,1,52,D,34.0408,-84.3859,0,,,,10,0,false,0
-30076,Roswell,GA,Roswell,GA1210009,14300,SW,8,0,3,0.0032,1.63,1,52,D,34.0213,-84.3104,0,,,,10,0,false,0
-30077,Roswell,GA,Roswell,GA1210009,14300,SW,8,0,3,0.0032,1.63,1,58,C,34.0232,-84.3616,0,,,,10,0,false,0
+30075,Roswell,GA,Roswell,GA1210009,14300,SW,8,0,3,0.0032,1.63,1,52,D,34.0408,-84.3859,0,,5,0,10,0,false,0
+30076,Roswell,GA,Roswell,GA1210009,14300,SW,8,0,3,0.0032,1.63,1,52,D,34.0213,-84.3104,0,,5,0,10,0,false,0
+30077,Roswell,GA,Roswell,GA1210009,14300,SW,8,0,3,0.0032,1.63,1,58,C,34.0232,-84.3616,0,,5,0,10,0,false,0
 30078,Snellville,GA,GWINNETT CO. DEPT. OF WATER RESOURCES,GA1350004,975000,SW,0,0,0,,,3,73,B,33.8635,-84.0081,0,,13,0,2,0,false,0
 30079,Scottdale,GA,DEKALB COUNTY,GA0890001,743000,SW,0,0,0,,,,50,D,33.7934,-84.2585,0,,13,0,2,0,false,0
-30080,Smyrna,GA,Smyrna,GA0670007,40508,SW,0,0,0,,,1,52,D,33.8796,-84.5023,0,,,,,,,
-30081,Smyrna,GA,Smyrna,GA0670007,40508,SW,0,0,0,,,1,55,C,33.8588,-84.7106,0,,,,,,,
-30082,Smyrna,GA,Smyrna,GA0670007,40508,SW,0,0,0,,,1,57,C,33.8631,-84.5382,0,,,,,,,
+30080,Smyrna,GA,Smyrna,GA0670007,40508,SW,0,0,0,,,1,52,D,33.8796,-84.5023,0,,2,0,,,,
+30081,Smyrna,GA,Smyrna,GA0670007,40508,SW,0,0,0,,,1,55,C,33.8588,-84.7106,0,,2,0,,,,
+30082,Smyrna,GA,Smyrna,GA0670007,40508,SW,0,0,0,,,1,57,C,33.8631,-84.5382,0,,2,0,,,,
 30083,Stone Mountain,GA,DEKALB COUNTY,GA0890001,743000,SW,0,0,0,,,,47,D,33.7942,-84.2018,0,,13,0,2,0,false,0
 30084,Tucker,GA,GWINNETT CO. DEPT. OF WATER RESOURCES,GA1350004,975000,SW,0,0,0,,,3,60,C,33.857,-84.216,0,,13,0,4,0,false,0
 30085,Tucker,GA,ATLANTA,GA1210001,1089893,SW,0,0,0,,,3,66,C,33.8545,-84.2171,0,,14,0,2,0,false,0
@@ -12799,18 +12799,18 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30098,Duluth,GA,JONES MOBILE HOME PARK,GA1350011,800,GW,0,0,0,,,1,40,D,33.9604,-84.0379,0,,,,10,0,false,0
 30099,Duluth,GA,GWINNETT CO. DEPT. OF WATER RESOURCES,GA1350004,975000,SW,0,0,0,,,1,40,D,33.9595,-84.105,0,,13,0,,,,
 30101,Acworth,GA,Cobb County,GA0670003,695000,SW,0,0,0,,,2,55,C,34.0756,-84.6477,0,,12,0,8,0,false,0
-30102,Acworth,GA,WOODSTOCK,GA0570003,19742,SW,0,0,0,,,2,55,C,34.0707,-84.5894,0,,,,8,0,false,0
-30103,Adairsville,GA,Adairsville,GA0150000,7306,SW,0,0,0,0.0017,,3,95,A,34.3595,-84.9176,0,,,,4,0,false,0
-30104,Aragon,GA,ROCKMART,GA2330002,4199,SW,0,0,0,,,3,73,B,34.0666,-85.0696,0,,,,10,0,false,0
+30102,Acworth,GA,WOODSTOCK,GA0570003,19742,SW,0,0,0,,,2,55,C,34.0707,-84.5894,0,,3,0,8,0,false,0
+30103,Adairsville,GA,Adairsville,GA0150000,7306,SW,0,0,0,0.0017,,3,95,A,34.3595,-84.9176,0,,5,0,4,0,false,0
+30104,Aragon,GA,ROCKMART,GA2330002,4199,SW,0,0,0,,,3,73,B,34.0666,-85.0696,0,,5,0,10,0,false,0
 30105,Armuchee,GA,FLOYD COUNTY,GA1150001,46143,SW,0,0,0,,,2,63,C,34.4411,-85.1843,0,,0,0,,,,
 30106,Austell,GA,Austell,GA0670001,7774,SW,0,0,0,,,1,52,D,33.8369,-84.6307,0,,13,0,,,,
 30107,Ball Ground,GA,Ball Ground,GA0570000,2470,GW,0,0,0,0.0014,,2,83,B,34.3393,-84.3758,0,,,,10,0,false,0
 30108,Bowdon,GA,Bowdon,GA0450000,6180,SW,6,0,1,0.0014,,2,79,B,33.5373,-85.2533,0,,7,0,10,0,false,0
 30109,Bowdon Junction,GA,MOUNT ZION,GA0450003,1691,SW,0,0,0,,,2,53,D,33.6534,-85.1362,0,,,,,,,
-30110,Bremen,GA,Bremen,GA1430000,6200,SW,0,0,0,0.0011,,2,83,B,33.7309,-85.1286,0,,,,10,3,false,0
+30110,Bremen,GA,Bremen,GA1430000,6200,SW,0,0,0,0.0011,,2,83,B,33.7309,-85.1286,0,,4,0,10,3,false,0
 30111,Clarkdale,GA,COBB COUNTY,GA0670003,695000,SW,0,0,0,,,1,40,D,33.9125,-84.5572,0,,12,0,,,,
 30112,Carrollton,GA,Carroll County,GA0450001,51592,SW,19,0,7,0.007,,2,58,C,33.5809,-85.0792,0,,0,0,10,0,false,0
-30113,Buchanan,GA,Haralson County Water Authority,GA1430007,12220,SW,10,3,1,0.0011,,2,79,B,33.8283,-85.1506,2,"Haloacetic Acids (HAA5);Total Trihalomethanes (TTHM)",,,10,3,false,0
+30113,Buchanan,GA,Haralson County Water Authority,GA1430007,12220,SW,10,3,1,0.0011,,2,79,B,33.8283,-85.1506,2,"Haloacetic Acids (HAA5);Total Trihalomethanes (TTHM)",6,0,10,3,false,0
 30114,Canton,GA,Cherokee County,GA0570002,224427,SW,0,0,0,0.0011,,2,78,B,34.2505,-84.4909,0,,0,0,10,0,false,0
 30115,Canton,GA,Cherokee County,GA0570002,224427,SW,0,0,0,0.0011,,2,83,B,34.1993,-84.4199,0,,0,0,10,0,false,0
 30116,Carrollton,GA,Carroll County,GA0450001,51592,SW,19,0,7,0.007,,2,64,C,33.6045,-85.0499,0,,0,0,10,1,false,0
@@ -12821,8 +12821,8 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30121,Cartersville,GA,Bartow County,GA0150001,70243,SW,1,0,0,0.0014,,2,83,B,34.2079,-84.7673,0,,9,0,2,0,false,0
 30122,Lithia Springs,GA,AUSTELL,GA0670001,7774,SW,0,0,0,,,1,40,D,33.7655,-84.6469,0,,13,0,,,,
 30123,Cassville,GA,BARTOW COUNTY,GA0150001,70243,SW,0,0,0,,,2,53,D,34.2442,-84.8457,0,,9,0,2,0,false,0
-30124,Cave Spring,GA,Cave Spring,GA1150000,4248,GW,0,0,0,0.00096,,2,78,B,34.1167,-85.3379,0,,,,,,,
-30125,Cedartown,GA,Polk County Water Authority,GA2330001,23792,SW,2,0,0,0.0013,,3,84,B,34.0112,-85.2459,0,,,,10,0,false,0
+30124,Cave Spring,GA,Cave Spring,GA1150000,4248,GW,0,0,0,0.00096,,2,78,B,34.1167,-85.3379,0,,4,0,,,,
+30125,Cedartown,GA,Polk County Water Authority,GA2330001,23792,SW,2,0,0,0.0013,,3,84,B,34.0112,-85.2459,0,,4,0,10,0,false,0
 30126,Mableton,GA,AUSTELL,GA0670001,7774,SW,0,0,0,,,1,40,D,33.8332,-84.6031,0,,13,0,,,,
 30127,Powder Springs,GA,Cobb County,GA0670003,695000,SW,0,0,0,,,1,40,D,33.9135,-84.6859,0,,12,0,10,0,false,0
 30129,Coosa,GA,FLOYD COUNTY,GA1150001,46143,SW,0,0,0,,,2,53,D,34.3333,-85.2337,0,,0,0,,,,
@@ -12831,9 +12831,9 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30134,Douglasville,GA,Douglasville-douglas County Wsa,GA0970000,110219,SW,0,0,0,0.0023,,2,78,B,33.7606,-84.7477,0,,14,0,2,0,false,0
 30135,Douglasville,GA,Douglasville-douglas County Wsa,GA0970000,110219,SW,0,0,0,0.0023,,2,78,B,33.6989,-84.7454,0,,14,0,,,,
 30137,Emerson,GA,Emerson,GA0150025,1435,GW,0,0,0,0.0027,,2,83,B,34.12,-84.757,0,,,,2,0,false,0
-30138,Esom Hill,GA,POLK COUNTY WATER AUTHORITY,GA2330001,23792,SW,0,0,0,,,3,66,C,33.949,-85.3877,0,,,,4,0,false,0
+30138,Esom Hill,GA,POLK COUNTY WATER AUTHORITY,GA2330001,23792,SW,0,0,0,,,3,66,C,33.949,-85.3877,0,,4,0,4,0,false,0
 30139,Fairmount,GA,Fairmount Water System,GA1290022,194,SW,7,0,4,0.0024,,3,86,A,34.4362,-84.6999,0,,,,10,0,false,0
-30140,Felton,GA,HARALSON COUNTY WATER AUTHORITY,GA1430007,12220,SW,0,0,0,,,2,53,D,33.8823,-85.2349,0,,,,10,3,false,0
+30140,Felton,GA,HARALSON COUNTY WATER AUTHORITY,GA1430007,12220,SW,0,0,0,,,2,53,D,33.8823,-85.2349,0,,6,0,10,3,false,0
 30141,Hiram,GA,Hiram,GA2230001,858,GW,3,0,1,0.0016,,2,75,B,33.8673,-84.7699,0,,,,10,0,false,0
 30142,Holly Springs,GA,CHEROKEE COUNTY,GA0570002,224427,SW,0,0,0,,,2,53,D,34.174,-84.5013,0,,0,0,,,,
 30143,Jasper,GA,Jasper,GA2270000,14435,SW,5,0,0,0.0074,,2,70,B,34.462,-84.4759,0,,11,0,10,0,false,0
@@ -12841,12 +12841,12 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30145,Kingston,GA,Kingston,GA0150003,1263,GW,5,0,1,0.004,,2,79,B,34.2501,-84.9973,0,,,,10,0,false,0
 30146,Lebanon,GA,CHEROKEE COUNTY,GA0570002,224427,SW,0,0,0,,,2,53,D,34.2429,-84.4583,0,,0,0,,,,
 30147,Lindale,GA,FLOYD COUNTY,GA1150001,46143,SW,0,0,0,,,2,63,C,34.1707,-85.1825,0,,0,0,4,0,false,0
-30148,Marble Hill,GA,Big Canoe Subdivision,GA2270004,6396,SW,0,0,0,,,2,53,D,34.4398,-84.303,0,,,,6,0,false,0
+30148,Marble Hill,GA,Big Canoe Subdivision,GA2270004,6396,SW,0,0,0,,,2,53,D,34.4398,-84.303,0,,6,0,6,0,false,0
 30149,Mount Berry,GA,Berry College,GA1150003,2200,SW,1,0,0,,,2,72,B,34.2804,-85.1821,0,,,,2,0,false,0
 30150,Mount Zion,GA,Mount Zion,GA0450003,1691,SW,0,0,0,,,2,72,B,33.643,-85.1818,0,,,,,,,
 30151,Nelson,GA,BALL GROUND,GA0570000,2470,GW,0,0,0,,,2,53,D,34.382,-84.371,0,,,,,,,
 30152,Kennesaw,GA,COBB COUNTY,GA0670003,695000,SW,0,0,0,,,1,45,D,33.9951,-84.6544,0,,12,0,,,,
-30153,Rockmart,GA,Rockmart,GA2330002,4199,SW,2,0,0,0.0018,,2,77,B,33.9979,-85.0594,0,,,,10,3,false,0
+30153,Rockmart,GA,Rockmart,GA2330002,4199,SW,2,0,0,0.0018,,2,77,B,33.9979,-85.0594,0,,5,0,10,3,false,0
 30154,Douglasville,GA,Douglasville-douglas County Wsa,GA0970000,110219,SW,0,0,0,0.0023,,2,83,B,33.7515,-84.7477,0,,14,0,,,,
 30156,Kennesaw,GA,COBB COUNTY,GA0670003,695000,SW,0,0,0,,,1,40,D,34.0177,-84.625,0,,12,0,,,,
 30157,Dallas,GA,Paulding County Water System,GA2230002,117468,SW,6,0,0,0.0016,,2,75,B,33.9045,-84.8621,0,,0,0,10,0,false,0
@@ -12863,38 +12863,38 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30172,Shannon,GA,FLOYD COUNTY,GA1150001,46143,SW,0,0,0,,,2,53,D,34.3333,-85.2337,0,,0,0,,,,
 30173,Silver Creek,GA,FLOYD COUNTY,GA1150001,46143,SW,0,0,0,,,2,63,C,34.1593,-85.1429,0,,0,0,4,0,false,0
 30175,Talking Rock,GA,JASPER,GA2270000,14435,SW,0,0,0,,,2,63,C,34.5394,-84.4912,0,,11,0,8,0,false,0
-30176,Tallapoosa,GA,Tallapoosa,GA1430002,4680,SW,3,0,1,0.001,,2,80,B,33.7602,-85.3,0,,,,10,3,false,0
+30176,Tallapoosa,GA,Tallapoosa,GA1430002,4680,SW,3,0,1,0.001,,2,80,B,33.7602,-85.3,0,,2,0,10,3,false,0
 30177,Tate,GA,Cherokee County,GA0570002,224427,SW,0,0,0,,,2,63,C,34.4027,-84.3785,0,,0,0,8,0,false,0
 30178,Taylorsville,GA,Paulding County Water System,GA2230002,117468,SW,0,0,0,,,2,63,C,34.1229,-84.9739,0,,0,0,10,0,false,0
-30179,Temple,GA,Temple,GA0450005,5708,SW,4,0,3,0.00132,,2,77,B,33.7677,-85.0133,0,,,,10,3,false,0
+30179,Temple,GA,Temple,GA0450005,5708,SW,4,0,3,0.00132,,2,77,B,33.7677,-85.0133,0,,2,0,10,3,false,0
 30180,Villa Rica,GA,Villa Rica,GA0450006,15667,SW,12,0,1,0.0014,,2,76,B,33.7173,-84.9297,0,,11,0,10,0,false,0
 30182,Waco,GA,Waco,GA1430010,884,SW,1,0,0,,,2,75,B,33.684,-85.2197,0,,,,10,0,false,0
-30183,Waleska,GA,Lake Arrowhead Subdivision,GA0570006,4671,GW,9,0,0,0.0015,,2,79,B,34.3217,-84.562,0,,,,10,0,false,0
+30183,Waleska,GA,Lake Arrowhead Subdivision,GA0570006,4671,GW,9,0,0,0.0015,,2,79,B,34.3217,-84.562,0,,3,0,10,0,false,0
 30184,White,GA,White,GA0150004,900,GW,5,0,2,0.0015,,2,78,B,34.2717,-84.7383,0,,,,10,0,false,0
 30185,Whitesburg,GA,Whitesburg,GA0450007,931,SW,3,0,1,0.0057,,2,78,B,33.5111,-84.9254,0,,,,6,0,false,0
 30187,Winston,GA,VILLA RICA,GA0450006,15667,SW,0,0,0,,,2,63,C,33.6634,-84.8639,0,,11,0,2,0,false,0
-30188,Woodstock,GA,Woodstock,GA0570003,19742,SW,1,0,0,0.0012,,2,78,B,34.106,-84.5117,0,,,,9,0,false,0
-30189,Woodstock,GA,Woodstock,GA0570003,19742,SW,1,0,0,0.0012,,2,83,B,34.1281,-84.5717,0,,,,8,0,false,0
-30204,Barnesville,GA,Barnesville,GA1710000,10725,SW,15,0,2,0.0019,,2,73,B,33.0457,-84.1515,0,,,,10,0,false,0
+30188,Woodstock,GA,Woodstock,GA0570003,19742,SW,1,0,0,0.0012,,2,78,B,34.106,-84.5117,0,,3,0,9,0,false,0
+30189,Woodstock,GA,Woodstock,GA0570003,19742,SW,1,0,0,0.0012,,2,83,B,34.1281,-84.5717,0,,3,0,8,0,false,0
+30204,Barnesville,GA,Barnesville,GA1710000,10725,SW,15,0,2,0.0019,,2,73,B,33.0457,-84.1515,0,,6,0,10,0,false,0
 30205,Brooks,GA,Fayette County,GA1130001,86934,SW,6,2,1,0.0019,,2,81,B,33.2984,-84.4769,1,Haloacetic Acids (HAA5),0,0,10,2,true,0
 30206,Concord,GA,Concord,GA2310000,751,GW,0,0,0,0.0054,1.4,2,82,B,33.0998,-84.447,0,,,,10,0,false,0
 30207,,,,,,,,,,,,,,,,,0,,,,,,,
 30208,,,,,,,,,,,,,,,,,0,,,,,,,
 30209,,,,,,,,,,,,,,,,,0,,,,,,,
 30212,Experiment,GA,Cumberland Springs,GA2550002,122,GW,15,0,5,0.0018,3.2,2,68,C,33.2782,-84.2888,0,,,,10,0,false,0
-30213,Fairburn,GA,Fairburn,GA1210004,14000,SW,6,1,0,,,1,56,C,33.5648,-84.5809,1,Consumer Confidence Report Rule,,,10,8,true,0
+30213,Fairburn,GA,Fairburn,GA1210004,14000,SW,6,1,0,,,1,56,C,33.5648,-84.5809,1,Consumer Confidence Report Rule,2,0,10,8,true,0
 30214,Fayetteville,GA,Fayette County,GA1130001,86934,SW,7,0,2,0.0013,1.63,2,72,B,33.4679,-84.4806,0,,0,0,10,9,true,0
 30215,Fayetteville,GA,Fayette County,GA1130001,86934,SW,7,0,2,0.0013,1.63,2,72,B,33.3943,-84.4738,0,,0,0,10,0,false,0
 30216,Flovilla,GA,Flovilla,GA0350000,1292,GW,0,0,0,0.0014,,2,83,B,33.25,-83.9079,0,,,,,,,
 30217,Franklin,GA,Heard County Water Authority,GA1490000,8172,SW,8,6,0,0.0014,,2,77,B,33.278,-85.134,2,"Total Trihalomethanes (TTHM);Gross Beta",9,0,10,5,false,0
 30218,Gay,GA,GAY,GA1990044,194,GW,0,0,0,0.0016,2.5,2,83,B,33.1274,-84.5836,0,,,,,,,
-30220,Grantville,GA,Grantville,GA0770001,3221,SW,6,6,2,,,2,57,C,33.2473,-84.835,1,Haloacetic Acids (HAA5),,,10,8,true,0
+30220,Grantville,GA,Grantville,GA0770001,3221,SW,6,6,2,,,2,57,C,33.2473,-84.835,1,Haloacetic Acids (HAA5),4,0,10,8,true,0
 30222,Greenville,GA,Greenville,GA1990000,2013,SW,1,0,1,0.00048,,2,81,B,33.0468,-84.7402,0,,,,10,0,false,0
 30223,Griffin,GA,Spalding County Water System,GA2550036,40430,SW,26,0,12,0.0013,3.2,2,64,C,33.2549,-84.2728,0,,9,2,10,0,false,0
 30224,Griffin,GA,Spalding County Water System,GA2550036,40430,SW,26,0,12,0.0013,3.2,2,64,C,33.2404,-84.2734,0,,9,2,10,0,false,0
-30228,Hampton,GA,Hampton,GA1510000,7305,SW,6,0,2,0.0012,,2,77,B,33.4124,-84.2947,0,,,,10,0,false,0
-30229,Haralson,GA,SENOIA,GA0770003,7528,SW,0,0,0,,,2,53,D,33.2322,-84.5685,0,,,,3,0,false,0
-30230,Hogansville,GA,Hogansville,GA2850000,4295,SW,10,5,2,0.00074,,2,77,B,33.1644,-84.9309,2,"Haloacetic Acids (HAA5);Consumer Confidence Report Rule",,,10,15,true,0
+30228,Hampton,GA,Hampton,GA1510000,7305,SW,6,0,2,0.0012,,2,77,B,33.4124,-84.2947,0,,8,0,10,0,false,0
+30229,Haralson,GA,SENOIA,GA0770003,7528,SW,0,0,0,,,2,53,D,33.2322,-84.5685,0,,5,0,3,0,false,0
+30230,Hogansville,GA,Hogansville,GA2850000,4295,SW,10,5,2,0.00074,,2,77,B,33.1644,-84.9309,2,"Haloacetic Acids (HAA5);Consumer Confidence Report Rule",3,0,10,15,true,0
 30233,Jackson,GA,Henry County Water Authority,GA1510001,176038,SW,0,0,0,0.001,,2,73,B,33.282,-83.9784,0,,6,0,10,1,true,0
 30234,Jenkinsburg,GA,HENRY COUNTY WATER AUTHORITY,GA1510001,176038,SW,0,0,0,,,2,53,D,33.3224,-84.0287,0,,6,0,2,0,false,0
 30236,Jonesboro,GA,CLAYTON COUNTY WATER AUTHORITY,GA0630000,298374,SW,0,0,0,,,2,55,C,33.5242,-84.359,0,,19,0,,,,
@@ -12903,14 +12903,14 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30240,Lagrange,GA,Lagrange,GA2850001,41852,SW,0,0,0,0.0011,,2,78,B,33.0243,-85.0739,0,,22,0,4,0,false,0
 30241,Lagrange,GA,Lagrange,GA2850001,41852,SW,0,0,0,0.0011,,2,78,B,33.0249,-84.9577,0,,22,0,10,5,false,0
 30244,,,,,,,,,,,,,,,,,0,,,,,,,
-30248,Locust Grove,GA,Locust Grove,GA1510002,10812,GW,4,0,2,0.0017,,2,78,B,33.3449,-84.0982,0,,,,10,0,false,0
+30248,Locust Grove,GA,Locust Grove,GA1510002,10812,GW,4,0,2,0.0017,,2,78,B,33.3449,-84.0982,0,,5,0,10,0,false,0
 30249,,,,,,,,,,,,,,,,,0,,,,,,,
 30250,Lovejoy,GA,CLAYTON COUNTY WATER AUTHORITY,GA0630000,298374,SW,0,0,0,,,2,53,D,33.4429,-84.3136,0,,19,0,10,0,false,0
 30251,Luthersville,GA,Coweta Water & Sewer Authority,GA0770042,92907,SW,11,0,3,0.0012,,2,73,B,33.2101,-84.7444,0,,0,0,10,2,false,0
-30252,Mcdonough,GA,Mcdonough,GA1510003,16187,SW,2,1,0,0.0018,,2,77,B,33.4768,-84.055,1,Consumer Confidence Report Rule,,,10,1,true,0
-30253,Mcdonough,GA,Mcdonough,GA1510003,16187,SW,2,1,0,0.0018,,2,77,B,33.451,-84.1544,1,Consumer Confidence Report Rule,,,10,1,false,0
+30252,Mcdonough,GA,Mcdonough,GA1510003,16187,SW,2,1,0,0.0018,,2,77,B,33.4768,-84.055,1,Consumer Confidence Report Rule,4,0,10,1,true,0
+30253,Mcdonough,GA,Mcdonough,GA1510003,16187,SW,2,1,0,0.0018,,2,77,B,33.451,-84.1544,1,Consumer Confidence Report Rule,4,0,10,1,false,0
 30256,Meansville,GA,Meansville,GA2310001,338,GW,3,0,2,0.004,5.4,2,79,B,33.0134,-84.3169,0,,,,8,0,false,0
-30257,Milner,GA,Zebulon,GA2310004,5407,SW,13,7,4,0.0036,,2,63,C,33.141,-84.1759,1,Haloacetic Acids (HAA5),,,10,7,true,0
+30257,Milner,GA,Zebulon,GA2310004,5407,SW,13,7,4,0.0036,,2,63,C,33.141,-84.1759,1,Haloacetic Acids (HAA5),2,0,10,7,true,0
 30258,Molena,GA,Molena,GA2310002,437,GW,11,0,4,0.0047,,2,72,B,32.9978,-84.4558,0,,,,10,0,false,0
 30259,Moreland,GA,Coweta Water & Sewer Authority,GA0770042,92907,SW,0,0,0,,,2,53,D,33.2734,-84.7566,0,,0,0,10,2,false,0
 30260,Morrow,GA,Clayton County Water Authority,GA0630000,298374,SW,0,0,0,0.002,,2,78,B,33.5849,-84.3247,0,,19,0,,,,
@@ -12919,7 +12919,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30264,Newnan,GA,Coweta Water & Sewer Authority,GA0770042,92907,SW,3,2,0,0.0039,,2,81,B,33.361,-84.8142,1,Haloacetic Acids (HAA5),0,0,9,2,false,0
 30265,Newnan,GA,Coweta Water & Sewer Authority,GA0770042,92907,SW,3,2,0,0.0039,,2,81,B,33.3958,-84.7121,1,Haloacetic Acids (HAA5),0,0,10,2,false,0
 30266,Orchard Hill,GA,CUMBERLAND SPRINGS,GA2550002,122,GW,0,0,0,,,2,53,D,33.2657,-84.299,0,,,,10,0,false,0
-30268,Palmetto,GA,Palmetto,GA1210008,4718,SW,3,0,0,0.0022,,1,69,C,33.5242,-84.679,0,,,,10,3,false,0
+30268,Palmetto,GA,Palmetto,GA1210008,4718,SW,3,0,0,0.0022,,1,69,C,33.5242,-84.679,0,,4,0,10,3,false,0
 30269,Peachtree City,GA,FAYETTE COUNTY,GA1130001,86934,SW,0,0,0,,,2,50,D,33.3915,-84.5635,0,,0,0,3,0,false,0
 30270,Peachtree City,GA,LONG`S MOBILE HOME PARK,GA1130012,78,GW,0,0,0,,,2,53,D,33.3968,-84.59,0,,,,10,1,false,0
 30271,Newnan,GA,Coweta Water & Sewer Authority,GA0770042,92907,SW,3,2,0,0.0039,,2,81,B,33.3514,-84.7561,1,Haloacetic Acids (HAA5),0,0,9,2,false,0
@@ -12927,22 +12927,22 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30273,Rex,GA,DEKALB COUNTY,GA0890001,743000,SW,0,0,0,,,2,63,C,33.5808,-84.2782,0,,13,0,10,0,false,0
 30274,Riverdale,GA,CLAYTON COUNTY WATER AUTHORITY,GA0630000,298374,SW,0,0,0,,,2,50,D,33.5531,-84.4003,0,,19,0,,,,
 30275,Sargent,GA,COWETA WATER & SEWER AUTH.,GA0770042,92907,SW,0,0,0,,,2,53,D,33.4299,-84.8744,0,,0,0,9,2,false,0
-30276,Senoia,GA,Senoia,GA0770003,7528,SW,6,0,2,0.0028,1.6,2,77,B,33.2845,-84.5918,0,,,,10,2,false,0
+30276,Senoia,GA,Senoia,GA0770003,7528,SW,6,0,2,0.0028,1.6,2,77,B,33.2845,-84.5918,0,,5,0,10,2,false,0
 30277,Sharpsburg,GA,COWETA WATER & SEWER AUTH.,GA0770042,92907,SW,0,0,0,,,2,55,C,33.4013,-84.654,0,,0,0,10,2,false,0
 30278,,,,,,,,,,,,,,,,,0,,,,,,,
-30281,Stockbridge,GA,Stockbridge,GA1510004,7195,SW,1,0,0,0.0014,,2,78,B,33.5633,-84.2165,0,,,,4,0,false,0
+30281,Stockbridge,GA,Stockbridge,GA1510004,7195,SW,1,0,0,0.0014,,2,78,B,33.5633,-84.2165,0,,4,0,4,0,false,0
 30284,Sunny Side,GA,CUMBERLAND SPRINGS,GA2550002,122,GW,0,0,0,,,2,53,D,33.3453,-84.2898,0,,,,10,0,false,0
-30285,The Rock,GA,Barnesville,GA1710000,10725,SW,0,0,0,,,2,63,C,32.9717,-84.2424,0,,,,4,0,false,0
-30286,Thomaston,GA,Thomaston,GA2930000,12482,SW,2,0,0,0.00095,,2,77,B,32.9015,-84.3324,0,,,,10,0,false,0
+30285,The Rock,GA,Barnesville,GA1710000,10725,SW,0,0,0,,,2,63,C,32.9717,-84.2424,0,,6,0,4,0,false,0
+30286,Thomaston,GA,Thomaston,GA2930000,12482,SW,2,0,0,0.00095,,2,77,B,32.9015,-84.3324,0,,8,2,10,0,false,0
 30287,Morrow,GA,Clayton County Water Authority,GA0630000,298374,SW,0,0,0,0.002,,2,83,B,33.5007,-84.3513,0,,19,0,,,,
 30288,Conley,GA,DEKALB COUNTY,GA0890001,743000,SW,0,0,0,,,2,55,C,33.6369,-84.3371,0,,13,0,10,0,false,0
 30289,Turin,GA,Turin,GA0770004,671,GW,7,0,1,0.0013,,2,78,B,33.326,-84.6371,0,,,,10,0,false,0
 30290,Tyrone,GA,Long`s Mobile Home Park,GA1130012,78,GW,26,1,2,,,2,69,C,33.4719,-84.5914,1,Consumer Confidence Report Rule,,,10,2,false,0
-30291,Union City,GA,Union City,GA1210010,18636,SW,8,6,2,,,1,50,D,33.5832,-84.5499,2,"Total Trihalomethanes (TTHM);Haloacetic Acids (HAA5)",,,10,8,true,0
+30291,Union City,GA,Union City,GA1210010,18636,SW,8,6,2,,,1,50,D,33.5832,-84.5499,2,"Total Trihalomethanes (TTHM);Haloacetic Acids (HAA5)",2,0,10,8,true,0
 30292,Williamson,GA,Williamson,GA2310003,683,SW,5,0,0,0.0008,,2,81,B,33.1598,-84.3795,0,,,,10,0,false,0
 30293,Woodbury,GA,Woodbury,GA1990005,961,SW,3,0,2,,,2,68,C,32.9813,-84.5986,0,,,,10,1,true,0
 30294,Ellenwood,GA,Poole`s Mobile Manor,GA1510015,255,GW,15,0,5,0.0017,,2,64,C,33.6166,-84.2939,0,,,,10,0,false,0
-30295,Zebulon,GA,Zebulon,GA2310004,5407,SW,1,0,0,0.0016,,2,83,B,33.1002,-84.3108,0,,,,6,0,false,0
+30295,Zebulon,GA,Zebulon,GA2310004,5407,SW,1,0,0,0.0016,,2,83,B,33.1002,-84.3108,0,,2,0,6,0,false,0
 30296,Riverdale,GA,ATLANTA,GA1210001,1089893,SW,0,0,0,,,3,60,C,33.5667,-84.4364,0,,14,0,7,0,false,0
 30297,Forest Park,GA,DEKALB COUNTY,GA0890001,743000,SW,0,0,0,,,3,65,C,33.6115,-84.3745,0,,13,0,4,0,false,0
 30298,Forest Park,GA,CLAYTON COUNTY WATER AUTHORITY,GA0630000,298374,SW,0,0,0,,,2,53,D,33.5007,-84.3513,0,,19,0,,,,
@@ -13026,29 +13026,29 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30396,Atlanta,GA,Atlanta,GA1210001,1089893,SW,4,0,3,0.0014,,1,60,C,33.8444,-84.4741,0,,14,0,10,0,false,0
 30398,Atlanta,GA,Atlanta,GA1210001,1089893,SW,4,0,3,0.0014,,1,60,C,33.8444,-84.4741,0,,14,0,10,0,false,0
 30401,Swainsboro,GA,Swainsboro,GA1070005,9536,GW,38,0,8,0.001,,3,81,B,32.5699,-82.3462,0,,5,1,10,0,true,0
-30410,Ailey,GA,Mount Vernon,GA2090003,3243,GW,13,6,4,0.0006,,3,84,B,32.2143,-82.4762,1,Gross Alpha,,,10,6,true,0
-30411,Alamo,GA,Alamo,GA3090000,3730,GW,0,0,0,0.002,,3,99,A,32.133,-82.7944,0,,,,,,,
+30410,Ailey,GA,Mount Vernon,GA2090003,3243,GW,13,6,4,0.0006,,3,84,B,32.2143,-82.4762,1,Gross Alpha,6,0,10,6,true,0
+30411,Alamo,GA,Alamo,GA3090000,3730,GW,0,0,0,0.002,,3,99,A,32.133,-82.7944,0,,5,0,,,,
 30412,Alston,GA,Alston,GA2090001,211,GW,1,0,1,,,3,86,A,32.0775,-82.4825,0,,,,5,0,false,0
 30413,Bartow,GA,Bartow,GA1630001,419,GW,2,0,0,0.0011,,3,98,A,32.8632,-82.4708,0,,,,10,0,false,0
 30414,Bellville,GA,Bellville,GA1090000,365,GW,1,0,1,0.0019,,3,93,A,32.1524,-81.9743,0,,,,4,0,false,0
 30415,Brooklet,GA,Brooklet Water System,GA0310000,1456,GW,2,0,0,0.0007,,3,89,A,32.294,-81.628,0,,,,10,0,false,0
-30417,Claxton,GA,Claxton,GA1090001,3840,GW,10,0,3,0.0025,,3,86,A,32.165,-81.908,0,,,,10,0,false,0
-30420,Cobbtown,GA,Metter,GA0430000,4776,GW,3,0,0,0.001,,3,94,A,32.2642,-82.1333,0,,,,10,0,false,0
+30417,Claxton,GA,Claxton,GA1090001,3840,GW,10,0,3,0.0025,,3,86,A,32.165,-81.908,0,,2,0,10,0,false,0
+30420,Cobbtown,GA,Metter,GA0430000,4776,GW,3,0,0,0.001,,3,94,A,32.2642,-82.1333,0,,3,0,10,0,false,0
 30421,Collins,GA,Collins Water System,GA2670001,780,GW,1,0,0,0.001,,3,99,A,32.1852,-82.1095,0,,,,3,0,false,0
 30423,Daisy,GA,Daisy,GA1090002,325,GW,2,0,1,0.00209,,3,97,A,32.1519,-81.8346,0,,,,7,0,false,0
 30424,Dover,GA,STATESBORO,GA0310004,36846,GW,0,0,0,,,3,66,C,32.5771,-81.7151,0,,7,0,2,0,false,0
 30425,Garfield,GA,Twin City,GA1070006,2817,GW,2,0,0,0.0006,,3,98,A,32.6549,-82.1002,0,,,,10,0,false,0
 30426,Girard,GA,Girard,GA0330000,240,GW,9,0,1,0.0016,,3,93,A,33.0437,-81.7106,0,,,,10,0,false,0
-30427,Glennville,GA,Glennville Water System,GA2670002,5173,GW,4,0,0,0.0015,,3,93,A,31.9467,-81.9483,0,,,,10,0,false,0
-30428,Glenwood,GA,Alamo,GA3090000,3730,GW,2,0,1,0.0125,,3,74,B,32.1572,-82.6759,0,,,,7,0,false,0
+30427,Glennville,GA,Glennville Water System,GA2670002,5173,GW,4,0,0,0.0015,,3,93,A,31.9467,-81.9483,0,,3,0,10,0,false,0
+30428,Glenwood,GA,Alamo,GA3090000,3730,GW,2,0,1,0.0125,,3,74,B,32.1572,-82.6759,0,,5,0,7,0,false,0
 30429,Hagan,GA,Hagan,GA1090003,1404,GW,8,0,3,0.0018,,3,91,A,32.156,-81.9337,0,,,,10,0,false,0
-30434,Louisville,GA,Louisville,GA1630002,5242,GW,6,0,3,0.005,,3,92,A,33.0163,-82.3836,0,,,,10,0,false,0
-30436,Lyons,GA,Lyons,GA2790000,4458,GW,17,12,5,0.0014,,3,70,B,32.1711,-82.3078,2,"Gross Alpha;Gross Beta",,,10,15,true,0
+30434,Louisville,GA,Louisville,GA1630002,5242,GW,6,0,3,0.005,,3,92,A,33.0163,-82.3836,0,,6,0,10,0,false,0
+30436,Lyons,GA,Lyons,GA2790000,4458,GW,17,12,5,0.0014,,3,70,B,32.1711,-82.3078,2,"Gross Alpha;Gross Beta",7,0,10,15,true,0
 30438,Manassas,GA,Manassas,GA2670003,133,GW,0,0,0,,,3,88,A,32.1605,-82.0196,0,,,,,,,
-30439,Metter,GA,Metter,GA0430000,4776,GW,3,0,2,0.0012,,3,91,A,32.401,-82.0607,0,,,,10,0,false,0
+30439,Metter,GA,Metter,GA0430000,4776,GW,3,0,2,0.0012,,3,91,A,32.401,-82.0607,0,,3,0,10,0,false,0
 30441,Midville,GA,Midville,GA0330001,776,GW,1,0,1,0.0016,,3,93,A,32.8638,-82.2042,0,,,,1,0,false,0
 30442,Millen,GA,Millen,GA1650000,6569,GW,0,0,0,0.0054,,3,94,A,32.7877,-81.9618,0,,14,0,,,,
-30445,Mount Vernon,GA,Mount Vernon,GA2090003,3243,GW,2,0,0,,,3,86,A,32.184,-82.5867,0,,,,10,0,false,0
+30445,Mount Vernon,GA,Mount Vernon,GA2090003,3243,GW,2,0,0,,,3,86,A,32.184,-82.5867,0,,6,0,10,0,false,0
 30446,Newington,GA,Hickory Knob Subdivision,GA1030100,671,GW,10,1,3,0.002,,3,94,A,32.581,-81.4826,1,Consumer Confidence Report Rule,,,10,1,false,0
 30447,Norristown,GA,ADRIAN,GA1070000,702,GW,0,0,0,,,3,66,C,32.5041,-82.4848,0,,,,5,0,false,0
 30448,Nunez,GA,Nunez,GA1070024,205,GW,7,0,0,0.0044,,3,96,A,32.4759,-82.3726,0,,,,10,0,false,0
@@ -13058,7 +13058,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30452,Register,GA,Register Water System,GA0310003,182,GW,8,0,2,0.0016,,3,92,A,32.3382,-81.8728,0,,,,10,0,false,0
 30453,Reidsville,GA,Reidsville Water System,GA2670004,2594,GW,14,0,3,0.0016,,3,79,B,32.0548,-82.1478,0,,,,10,0,false,0
 30454,Rockledge,GA,SOPERTON,GA2830000,3115,GW,0,0,0,,,3,66,C,32.3915,-82.7479,0,,,,,,,
-30455,Rocky Ford,GA,Sylvania,GA2510003,4910,GW,0,0,0,0.0037,,3,99,A,32.723,-81.7933,0,,,,,,,
+30455,Rocky Ford,GA,Sylvania,GA2510003,4910,GW,0,0,0,0.0037,,3,99,A,32.723,-81.7933,0,,5,0,,,,
 30456,Sardis,GA,Sardis,GA0330002,1053,GW,5,0,1,0.0014,,3,95,A,32.9809,-81.773,0,,,,8,0,false,0
 30457,Soperton,GA,Soperton,GA2830000,3115,GW,0,0,0,0.0111,,3,79,B,32.3869,-82.5871,0,,,,,,,
 30458,Statesboro,GA,Statesboro,GA0310004,36846,GW,24,0,8,0.0016,,3,71,B,32.4408,-81.774,0,,7,0,10,0,false,0
@@ -13066,12 +13066,12 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30460,Statesboro,GA,Statesboro,GA0310004,36846,GW,24,0,8,0.0016,,3,81,B,32.4179,-81.7823,0,,7,0,10,0,false,0
 30461,Statesboro,GA,Statesboro,GA0310004,36846,GW,24,0,8,0.0016,,3,71,B,32.45,-81.7158,0,,7,0,10,0,false,0
 30464,Stillmore,GA,Stillmore,GA1070003,810,GW,16,1,0,,,3,87,A,32.4421,-82.2151,1,Consumer Confidence Report Rule,,,10,1,false,0
-30467,Sylvania,GA,Sylvania,GA2510003,4910,GW,5,0,0,0.0017,,3,93,A,32.7439,-81.6287,0,,,,10,0,false,0
+30467,Sylvania,GA,Sylvania,GA2510003,4910,GW,5,0,0,0.0017,,3,93,A,32.7439,-81.6287,0,,5,0,10,0,false,0
 30470,Tarrytown,GA,Soperton,GA2830000,3115,GW,0,0,0,0.0055,,3,94,A,32.3188,-82.5593,0,,,,,,,
 30471,Twin City,GA,Twin City,GA1070006,2817,GW,3,0,2,0.0033,,3,91,A,32.6129,-82.1979,0,,,,10,1,false,0
 30473,Uvalda,GA,Uvalda,GA2090005,747,GW,8,0,6,0.0022,,3,72,B,32.0483,-82.5089,0,,,,10,0,false,0
-30474,Vidalia,GA,Vidalia,GA2790002,14496,GW,8,1,4,0.0014,,3,91,A,32.1934,-82.4067,1,Consumer Confidence Report Rule,,,10,9,true,0
-30475,Vidalia,GA,Vidalia,GA2790002,14496,GW,8,1,4,0.0014,,3,94,A,32.1775,-82.3739,1,Consumer Confidence Report Rule,,,10,9,true,0
+30474,Vidalia,GA,Vidalia,GA2790002,14496,GW,8,1,4,0.0014,,3,91,A,32.1934,-82.4067,1,Consumer Confidence Report Rule,6,1,10,9,true,0
+30475,Vidalia,GA,Vidalia,GA2790002,14496,GW,8,1,4,0.0014,,3,94,A,32.1775,-82.3739,1,Consumer Confidence Report Rule,6,1,10,9,true,0
 30477,Wadley,GA,Wadley,GA1630004,2527,GW,4,0,2,0.01,,3,78,B,32.8747,-82.4025,0,,,,10,0,false,0
 30479,,,,,,,,,,,,,,,,,0,,,,,,,
 30499,Reidsville,GA,Reidsville Water System,GA2670004,2594,GW,14,0,3,0.0016,,3,88,A,32.0869,-82.1179,0,,,,10,0,false,0
@@ -13082,58 +13082,58 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30506,Gainesville,GA,Gainesville,GA1390001,140000,SW,2,0,0,0.0015,,2,82,B,34.3562,-83.8882,0,,6,0,10,0,false,0
 30507,Gainesville,GA,Gainesville,GA1390001,140000,SW,2,0,0,0.0015,,2,82,B,34.2591,-83.7716,0,,6,0,10,0,false,0
 30510,Alto,GA,Alto,GA1370000,2737,GW,5,0,1,0.001,,2,79,B,34.4591,-83.602,0,,,,10,2,false,0
-30511,Baldwin,GA,Baldwin,GA1370001,4160,SW,2,2,0,0.0045,,2,81,B,34.4574,-83.476,1,Total Trihalomethanes (TTHM),,,10,2,false,0
-30512,Blairsville,GA,Notla Water Authority,GA2910003,16518,SW,6,4,1,0.001,,2,66,C,34.8763,-83.992,1,Nickel,,,10,4,true,0
-30513,Blue Ridge,GA,Blue Ridge Water System,GA1110000,6112,SW,10,0,4,0.0005,1.74,2,67,C,34.8555,-84.3281,0,,,,10,0,false,0
-30514,Blairsville,GA,Notla Water Authority,GA2910003,16518,SW,6,4,1,0.001,,2,74,B,34.8762,-83.9582,1,Nickel,,,10,4,true,0
+30511,Baldwin,GA,Baldwin,GA1370001,4160,SW,2,2,0,0.0045,,2,81,B,34.4574,-83.476,1,Total Trihalomethanes (TTHM),6,0,10,2,false,0
+30512,Blairsville,GA,Notla Water Authority,GA2910003,16518,SW,6,4,1,0.001,,2,66,C,34.8763,-83.992,1,Nickel,6,0,10,4,true,0
+30513,Blue Ridge,GA,Blue Ridge Water System,GA1110000,6112,SW,10,0,4,0.0005,1.74,2,67,C,34.8555,-84.3281,0,,4,0,10,0,false,0
+30514,Blairsville,GA,Notla Water Authority,GA2910003,16518,SW,6,4,1,0.001,,2,74,B,34.8762,-83.9582,1,Nickel,6,0,10,4,true,0
 30515,Buford,GA,Gwinnett Company Department of Water Resources,GA1350004,975000,SW,3,0,1,0.0012,,1,63,C,33.9604,-84.0379,0,,13,0,9,0,false,0
 30516,Bowersville,GA,Bowersville,GA1470008,594,SW,3,0,3,0.0012,,2,77,B,34.3996,-83.0484,0,,,,7,0,false,0
 30517,Braselton,GA,Braselton,GA1570000,20469,SW,1,0,0,0.0012,,2,83,B,34.1389,-83.7812,0,,23,0,10,2,false,0
 30518,Buford,GA,Gwinnett Company Department of Water Resources,GA1350004,975000,SW,3,0,1,0.0012,,1,62,C,34.1124,-83.9965,0,,13,0,10,0,false,0
 30519,Buford,GA,Gwinnett Company Department of Water Resources,GA1350004,975000,SW,3,0,1,0.0012,,1,67,C,34.0797,-83.9308,0,,13,0,10,0,false,0
 30520,Canon,GA,Canon Water System,GA1190000,1048,SW,7,0,3,0.0011,,2,75,B,34.3478,-83.1267,0,,,,10,6,false,0
-30521,Carnesville,GA,Franklin County Water System,GA1190051,5638,SW,17,6,4,0.001,1.4,2,72,B,34.3631,-83.2547,1,Gross Alpha,,,10,6,false,0
-30522,Cherry Log,GA,BLUE RIDGE WATER SYSTEM,GA1110000,6112,SW,0,0,0,,,2,63,C,34.7804,-84.3908,0,,,,10,0,false,0
-30523,Clarkesville,GA,Clarkesville,GA1370002,5785,SW,0,0,0,0.00056,,2,83,B,34.645,-83.5243,0,,,,,,,
+30521,Carnesville,GA,Franklin County Water System,GA1190051,5638,SW,17,6,4,0.001,1.4,2,72,B,34.3631,-83.2547,1,Gross Alpha,5,0,10,6,false,0
+30522,Cherry Log,GA,BLUE RIDGE WATER SYSTEM,GA1110000,6112,SW,0,0,0,,,2,63,C,34.7804,-84.3908,0,,4,0,10,0,false,0
+30523,Clarkesville,GA,Clarkesville,GA1370002,5785,SW,0,0,0,0.00056,,2,83,B,34.645,-83.5243,0,,5,0,,,,
 30525,Clayton,GA,Kingwood Water System,GA2410006,575,SW,3,0,1,0.0016,,2,75,B,34.8826,-83.4065,0,,,,10,0,false,0
 30527,Clermont,GA,Gainesville,GA1390001,140000,SW,0,0,0,,,2,53,D,34.4761,-83.7853,0,,6,0,10,0,false,0
-30528,Cleveland,GA,White Company Water & Sewerage Authority,GA3110072,6380,SW,0,0,0,0.002,,2,83,B,34.5839,-83.75,0,,,,,,,
-30529,Commerce,GA,Commerce,GA1570001,11340,SW,2,1,1,0.0012,,2,79,B,34.2134,-83.448,1,Haloacetic Acids (HAA5),,,10,13,true,0
-30530,Commerce,GA,Commerce,GA1570001,11340,SW,2,1,1,0.0012,,2,78,B,34.1683,-83.4022,1,Haloacetic Acids (HAA5),,,10,4,true,0
-30531,Cornelia,GA,Cornelia,GA1370003,6130,SW,2,0,0,0.014,,2,59,C,34.5209,-83.5453,0,,,,10,2,false,0
+30528,Cleveland,GA,White Company Water & Sewerage Authority,GA3110072,6380,SW,0,0,0,0.002,,2,83,B,34.5839,-83.75,0,,4,0,,,,
+30529,Commerce,GA,Commerce,GA1570001,11340,SW,2,1,1,0.0012,,2,79,B,34.2134,-83.448,1,Haloacetic Acids (HAA5),8,3,10,13,true,0
+30530,Commerce,GA,Commerce,GA1570001,11340,SW,2,1,1,0.0012,,2,78,B,34.1683,-83.4022,1,Haloacetic Acids (HAA5),8,3,10,4,true,0
+30531,Cornelia,GA,Cornelia,GA1370003,6130,SW,2,0,0,0.014,,2,59,C,34.5209,-83.5453,0,,4,0,10,2,false,0
 30533,Dahlonega,GA,Dahlonega,GA1870000,7500,SW,1,0,0,0.001,,2,78,B,34.5299,-83.9798,0,,9,0,10,0,false,0
-30534,Dawsonville,GA,Etowah,GA0850007,23922,SW,5,0,2,0.0009,2.975,2,78,B,34.4537,-84.155,0,,,,10,0,false,0
+30534,Dawsonville,GA,Etowah,GA0850007,23922,SW,5,0,2,0.0009,2.975,2,78,B,34.4537,-84.155,0,,5,0,10,0,false,0
 30535,Demorest,GA,Demorest,GA1370004,18049,SW,1,0,0,0.002,,2,83,B,34.5756,-83.5696,0,,11,0,4,0,false,0
 30536,Ellijay,GA,Ellijay-gilmer Company Water Authority,GA1230000,13010,SW,9,0,1,0.0023,,2,67,C,34.655,-84.3554,0,,12,0,10,0,false,0
 30537,Dillard,GA,Sky Valley,GA2410053,1820,GW,5,0,1,0.0019,,2,79,B,34.9777,-83.3199,0,,,,10,0,false,0
 30538,Eastanollee,GA,MARTIN,GA2570000,1769,GW,0,0,0,,,2,53,D,34.5037,-83.2587,0,,,,10,4,true,0
 30539,East Ellijay,GA,ELLIJAY-GILMER CO. WATER AUTH.,GA1230000,13010,SW,0,0,0,,,2,63,C,34.684,-84.4727,0,,12,0,,,,
 30540,Ellijay,GA,Ellijay-gilmer Company Water Authority,GA1230000,13010,SW,9,0,1,0.0023,,2,67,C,34.6775,-84.4812,0,,12,0,10,0,false,0
-30541,Epworth,GA,BLUE RIDGE WATER SYSTEM,GA1110000,6112,SW,0,0,0,,,2,63,C,34.9129,-84.5391,0,,,,,,,
+30541,Epworth,GA,BLUE RIDGE WATER SYSTEM,GA1110000,6112,SW,0,0,0,,,2,63,C,34.9129,-84.5391,0,,4,0,,,,
 30542,Flowery Branch,GA,GWINNETT CO. DEPT. OF WATER RESOURCES,GA1350004,975000,SW,0,0,0,0.012,,2,66,C,34.1819,-83.9024,0,,13,0,2,0,false,0
 30543,Gillsville,GA,Gainesville,GA1390001,140000,SW,0,0,0,,,2,53,D,34.3001,-83.6757,0,,6,0,10,11,true,0
 30545,Helen,GA,Helen,GA3110001,1851,SW,0,0,0,0.0012,,2,78,B,34.6866,-83.7399,0,,,,,,,
-30546,Hiawassee,GA,Hiawassee,GA2810000,5496,SW,0,0,0,0.0014,,2,78,B,34.9063,-83.7274,0,,,,,,,
+30546,Hiawassee,GA,Hiawassee,GA2810000,5496,SW,0,0,0,0.0014,,2,78,B,34.9063,-83.7274,0,,4,0,,,,
 30547,Homer,GA,Homer,GA0110000,1188,SW,9,4,3,0.0024,,2,78,B,34.3563,-83.4974,1,Gross Alpha,,,10,4,true,0
 30548,Hoschton,GA,Hoschton Water System,GA1570002,6620,SW,2,0,0,0.0018,,2,82,B,34.0866,-83.7803,0,,19,1,10,2,false,0
 30549,Jefferson,GA,Jackson County Water & Sewer Authority,GA1570117,33601,SW,7,2,1,0.0019,,2,81,B,34.1062,-83.5708,1,Haloacetic Acids (HAA5),35,0,10,11,true,0
 30552,Lakemont,GA,Rabun County Water & Sewer Authority,GA2410118,10276,SW,13,10,10,0.0019,,2,58,C,34.7617,-83.4038,1,Nickel,8,0,10,11,true,0
-30553,Lavonia,GA,Lavonia,GA1190003,8190,SW,0,0,0,0.0023,,2,83,B,34.4528,-83.113,0,,,,10,6,false,0
-30554,Lula,GA,Lula,GA1390002,3416,GW,1,0,0,0.0035,,2,83,B,34.3876,-83.6663,0,,,,10,15,true,0
-30555,Mc Caysville,GA,BLUE RIDGE WATER SYSTEM,GA1110000,6112,SW,0,0,0,,,2,55,C,34.9739,-84.4291,0,,,,,,,
+30553,Lavonia,GA,Lavonia,GA1190003,8190,SW,0,0,0,0.0023,,2,83,B,34.4528,-83.113,0,,4,0,10,6,false,0
+30554,Lula,GA,Lula,GA1390002,3416,GW,1,0,0,0.0035,,2,83,B,34.3876,-83.6663,0,,4,0,10,15,true,0
+30555,Mc Caysville,GA,BLUE RIDGE WATER SYSTEM,GA1110000,6112,SW,0,0,0,,,2,55,C,34.9739,-84.4291,0,,4,0,,,,
 30557,Martin,GA,Martin,GA2570000,1769,GW,3,0,3,0.0013,,2,77,B,34.487,-83.1849,0,,,,10,10,true,0
 30558,Maysville,GA,Maysville Water System,GA0110001,2838,SW,10,9,0,0.0023,,2,72,B,34.2529,-83.5616,2,"Total Trihalomethanes (TTHM);Haloacetic Acids (HAA5)",,,10,15,true,0
-30559,Mineral Bluff,GA,Blue Ridge Water System,GA1110000,6112,SW,6,0,2,0.0022,,2,72,B,34.9341,-84.2541,0,,,,10,0,false,0
+30559,Mineral Bluff,GA,Blue Ridge Water System,GA1110000,6112,SW,6,0,2,0.0022,,2,72,B,34.9341,-84.2541,0,,4,0,10,0,false,0
 30560,Morganton,GA,Morganton,GA1110003,1768,GW,4,0,1,0.0056,1.74,2,79,B,34.8714,-84.2115,0,,,,10,0,false,0
 30562,Mountain City,GA,RABUN COUNTY WATER & SEWER AUTHORITY,GA2410118,10276,SW,0,0,0,,,2,63,C,34.9181,-83.3854,0,,8,0,8,0,false,0
 30563,Mount Airy,GA,Mount Airy,GA1370005,1384,GW,3,0,2,0.0045,,2,79,B,34.5678,-83.4713,0,,,,10,4,true,0
 30564,Murrayville,GA,Lake Shore Forest Subdivision,GA1390011,284,GW,2,0,0,0.0124,,2,64,C,34.4342,-83.8949,0,,,,10,0,false,0
-30565,Nicholson,GA,Nicholson Water Authority,GA1570004,3218,GW,4,0,1,0.003,,2,80,B,34.097,-83.421,0,,,,10,2,false,0
+30565,Nicholson,GA,Nicholson Water Authority,GA1570004,3218,GW,4,0,1,0.003,,2,80,B,34.097,-83.421,0,,4,0,10,2,false,0
 30566,Oakwood,GA,GAINESVILLE,GA1390001,140000,SW,0,0,0,,,2,63,C,34.2372,-83.894,0,,6,0,2,0,false,0
 30567,Pendergrass,GA,BRASELTON,GA1570000,20469,SW,0,0,0,,,2,63,C,34.1796,-83.6634,0,,23,0,10,11,true,0
 30568,Rabun Gap,GA,Sylvan Lake Falls,GA2410035,615,GW,15,1,1,0.0055,,2,81,B,34.9576,-83.3901,1,Consumer Confidence Report Rule,,,10,1,false,0
 30571,Sautee Nacoochee,GA,HELEN,GA3110001,1851,SW,0,0,0,,,2,63,C,34.7162,-83.6931,0,,,,,,,
-30572,Suches,GA,Coosa Water Authority,GA2910006,4407,GW,0,0,0,,,2,55,C,34.7253,-84.0496,0,,,,10,4,true,0
+30572,Suches,GA,Coosa Water Authority,GA2910006,4407,GW,0,0,0,,,2,55,C,34.7253,-84.0496,0,,3,1,10,4,true,0
 30573,Tallulah Falls,GA,Tallulah Falls,GA2410001,169,GW,0,0,0,,,2,72,B,34.742,-83.3977,0,,,,,,,
 30575,Talmo,GA,Gainesville,GA1390001,140000,SW,0,0,0,,,2,53,D,34.1951,-83.7187,0,,6,0,10,2,false,0
 30576,Tiger,GA,Life Teen Covecrest Camp,GA2410133,332,GW,1,0,1,0.0027,1.51,2,81,B,34.8174,-83.4333,0,,,,10,0,false,0
@@ -13144,7 +13144,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30596,Alto,GA,Alto,GA1370000,2737,GW,5,0,1,0.001,,2,79,B,34.44,-83.59,0,,,,10,0,false,0
 30597,Dahlonega,GA,Dahlonega,GA1870000,7500,SW,1,0,0,0.001,,2,83,B,34.5277,-83.9809,0,,9,0,5,0,false,0
 30598,Toccoa Falls,GA,Toccoa Falls College,GA2570011,850,GW,0,0,0,0.012,,2,60,C,34.5942,-83.3557,0,,,,,,,
-30599,Commerce,GA,Commerce,GA1570001,11340,SW,2,1,1,0.0012,,2,78,B,34.204,-83.4571,1,Haloacetic Acids (HAA5),,,0,2,true,0
+30599,Commerce,GA,Commerce,GA1570001,11340,SW,2,1,1,0.0012,,2,78,B,34.204,-83.4571,1,Haloacetic Acids (HAA5),8,3,0,2,true,0
 30601,Athens,GA,Athens-clarke Company Water System,GA0590000,125000,SW,6,3,0,0.0035,,2,80,B,33.9761,-83.3632,1,Haloacetic Acids (HAA5),9,0,10,3,false,0
 30602,Athens,GA,Athens-clarke Company Water System,GA0590000,125000,SW,6,3,0,0.0035,,2,79,B,33.9433,-83.3724,1,Haloacetic Acids (HAA5),9,0,10,3,false,0
 30603,Athens,GA,Athens-clarke Company Water System,GA0590000,125000,SW,6,3,0,0.0035,,2,80,B,33.9609,-83.3779,1,Haloacetic Acids (HAA5),9,0,10,3,false,0
@@ -13167,19 +13167,19 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30629,Comer,GA,Comer,GA1950002,1531,GW,7,0,2,0.0012,,2,77,B,34.0888,-83.122,0,,,,10,7,true,0
 30630,Crawford,GA,Crawford,GA2210000,1170,SW,37,0,4,0.0055,,2,63,C,33.9076,-83.1646,0,,,,10,0,false,0
 30631,Crawfordville,GA,Crawfordville Water System,GA2650000,621,GW,5,5,2,0.0013,,3,85,A,33.5708,-82.8872,2,"Gross Beta;Gross Alpha",,,10,10,false,0
-30633,Danielsville,GA,Madison County Water System,GA1950060,4663,SW,14,7,6,0.0035,,2,59,C,34.1708,-83.2758,1,Nickel,,,10,7,true,0
+30633,Danielsville,GA,Madison County Water System,GA1950060,4663,SW,14,7,6,0.0035,,2,59,C,34.1708,-83.2758,1,Nickel,4,0,10,7,true,0
 30634,Dewy Rose,GA,BOWMAN WATER SYSTEM,GA1050000,1299,GW,0,0,0,,,2,53,D,34.1853,-82.9434,0,,,,10,0,false,0
 30635,Elberton,GA,Elberton,GA1050001,7800,SW,9,0,1,0.0015,,2,77,B,34.1082,-82.8448,0,,11,0,10,0,false,0
 30638,Farmington,GA,RICHMOND HILL MHP,GA0290036,58,GW,0,0,0,,,3,66,C,33.7558,-83.4201,0,,,,6,0,false,0
 30639,Franklin Springs,GA,Franklin Springs,GA1190002,702,SW,2,0,0,0.0011,,2,82,B,34.2743,-83.147,0,,,,6,0,false,0
 30641,Good Hope,GA,BOSTWICK WATER SYSTEM,GA2110000,484,SW,0,0,0,,,2,53,D,33.7613,-83.595,0,,,,10,0,false,0
-30642,Greensboro,GA,Greensboro,GA1330000,3156,SW,1,0,0,0.0011,,2,83,B,33.5637,-83.1702,0,,,,10,0,false,0
-30643,Hartwell,GA,Hartwell,GA1470000,8129,SW,1,0,0,0.0013,,2,83,B,34.3571,-82.9296,0,,,,6,0,false,0
+30642,Greensboro,GA,Greensboro,GA1330000,3156,SW,1,0,0,0.0011,,2,83,B,33.5637,-83.1702,0,,4,0,10,0,false,0
+30643,Hartwell,GA,Hartwell,GA1470000,8129,SW,1,0,0,0.0013,,2,83,B,34.3571,-82.9296,0,,6,0,6,0,false,0
 30645,High Shoals,GA,RICHMOND HILL MHP,GA0290036,58,GW,0,0,0,,,3,66,C,33.8013,-83.5164,0,,,,6,0,false,0
 30646,Hull,GA,Athens-clarke Company Water System,GA0590000,125000,SW,3,0,1,0.0054,,2,79,B,34.0478,-83.311,0,,9,0,10,3,false,0
 30647,Ila,GA,ILA,GA1950004,459,GW,1,0,0,0.0007,,2,83,B,34.1726,-83.2921,0,,,,2,0,false,0
 30648,Lexington,GA,Lexington,GA2210001,1015,SW,18,10,2,0.0016,,2,71,B,33.8799,-83.0858,1,Combined Radium,,,10,15,true,0
-30650,Madison,GA,Madison,GA2110002,6427,SW,5,3,0,0.0012,,2,80,B,33.5947,-83.4618,1,Total Trihalomethanes (TTHM),,,10,3,false,0
+30650,Madison,GA,Madison,GA2110002,6427,SW,5,3,0,0.0012,,2,80,B,33.5947,-83.4618,1,Total Trihalomethanes (TTHM),6,0,10,3,false,0
 30655,Monroe,GA,Monroe,GA2970001,23997,SW,1,0,0,0.0027,1.8385,2,78,B,33.7883,-83.7013,0,,17,0,10,2,false,0
 30656,Monroe,GA,Monroe,GA2970001,23997,SW,1,0,0,0.0027,1.8385,2,83,B,33.8386,-83.7104,0,,17,0,2,0,false,0
 30660,Rayle,GA,Rayle Water System,GA3170000,200,GW,1,0,1,0.0038,,3,97,A,33.7856,-82.9504,0,,,,1,0,false,0
@@ -13187,12 +13187,12 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30663,Rutledge,GA,Rutledge Water System,GA2110003,993,SW,5,0,2,0.0022,,2,78,B,33.6163,-83.6023,0,,,,10,0,false,0
 30664,Sharon,GA,CRAWFORDVILLE WATER SYSTEM,GA2650000,621,GW,0,0,0,,,3,66,C,33.56,-82.7948,0,,,,10,10,false,0
 30665,Siloam,GA,Siloam,GA1330001,494,GW,0,0,0,0.0063,,2,79,B,33.5368,-83.081,0,,,,,,,
-30666,Statham,GA,Statham,GA0130001,3986,SW,3,0,0,0.0011,,2,82,B,33.9602,-83.5893,0,,,,10,2,false,0
+30666,Statham,GA,Statham,GA0130001,3986,SW,3,0,0,0.0011,,2,82,B,33.9602,-83.5893,0,,5,0,10,2,false,0
 30667,Stephens,GA,MAXEYS,GA2210002,281,GW,0,0,0,,,2,53,D,33.7715,-83.1159,0,,,,10,0,false,0
 30668,Tignall,GA,Tignall Water System,GA3170001,729,GW,1,0,0,0.0022,,3,99,A,33.8778,-82.747,0,,,,10,1,false,0
 30669,Union Point,GA,Union Point,GA1330002,2114,SW,0,0,0,0.0031,,2,83,B,33.6345,-83.0879,0,,,,,,,
 30671,Maxeys,GA,Maxeys,GA2210002,281,GW,6,0,2,0.0042,1.6,2,77,B,33.7405,-83.1706,0,,,,10,0,false,0
-30673,Washington,GA,Washington,GA3170002,6490,SW,4,4,4,0.0019,,3,79,B,33.7265,-82.7429,1,Total Trihalomethanes (TTHM),,,10,4,true,0
+30673,Washington,GA,Washington,GA3170002,6490,SW,4,4,4,0.0019,,3,79,B,33.7265,-82.7429,1,Total Trihalomethanes (TTHM),6,1,10,4,true,0
 30677,Watkinsville,GA,Oconee County,GA2190000,31323,SW,5,0,0,0.001,,2,81,B,33.8542,-83.408,0,,23,0,10,0,false,0
 30678,White Plains,GA,White Plains,GA1330003,497,GW,0,0,0,0.0048,,2,83,B,33.4581,-83.0802,0,,,,,,,
 30680,Winder,GA,Winder,GA0130002,51540,SW,0,0,0,0.00052,,2,83,B,33.9985,-83.7115,0,,1,0,10,5,true,0
@@ -13200,7 +13200,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30701,Calhoun,GA,Calhoun,GA1290000,53090,SW,0,0,0,0.0013,,3,90,A,34.4965,-84.9345,0,,0,0,,,,
 30703,Calhoun,GA,Calhoun,GA1290000,53090,SW,0,0,0,0.0013,,3,99,A,34.5026,-84.9511,0,,0,0,,,,
 30705,Chatsworth,GA,Chatsworth,GA2130000,28262,SW,21,0,4,0.001,,3,76,B,34.7589,-84.7943,0,,9,0,10,0,false,0
-30707,Chickamauga,GA,Chickamauga,GA2950000,5720,GW,3,0,0,0.0015,,2,72,B,34.858,-85.3221,0,,,,10,0,false,0
+30707,Chickamauga,GA,Chickamauga,GA2950000,5720,GW,3,0,0,0.0015,,2,72,B,34.858,-85.3221,0,,5,0,10,0,false,0
 30708,Cisco,GA,CHATSWORTH,GA2130000,28262,SW,0,0,0,,,3,66,C,34.9618,-84.6646,0,,9,0,,,,
 30710,Cohutta,GA,DALTON UTILITIES,GA3130000,99315,SW,0,0,0,,,2,63,C,34.9326,-84.9458,0,,6,0,3,0,false,0
 30711,Crandall,GA,CHATSWORTH,GA2130000,28262,SW,0,0,0,,,3,66,C,34.9412,-84.7645,0,,9,0,,,,
@@ -13211,7 +13211,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30724,Eton,GA,CHATSWORTH,GA2130000,28262,SW,0,0,0,,,3,66,C,34.8251,-84.7633,0,,9,0,,,,
 30725,Flintstone,GA,Walker County Water Authority,GA2950003,36000,SW,3,0,0,0.0032,,2,82,B,34.9252,-85.3524,0,,12,0,10,0,false,0
 30726,Graysville,GA,CATOOSA UTIL. DIST. AUTHORITY,GA0470000,56670,SW,0,0,0,,,2,63,C,34.9765,-85.1413,0,,1,0,,,,
-30728,La Fayette,GA,Lafayette,GA2950002,18177,SW,1,0,0,0.0023,,2,78,B,34.692,-85.2602,0,,,,10,0,false,0
+30728,La Fayette,GA,Lafayette,GA2950002,18177,SW,1,0,0,0.0023,,2,78,B,34.692,-85.2602,0,,4,0,10,0,false,0
 30730,Lyerly,GA,Lyerly,GA0550001,1638,SW,4,0,0,0.0035,,3,97,A,34.403,-85.4038,0,,,,10,0,false,0
 30731,Menlo,GA,Menlo,GA0550002,949,GW,7,0,1,0.0039,,3,90,A,34.5864,-85.4774,0,,,,10,0,false,0
 30732,Oakman,GA,FAIRMOUNT WATER SYSTEM,GA1290022,194,SW,0,0,0,,,3,73,B,34.569,-84.7119,0,,,,10,0,false,0
@@ -13220,33 +13220,33 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30735,Resaca,GA,CALHOUN,GA1290000,53090,SW,0,0,0,,,3,66,C,34.5833,-84.9068,0,,0,0,3,0,false,0
 30736,Ringgold,GA,Catoosa Util. District Authority,GA0470000,56670,SW,5,4,0,0.0027,,2,69,C,34.9205,-85.1549,1,Total Trihalomethanes (TTHM),1,0,10,3,false,0
 30738,Rising Fawn,GA,DADE COUNTY WATER AUTHORITY,GA0830000,16285,SW,0,0,0,,,3,66,C,34.8139,-85.5019,0,,12,0,,,,
-30739,Rock Spring,GA,Walker Company Rural Water Authority,GA2950014,3410,GW,0,0,0,0.0022,,2,78,B,34.8065,-85.2415,0,,,,4,0,false,0
+30739,Rock Spring,GA,Walker Company Rural Water Authority,GA2950014,3410,GW,0,0,0,0.0022,,2,78,B,34.8065,-85.2415,0,,4,0,4,0,false,0
 30740,Rocky Face,GA,DALTON UTILITIES,GA3130000,99315,SW,0,0,0,,,2,63,C,34.7745,-85.0561,0,,6,0,3,0,false,0
-30741,Rossville,GA,FORT OGLETHORPE,GA0470001,8313,SW,0,0,0,,,2,50,D,34.9535,-85.2968,0,,,,10,0,false,0
-30742,Fort Oglethorpe,GA,Fort Oglethorpe,GA0470001,8313,SW,3,0,1,0.0016,,2,70,B,34.9506,-85.2432,0,,,,6,0,false,0
+30741,Rossville,GA,FORT OGLETHORPE,GA0470001,8313,SW,0,0,0,,,2,50,D,34.9535,-85.2968,0,,3,0,10,0,false,0
+30742,Fort Oglethorpe,GA,Fort Oglethorpe,GA0470001,8313,SW,3,0,1,0.0016,,2,70,B,34.9506,-85.2432,0,,3,0,6,0,false,0
 30746,Sugar Valley,GA,CALHOUN,GA1290000,53090,SW,0,0,0,,,3,73,B,34.5519,-85.026,0,,0,0,,,,
 30747,Summerville,GA,Summerville,GA0550003,9993,SW,1,0,0,0.001,,3,95,A,34.4859,-85.3362,0,,16,0,10,0,false,0
 30750,Lookout Mountain,GA,DADE COUNTY WATER AUTHORITY,GA0830000,16285,SW,0,0,0,,,2,53,D,34.9335,-85.3794,0,,12,0,,,,
 30751,Tennga,GA,CHATSWORTH,GA2130000,28262,SW,0,0,0,,,3,66,C,34.9814,-84.7352,0,,9,0,,,,
 30752,Trenton,GA,Dade County Water Authority,GA0830000,16285,SW,0,0,0,0.0036,,3,95,A,34.9017,-85.5171,0,,12,0,,,,
-30753,Trion,GA,Chattooga County,GA0550000,7800,GW,5,0,1,0.0015,,3,86,A,34.5468,-85.3112,0,,,,10,0,false,0
+30753,Trion,GA,Chattooga County,GA0550000,7800,GW,5,0,1,0.0015,,3,86,A,34.5468,-85.3112,0,,1,0,10,0,false,0
 30755,Tunnel Hill,GA,DALTON UTILITIES,GA3130000,99315,SW,0,0,0,,,2,63,C,34.8541,-85.0468,0,,6,0,10,3,false,0
 30756,Varnell,GA,DALTON UTILITIES,GA3130000,99315,SW,0,0,0,,,2,53,D,34.9012,-84.9738,0,,6,0,3,0,false,0
 30757,Wildwood,GA,DADE COUNTY WATER AUTHORITY,GA0830000,16285,SW,0,0,0,,,2,63,C,34.9779,-85.4305,0,,12,0,,,,
 30802,Appling,GA,Columbia County,GA0730000,124763,SW,0,0,0,,,3,66,C,33.6271,-82.2856,0,,5,1,10,3,true,0
-30803,Avera,GA,Louisville,GA1630002,5242,GW,0,0,0,0.016,1.555,3,66,C,33.141,-82.515,0,,,,10,0,false,0
+30803,Avera,GA,Louisville,GA1630002,5242,GW,0,0,0,0.016,1.555,3,66,C,33.141,-82.515,0,,6,0,10,0,false,0
 30805,Blythe,GA,Blythe,GA2450001,1482,GW,1,0,0,,,2,72,B,33.2941,-82.203,0,,,,10,0,false,0
-30806,Boneville,GA,THOMSON-MCDUFFIE CO W&S COMM,GA1890001,21312,SW,0,0,0,,,3,66,C,33.528,-82.5104,0,,,,10,12,true,0
+30806,Boneville,GA,THOMSON-MCDUFFIE CO W&S COMM,GA1890001,21312,SW,0,0,0,,,3,66,C,33.528,-82.5104,0,,4,1,10,12,true,0
 30807,Camak,GA,Camak,GA3010000,366,SW,14,14,8,0.0037,,3,66,C,33.4535,-82.646,2,"Haloacetic Acids (HAA5);Total Trihalomethanes (TTHM)",,,10,15,true,0
-30808,Dearing,GA,THOMSON-MCDUFFIE CO W&S COMM,GA1890001,21312,SW,0,0,0,,,3,66,C,33.407,-82.3955,0,,,,10,12,true,0
+30808,Dearing,GA,THOMSON-MCDUFFIE CO W&S COMM,GA1890001,21312,SW,0,0,0,,,3,66,C,33.407,-82.3955,0,,4,1,10,12,true,0
 30809,Evans,GA,Martinez Water Assoc.,GA0730010,150,GW,9,0,6,0.0012,,3,77,B,33.5412,-82.1398,0,,,,10,3,true,0
 30810,Gibson,GA,Gibson,GA1250000,1350,GW,24,10,2,0.0049,,3,87,A,33.2471,-82.5766,1,Gross Beta,,,10,10,true,0
 30811,Gough,GA,KEYSVILLE,GA0330044,305,GW,0,0,0,,,3,66,C,33.0918,-82.2265,0,,0,0,5,0,false,0
 30812,Gracewood,GA,AUGUSTA-RICHMOND CO WS,GA2450000,204000,SW,0,0,0,,,3,66,C,33.3726,-82.0321,0,,29,0,,,,
 30813,Grovetown,GA,Columbia County,GA0730000,124763,SW,9,3,3,0.0032,,3,87,A,33.4504,-82.1982,1,Haloacetic Acids (HAA5),5,1,10,3,true,0
 30814,Harlem,GA,Columbia County,GA0730000,124763,SW,13,0,0,0.0007,,3,89,A,33.417,-82.3097,0,,5,1,10,3,true,0
-30815,Hephzibah,GA,Hephzibah,GA2450002,6941,GW,30,3,4,0.0036,1.555,2,75,B,33.3433,-82.0887,1,Gross Beta,,,10,3,false,0
-30816,Keysville,GA,Waynesboro,GA0330004,5900,GW,1,0,1,0.0014,,3,97,A,33.1719,-82.1834,0,,,,10,0,false,0
+30815,Hephzibah,GA,Hephzibah,GA2450002,6941,GW,30,3,4,0.0036,1.555,2,75,B,33.3433,-82.0887,1,Gross Beta,3,0,10,3,false,0
+30816,Keysville,GA,Waynesboro,GA0330004,5900,GW,1,0,1,0.0014,,3,97,A,33.1719,-82.1834,0,,5,0,10,0,false,0
 30817,Lincolnton,GA,Lincolnton,GA1810000,1657,SW,9,4,0,0.0012,,3,94,A,33.7773,-82.4435,1,Haloacetic Acids (HAA5),,,10,4,true,0
 30818,Matthews,GA,WRENS,GA1630005,2730,GW,0,0,0,,,3,66,C,33.2652,-82.3294,0,,,,5,0,false,0
 30819,Mesena,GA,CAMAK,GA3010000,366,SW,0,0,0,,,3,66,C,33.4599,-82.5901,0,,,,10,15,true,0
@@ -13254,14 +13254,14 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 30821,Norwood,GA,Norwood,GA3010004,370,GW,0,0,0,0.0093,,3,85,A,33.4789,-82.7356,0,,,,,,,
 30822,Perkins,GA,Perkins Water Authority,GA1650001,103,GW,2,0,1,0.0025,,3,97,A,32.9129,-81.8538,0,,,,6,0,false,0
 30823,Stapleton,GA,Stapleton,GA1630003,433,GW,5,0,1,0.0065,,3,87,A,33.1894,-82.4597,0,,,,10,15,true,0
-30824,Thomson,GA,Thomson-mcduffie Company W&s Commission,GA1890001,21312,SW,22,11,10,0.0025,,3,70,B,33.4774,-82.4942,1,Haloacetic Acids (HAA5),,,10,12,true,0
+30824,Thomson,GA,Thomson-mcduffie Company W&s Commission,GA1890001,21312,SW,22,11,10,0.0025,,3,70,B,33.4774,-82.4942,1,Haloacetic Acids (HAA5),4,1,10,12,true,0
 30828,Warrenton,GA,Warrenton,GA3010001,2800,SW,18,12,4,0.003,,3,69,C,33.4091,-82.6357,2,"Haloacetic Acids (HAA5);Chlorite",,,10,15,true,0
-30830,Waynesboro,GA,Waynesboro,GA0330004,5900,GW,9,0,4,0.0016,,3,85,A,33.1013,-81.9908,0,,,,10,0,false,0
+30830,Waynesboro,GA,Waynesboro,GA0330004,5900,GW,9,0,4,0.0016,,3,85,A,33.1013,-81.9908,0,,5,0,10,0,false,0
 30833,Wrens,GA,Wrens,GA1630005,2730,GW,2,0,1,0.0021,,3,97,A,33.2104,-82.381,0,,,,5,0,false,0
 30901,Augusta,GA,Augusta-richmond Company Ws,GA2450000,204000,SW,15,0,0,0.0014,,2,71,B,33.4601,-81.973,0,,29,0,10,0,false,0
 30903,Augusta,GA,Augusta-richmond Company Ws,GA2450000,204000,SW,15,0,0,0.0014,,2,76,B,33.386,-82.091,0,,29,0,10,0,false,0
 30904,Augusta,GA,Augusta-richmond Company Ws,GA2450000,204000,SW,15,0,0,0.0014,,2,66,C,33.4737,-82.0131,0,,29,0,10,0,false,0
-30905,Augusta,GA,Hephzibah,GA2450002,6941,GW,15,0,0,0.0014,,2,76,B,33.413,-82.1337,0,,,,10,0,false,0
+30905,Augusta,GA,Hephzibah,GA2450002,6941,GW,15,0,0,0.0014,,2,76,B,33.413,-82.1337,0,,3,0,10,0,false,0
 30906,Augusta,GA,Augusta-richmond Company Ws,GA2450000,204000,SW,15,0,0,0.0014,,2,66,C,33.3589,-82.0099,0,,29,0,10,0,false,0
 30907,Augusta,GA,Augusta-richmond Company Ws,GA2450000,204000,SW,15,0,0,0.0014,,3,78,B,33.5229,-82.0852,0,,29,0,10,3,true,0
 30909,Augusta,GA,Augusta-richmond Company Ws,GA2450000,204000,SW,15,0,0,0.0014,,2,61,C,33.4717,-82.0834,0,,29,0,10,3,true,0
@@ -13278,38 +13278,38 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 31003,Allentown,GA,Allentown,GA3190000,308,GW,4,0,2,0.0023,1.4,3,94,A,32.6064,-83.2095,0,,,,7,0,false,0
 31004,Bolingbroke,GA,MACON WATER AUTHORITY,GA0210001,130024,SW,0,0,0,,,3,66,C,32.947,-83.8006,0,,12,0,,,,
 31005,Bonaire,GA,HOUSTON COUNTY-FEAGIN MILL,GA1530021,92971,GW,0,0,0,,,3,73,B,32.546,-83.6047,0,,19,0,,,,
-31006,Butler,GA,Butler,GA2690000,4518,GW,9,0,0,0.0024,,3,95,A,32.5726,-84.2343,0,,,,10,0,false,0
-31007,Byromville,GA,UNADILLA,GA0930003,3806,GW,1,0,1,0.0016,,3,97,A,32.189,-83.9332,0,,,,5,0,false,0
+31006,Butler,GA,Butler,GA2690000,4518,GW,9,0,0,0.0024,,3,95,A,32.5726,-84.2343,0,,2,0,10,0,false,0
+31007,Byromville,GA,UNADILLA,GA0930003,3806,GW,1,0,1,0.0016,,3,97,A,32.189,-83.9332,0,,1,0,5,0,false,0
 31008,Byron,GA,Byron,GA2250000,9653,GW,0,0,0,0.0047,,3,95,A,32.6181,-83.789,0,,6,0,7,0,false,0
 31009,Cadwell,GA,Cadwell,GA1750000,617,GW,0,0,0,0.0016,,3,99,A,32.3174,-83.0268,0,,,,1,0,false,0
 31010,Cordele,GA,Cordele,GA0810001,11880,GW,2,0,0,0.0066,,3,90,A,31.9172,-83.7854,0,,8,0,10,0,false,0
-31011,Chauncey,GA,Eastman,GA0910002,8844,GW,1,0,0,0.0071,,3,92,A,32.1046,-83.0646,0,,,,9,0,false,0
-31012,Chester,GA,Eastman,GA0910002,8844,GW,0,0,0,0.004,,3,99,A,32.3982,-83.174,0,,,,,,,
-31013,Clinchfield,GA,UNADILLA,GA0930003,3806,GW,0,0,0,,,3,66,C,32.3386,-83.6926,0,,,,3,0,false,0
+31011,Chauncey,GA,Eastman,GA0910002,8844,GW,1,0,0,0.0071,,3,92,A,32.1046,-83.0646,0,,5,0,9,0,false,0
+31012,Chester,GA,Eastman,GA0910002,8844,GW,0,0,0,0.004,,3,99,A,32.3982,-83.174,0,,5,0,,,,
+31013,Clinchfield,GA,UNADILLA,GA0930003,3806,GW,0,0,0,,,3,66,C,32.3386,-83.6926,0,,1,0,3,0,false,0
 31014,Cochran,GA,Cochran,GA0230000,8114,GW,6,0,1,0.0024,,3,91,A,32.3981,-83.3229,0,,0,0,10,0,false,0
 31015,Cordele,GA,Cordele,GA0810001,11880,GW,2,0,0,0.0066,,3,80,B,31.9566,-83.7835,0,,8,0,10,0,false,0
-31016,Culloden,GA,Roberta,GA0790000,3478,GW,0,0,0,0.0017,,2,83,B,32.9003,-84.0626,0,,,,,,,
+31016,Culloden,GA,Roberta,GA0790000,3478,GW,0,0,0,0.0017,,2,83,B,32.9003,-84.0626,0,,4,0,,,,
 31017,Danville,GA,Danville,GA2890000,383,GW,4,0,0,0.0015,,3,97,A,32.6057,-83.2454,0,,,,9,0,false,0
 31018,Davisboro,GA,Davisboro,GA3030000,2058,GW,2,0,1,0.0057,,3,91,A,32.9443,-82.6227,0,,,,4,0,false,0
 31019,Dexter,GA,Dexter,GA1750001,2097,GW,1,0,0,0.0022,,3,99,A,32.4356,-83.0528,0,,,,7,0,false,0
 31020,Dry Branch,GA,MACON WATER AUTHORITY,GA0210001,130024,SW,0,0,0,0.0005,,3,99,A,32.7151,-83.4558,0,,12,0,10,0,false,0
 31021,Dublin,GA,Dublin,GA1750002,17500,SW,7,0,6,0.0097,,3,66,C,32.4593,-82.9381,0,,12,0,10,0,false,0
 31022,Dudley,GA,Dexter,GA1750001,2097,GW,1,0,0,0.011,,3,79,B,32.5259,-83.0899,0,,,,10,0,false,0
-31023,Eastman,GA,Eastman,GA0910002,8844,GW,0,0,0,0.0015,,3,95,A,32.2084,-83.186,0,,,,6,0,false,0
-31024,Eatonton,GA,Eatonton Putnam Water & Sewer Authority,GA2370000,12736,SW,5,0,0,0.0013,1.4,3,93,A,33.3127,-83.3628,0,,,,10,15,true,0
+31023,Eastman,GA,Eastman,GA0910002,8844,GW,0,0,0,0.0015,,3,95,A,32.2084,-83.186,0,,5,0,6,0,false,0
+31024,Eatonton,GA,Eatonton Putnam Water & Sewer Authority,GA2370000,12736,SW,5,0,0,0.0013,1.4,3,93,A,33.3127,-83.3628,0,,3,0,10,15,true,0
 31025,Elko,GA,HOUSTON COUNTY-FEAGIN MILL,GA1530021,92971,GW,0,0,0,,,3,66,C,32.3336,-83.7304,0,,19,0,3,0,false,0
-31026,Eatonton,GA,Reynolds Plantation,GA1330046,13500,SW,5,0,0,0.0013,1.4,3,97,A,33.3304,-83.377,0,,,,10,0,false,0
-31027,East Dublin,GA,East Dublin,GA1750004,4536,GW,3,0,2,0.0015,,3,86,A,32.5482,-82.8718,0,,,,7,0,false,0
-31028,Centerville,GA,Centerville,GA1530000,11459,GW,0,0,0,0.0013,,3,95,A,32.6344,-83.6768,0,,,,,,,
-31029,Forsyth,GA,Forsyth,GA2070001,8585,SW,6,0,1,0.0043,,2,74,B,33.0508,-83.9362,0,,,,10,0,false,0
+31026,Eatonton,GA,Reynolds Plantation,GA1330046,13500,SW,5,0,0,0.0013,1.4,3,97,A,33.3304,-83.377,0,,3,0,10,0,false,0
+31027,East Dublin,GA,East Dublin,GA1750004,4536,GW,3,0,2,0.0015,,3,86,A,32.5482,-82.8718,0,,2,0,7,0,false,0
+31028,Centerville,GA,Centerville,GA1530000,11459,GW,0,0,0,0.0013,,3,95,A,32.6344,-83.6768,0,,4,0,,,,
+31029,Forsyth,GA,Forsyth,GA2070001,8585,SW,6,0,1,0.0043,,2,74,B,33.0508,-83.9362,0,,8,2,10,0,false,0
 31030,Fort Valley,GA,Fort Valley  Utility Commission,GA2250001,13296,GW,2,0,0,0.0025,,3,94,A,32.5496,-83.8887,0,,10,0,10,5,true,0
 31031,Gordon,GA,Gordon,GA3190001,2291,GW,4,0,2,0.0019,4.1,3,94,A,32.8813,-83.3029,0,,,,10,15,true,0
 31032,Gray,GA,Jones County,GA1690002,12736,SW,3,0,1,0.001,,3,92,A,33.0172,-83.54,0,,9,0,10,0,false,0
-31033,Haddock,GA,BALDWIN COUNTY,GA0090000,23067,SW,1,0,0,0.002,,3,95,A,33.0519,-83.4312,0,,,,10,15,true,0
-31034,Hardwick,GA,Milledgeville,GA0090001,20540,SW,0,0,0,,,3,66,C,33.0227,-83.247,0,,,,10,15,true,0
+31033,Haddock,GA,BALDWIN COUNTY,GA0090000,23067,SW,1,0,0,0.002,,3,95,A,33.0519,-83.4312,0,,2,1,10,15,true,0
+31034,Hardwick,GA,Milledgeville,GA0090001,20540,SW,0,0,0,,,3,66,C,33.0227,-83.247,0,,7,0,10,15,true,0
 31035,Harrison,GA,Harrison,GA3030002,500,GW,6,0,0,0.0027,,3,96,A,32.842,-82.7159,0,,,,10,0,false,0
-31036,Hawkinsville,GA,Hawkinsville,GA2350001,7491,GW,2,0,0,0.0048,,3,89,A,32.2778,-83.4948,0,,,,10,0,false,0
-31037,Helena,GA,Alamo,GA3090000,3730,GW,0,0,0,,,3,66,C,32.0738,-82.9146,0,,,,10,2,true,0
+31036,Hawkinsville,GA,Hawkinsville,GA2350001,7491,GW,2,0,0,0.0048,,3,89,A,32.2778,-83.4948,0,,4,0,10,0,false,0
+31037,Helena,GA,Alamo,GA3090000,3730,GW,0,0,0,,,3,66,C,32.0738,-82.9146,0,,5,0,10,2,true,0
 31038,Hillsboro,GA,JONES COUNTY,GA1690002,12736,SW,0,0,0,,,3,66,C,33.1421,-83.6404,0,,9,0,3,0,false,0
 31039,Howard,GA,JUNCTION CITY,GA2630002,156,GW,0,0,0,,,2,53,D,32.596,-84.3844,0,,,,6,0,false,0
 31040,Dublin,GA,Dublin,GA1750002,17500,SW,7,0,6,0.0097,,3,71,B,32.5401,-82.915,0,,12,0,10,0,false,0
@@ -13317,7 +13317,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 31042,Irwinton,GA,Irwinton,GA3190002,1597,GW,1,0,1,0.0027,,3,97,A,32.8088,-83.174,0,,,,2,0,false,0
 31044,Jeffersonville,GA,Jeffersonville,GA2890001,1988,GW,14,0,0,0.0028,,3,88,A,32.7411,-83.3859,0,,,,10,0,false,0
 31045,Jewell,GA,MITCHELL,GA1250001,285,GW,0,0,0,,,3,66,C,33.2963,-82.7774,0,,,,8,0,false,0
-31046,Juliette,GA,SOUTH MONROE COUNTY WATER SYSTEM,GA2070074,16292,SW,0,0,0,,,2,55,C,33.1194,-83.8235,0,,,,10,0,false,0
+31046,Juliette,GA,SOUTH MONROE COUNTY WATER SYSTEM,GA2070074,16292,SW,0,0,0,,,2,55,C,33.1194,-83.8235,0,,3,0,10,0,false,0
 31047,Kathleen,GA,Houston County-feagin Mill,GA1530021,92971,GW,0,0,0,0.0015,,3,95,A,32.4672,-83.6128,0,,19,0,,,,
 31049,Kite,GA,Swainsboro,GA1070005,9536,GW,3,0,0,0.0025,,3,98,A,32.7078,-82.5274,0,,5,1,10,0,false,0
 31050,Knoxville,GA,The Barn Mobile Home Park,GA0310025,232,GW,10,0,5,0.0009,,3,87,A,32.7243,-83.9977,0,,,,10,0,true,0
@@ -13326,44 +13326,44 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 31054,Mc Intyre,GA,IRWINTON,GA3190002,1597,GW,0,0,0,,,3,66,C,32.8468,-83.204,0,,,,10,0,false,0
 31055,Mc Rae,GA,SCOTLAND,GA2710005,294,GW,0,0,0,,,3,66,C,32.068,-82.9007,0,,,,10,2,true,0
 31057,Marshallville,GA,Marshallville,GA1930001,1342,GW,9,5,1,0.0061,,3,89,A,32.452,-83.9435,1,Gross Beta,,,10,5,true,0
-31058,Mauk,GA,Butler,GA2690000,4518,GW,0,0,0,,,2,53,D,32.509,-84.3999,0,,,,10,0,false,0
-31059,Milledgeville,GA,Baldwin County,GA0090000,23067,SW,13,12,7,0.0021,,3,66,C,33.0846,-83.238,2,"Haloacetic Acids (HAA5);Total Trihalomethanes (TTHM)",,,10,15,true,0
+31058,Mauk,GA,Butler,GA2690000,4518,GW,0,0,0,,,2,53,D,32.509,-84.3999,0,,2,0,10,0,false,0
+31059,Milledgeville,GA,Baldwin County,GA0090000,23067,SW,13,12,7,0.0021,,3,66,C,33.0846,-83.238,2,"Haloacetic Acids (HAA5);Total Trihalomethanes (TTHM)",2,1,10,15,true,0
 31060,Milan,GA,Milan,GA2710004,791,GW,3,0,1,0.0042,,3,96,A,31.9618,-83.0588,0,,,,6,0,false,0
-31061,Milledgeville,GA,Baldwin County,GA0090000,23067,SW,13,12,7,0.0021,,3,70,B,33.08,-83.2379,2,"Haloacetic Acids (HAA5);Total Trihalomethanes (TTHM)",,,10,15,true,0
-31062,Milledgeville,GA,Milledgeville,GA0090001,20540,SW,13,12,7,0.0021,,3,66,C,33.0491,-83.2174,2,"Haloacetic Acids (HAA5);Total Trihalomethanes (TTHM)",,,10,15,true,0
-31063,Montezuma,GA,Montezuma,GA1930002,4040,GW,1,0,1,0.0019,,3,93,A,32.3026,-84.0041,0,,,,2,0,false,0
-31064,Monticello,GA,Monticello,GA1590000,3505,SW,12,1,4,0.0023,,2,82,B,33.3118,-83.714,1,Total Trihalomethanes (TTHM),,,10,5,true,0
+31061,Milledgeville,GA,Baldwin County,GA0090000,23067,SW,13,12,7,0.0021,,3,70,B,33.08,-83.2379,2,"Haloacetic Acids (HAA5);Total Trihalomethanes (TTHM)",2,1,10,15,true,0
+31062,Milledgeville,GA,Milledgeville,GA0090001,20540,SW,13,12,7,0.0021,,3,66,C,33.0491,-83.2174,2,"Haloacetic Acids (HAA5);Total Trihalomethanes (TTHM)",7,0,10,15,true,0
+31063,Montezuma,GA,Montezuma,GA1930002,4040,GW,1,0,1,0.0019,,3,93,A,32.3026,-84.0041,0,,8,0,2,0,false,0
+31064,Monticello,GA,Monticello,GA1590000,3505,SW,12,1,4,0.0023,,2,82,B,33.3118,-83.714,1,Total Trihalomethanes (TTHM),3,0,10,5,true,0
 31065,Montrose,GA,Montrose,GA1750005,228,GW,0,0,0,0.0007,,3,99,A,32.5619,-83.1601,0,,,,2,0,false,0
-31066,Musella,GA,Roberta,GA0790000,3478,GW,0,0,0,,,2,53,D,32.8202,-84.0456,0,,,,,,,
+31066,Musella,GA,Roberta,GA0790000,3478,GW,0,0,0,,,2,53,D,32.8202,-84.0456,0,,4,0,,,,
 31067,Oconee,GA,Oconee,GA3030003,284,GW,2,0,0,0.0012,,3,98,A,32.8554,-82.9499,0,,,,8,0,false,0
-31068,Oglethorpe,GA,Oglethorpe,GA1930003,4129,GW,0,0,0,0.0021,,3,95,A,32.2842,-84.083,0,,,,,,,
+31068,Oglethorpe,GA,Oglethorpe,GA1930003,4129,GW,0,0,0,0.0021,,3,95,A,32.2842,-84.083,0,,2,0,,,,
 31069,Perry,GA,Perry,GA1530006,31608,GW,0,0,0,0.00035,,3,95,A,32.4605,-83.7283,0,,16,0,7,0,false,0
-31070,Pinehurst,GA,UNADILLA,GA0930003,3806,GW,2,0,1,0.0017,,3,97,A,32.1967,-83.7209,0,,,,10,0,false,0
+31070,Pinehurst,GA,UNADILLA,GA0930003,3806,GW,2,0,1,0.0017,,3,97,A,32.1967,-83.7209,0,,1,0,10,0,false,0
 31071,Pineview,GA,Pineview,GA3150001,530,GW,1,0,0,0.002,,3,99,A,32.0907,-83.5158,0,,,,2,0,false,0
 31072,Pitts,GA,Cordele,GA0810001,11880,GW,0,0,0,0.0025,,3,99,A,31.9425,-83.5579,0,,8,0,,,,
 31075,Rentz,GA,Rentz,GA1750006,1864,GW,0,0,0,0.002,,3,99,A,32.3799,-82.967,0,,,,,,,
 31076,Reynolds,GA,Reynolds,GA2690001,1301,GW,12,8,10,0.006,,3,68,C,32.5541,-84.1011,1,Uranium,,,10,8,true,0
 31077,Rhine,GA,Rhine,GA0910003,394,GW,1,0,1,,,3,86,A,31.938,-83.1837,0,,,,2,0,false,0
-31078,Roberta,GA,Roberta,GA0790000,3478,GW,0,0,0,0.003,,3,99,A,32.7222,-84.0451,0,,,,,,,
+31078,Roberta,GA,Roberta,GA0790000,3478,GW,0,0,0,0.003,,3,99,A,32.7222,-84.0451,0,,4,0,,,,
 31079,Rochelle,GA,Rochelle,GA3150003,1553,GW,4,0,2,0.013,,3,68,C,31.9491,-83.445,0,,,,8,0,false,0
-31081,Rupert,GA,Butler,GA2690000,4518,GW,0,0,0,,,3,66,C,32.4325,-84.2738,0,,,,10,0,false,0
-31082,Sandersville,GA,Sandersville,GA3030005,7776,GW,1,0,0,0.0034,1.4,3,90,A,32.975,-82.8406,0,,,,10,0,false,0
+31081,Rupert,GA,Butler,GA2690000,4518,GW,0,0,0,,,3,66,C,32.4325,-84.2738,0,,2,0,10,0,false,0
+31082,Sandersville,GA,Sandersville,GA3030005,7776,GW,1,0,0,0.0034,1.4,3,90,A,32.975,-82.8406,0,,3,0,10,0,false,0
 31083,Scotland,GA,Scotland,GA2710005,294,GW,8,2,2,0.0425,,3,56,C,32.0488,-82.8171,1,Gross Alpha,,,10,2,true,0
 31084,Seville,GA,PITTS,GA3150002,473,GW,0,0,0,,,3,66,C,31.9605,-83.601,0,,,,,,,
 31085,Shady Dale,GA,Shady Dale,GA1590001,454,GW,19,0,6,0.0031,,2,65,C,33.435,-83.6269,0,,,,10,0,false,0
-31086,Smarr,GA,SOUTH MONROE COUNTY WATER SYSTEM,GA2070074,16292,SW,0,0,0,,,2,53,D,32.9895,-83.8761,0,,,,10,0,false,0
+31086,Smarr,GA,SOUTH MONROE COUNTY WATER SYSTEM,GA2070074,16292,SW,0,0,0,,,2,53,D,32.9895,-83.8761,0,,3,0,10,0,false,0
 31087,Sparta,GA,Sparta,GA1410001,2903,SW,18,1,5,0.003,,3,94,A,33.2571,-83.0892,1,E. coli,,,10,1,false,0
 31088,Warner Robins,GA,Houston County-feagin Mill,GA1530021,92971,GW,0,0,0,0.0014,,3,85,A,32.5934,-83.6416,0,,19,0,,,,
 31089,Tennille,GA,Tennille,GA3030006,2372,GW,5,0,0,,,3,85,A,32.9063,-82.84,0,,,,10,0,false,0
 31090,Toomsboro,GA,Irwinton,GA3190002,1597,GW,0,0,0,0.0012,,3,99,A,32.8219,-83.0844,0,,,,2,0,false,0
-31091,Unadilla,GA,Unadilla,GA0930003,3806,GW,1,0,0,0.0017,,3,99,A,32.2558,-83.7447,0,,,,9,0,false,0
+31091,Unadilla,GA,Unadilla,GA0930003,3806,GW,1,0,0,0.0017,,3,99,A,32.2558,-83.7447,0,,1,0,9,0,false,0
 31092,Vienna,GA,Vienna,GA0930004,3018,GW,2,0,0,0.002,,3,89,A,32.0913,-83.7922,0,,,,6,0,false,0
 31093,Warner Robins,GA,Houston County-feagin Mill,GA1530021,92971,GW,0,0,0,0.0014,,3,90,A,32.6368,-83.6395,0,,19,0,,,,
-31094,Warthen,GA,Sandersville,GA3030005,7776,GW,12,0,5,0.0035,,3,86,A,33.1255,-82.8039,0,,,,10,0,false,0
+31094,Warthen,GA,Sandersville,GA3030005,7776,GW,12,0,5,0.0035,,3,86,A,33.1255,-82.8039,0,,3,0,10,0,false,0
 31095,Warner Robins,GA,Houston County-feagin Mill,GA1530021,92971,GW,0,0,0,0.0014,,3,99,A,32.4874,-83.6697,0,,19,0,,,,
-31096,Wrightsville,GA,Wrightsville,GA1670002,3749,GW,0,0,0,0.0017,,3,95,A,32.7219,-82.7262,0,,,,,,,
+31096,Wrightsville,GA,Wrightsville,GA1670002,3749,GW,0,0,0,0.0017,,3,95,A,32.7219,-82.7262,0,,4,0,,,,
 31097,Yatesville,GA,Yatesville,GA2930002,537,GW,0,0,0,0.0021,1.645,2,83,B,32.9156,-84.1593,0,,,,,,,
-31098,Warner Robins,GA,Warner Robins,GA1530007,83705,GW,0,0,0,0.0014,,3,95,A,32.6181,-83.5739,0,,,,,,,
+31098,Warner Robins,GA,Warner Robins,GA1530007,83705,GW,0,0,0,0.0014,,3,95,A,32.6181,-83.5739,0,,7,1,,,,
 31099,Warner Robins,GA,Houston County-feagin Mill,GA1530021,92971,GW,0,0,0,0.0014,,3,95,A,32.6462,-83.6513,0,,19,0,,,,
 31106,Atlanta,GA,Atlanta,GA1210001,1089893,SW,4,0,3,0.0014,,1,60,C,33.8444,-84.4741,0,,14,0,10,0,false,0
 31107,Atlanta,GA,Atlanta,GA1210001,1089893,SW,4,0,3,0.0014,,,81,B,33.8444,-84.4741,0,,14,0,10,0,false,0
@@ -13411,31 +13411,31 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 31302,Bloomingdale,GA,Bloomingdale,GA0510016,2500,GW,4,0,0,0.0022,,3,83,B,32.1177,-81.3085,0,,,,10,1,false,0
 31303,Clyo,GA,Eagle Pointe Subdivision,GA1030136,195,GW,0,0,0,,,3,66,C,32.5126,-81.3086,0,,,,9,0,false,0
 31304,Crescent,GA,SPRINGFIELD PLANTATION SUBDIVISION,GA1910022,360,GW,0,0,0,,,3,66,C,31.5094,-81.3695,0,,,,2,0,false,0
-31305,Darien,GA,Darien Water System,GA1910000,3242,GW,1,0,1,0.0017,,3,88,A,31.3826,-81.4312,0,,,,10,0,false,0
+31305,Darien,GA,Darien Water System,GA1910000,3242,GW,1,0,1,0.0017,,3,88,A,31.3826,-81.4312,0,,5,0,10,0,false,0
 31307,Eden,GA,Telford Park Llc,GA1030033,33,GW,2,0,0,0.0006,,3,89,A,32.1736,-81.3992,0,,,,4,0,false,0
 31308,Ellabell,GA,Lake Lorraine Subdivision,GA0290009,573,GW,4,0,1,0.003,,3,92,A,32.1273,-81.4983,0,,,,10,0,false,0
 31309,Fleming,GA,HINESVILLE,GA1790000,32471,GW,0,0,0,,,3,73,B,31.8645,-81.4232,0,,5,0,,,,
 31310,Hinesville,GA,Hinesville,GA1790000,32471,GW,16,0,1,0.0011,,3,90,A,31.8068,-81.4371,0,,5,0,10,0,false,0
 31312,Guyton,GA,Guyton,GA1030000,2394,GW,1,0,1,,,3,80,B,32.314,-81.3896,0,,,,5,0,false,0
 31313,Hinesville,GA,Hinesville,GA1790000,32471,GW,16,0,1,0.0011,,3,76,B,31.8513,-81.6072,0,,5,0,10,0,false,0
-31314,Fort Stewart,GA,Usa-fort Stewart Main,GA1790024,27573,GW,0,0,0,0.0025,,3,99,A,31.8701,-81.6318,0,,,,,,,
-31315,Fort Stewart,GA,Usa-fort Stewart Main,GA1790024,27573,GW,0,0,0,0.0025,,3,99,A,31.8938,-81.5902,0,,,,,,,
+31314,Fort Stewart,GA,Usa-fort Stewart Main,GA1790024,27573,GW,0,0,0,0.0025,,3,99,A,31.8701,-81.6318,0,,5,0,,,,
+31315,Fort Stewart,GA,Usa-fort Stewart Main,GA1790024,27573,GW,0,0,0,0.0025,,3,99,A,31.8938,-81.5902,0,,5,0,,,,
 31316,Ludowici,GA,Ludowici Water System,GA1830000,1651,GW,15,1,7,0.0033,,3,89,A,31.7705,-81.7453,1,Consumer Confidence Report Rule,,,10,0,false,0
 31318,Meldrim,GA,TELFORD PARK LLC,GA1030033,33,GW,0,0,0,,,3,73,B,32.1499,-81.3722,0,,,,4,0,false,0
-31319,Meridian,GA,MCINTOSH COUNTY-CRESCENT COMMUNITY WS,GA1910021,3406,GW,0,0,0,,,3,73,B,31.459,-81.3689,0,,,,5,0,false,0
+31319,Meridian,GA,MCINTOSH COUNTY-CRESCENT COMMUNITY WS,GA1910021,3406,GW,0,0,0,,,3,73,B,31.459,-81.3689,0,,4,0,5,0,false,0
 31320,Midway,GA,Midway,GA1790001,2595,GW,13,0,2,0.0006,,3,76,B,31.8018,-81.3909,0,,,,10,0,false,0
 31321,Pembroke,GA,Pembroke Water System,GA0290001,3021,GW,10,0,8,0.0073,,3,75,B,32.1812,-81.6656,0,,,,10,0,false,0
 31322,Pooler,GA,Pooler,GA0510001,21187,SW,10,1,1,0.0019,,3,84,B,32.1149,-81.252,1,Consumer Confidence Report Rule,0,0,10,1,false,0
 31323,Riceboro,GA,Midway,GA1790001,2595,GW,2,0,1,,,3,86,A,31.7357,-81.4671,0,,,,10,0,false,0
 31324,Richmond Hill,GA,Richmond Hill,GA0290000,16068,GW,6,0,4,0.0011,,3,71,B,31.8962,-81.294,0,,10,0,10,0,false,0
 31325,,,,,,,,,,,,,,,,,0,,,,,,,
-31326,Rincon,GA,Rincon Water System,GA1030001,16654,SW,5,0,1,0.001,,3,86,A,32.296,-81.2354,0,,,,10,0,false,0
+31326,Rincon,GA,Rincon Water System,GA1030001,16654,SW,5,0,1,0.001,,3,86,A,32.296,-81.2354,0,,6,0,10,0,false,0
 31327,Sapelo Island,GA,Sapelo Ridge/poppell Farms Subdivision,GA1910097,300,GW,1,0,0,0.0008,,3,95,A,31.3974,-81.2787,0,,,,7,0,false,0
 31328,Tybee Island,GA,Tybee Island,GA0510005,8047,GW,1,0,0,0.0015,,3,80,B,32.0068,-80.8509,0,,10,0,4,0,false,0
 31329,Springfield,GA,Springfield,GA1030002,3100,GW,3,0,1,0.0022,,3,92,A,32.3697,-81.3618,0,,,,10,0,false,0
 31331,Townsend,GA,Springfield Plantation Subdivision,GA1910022,360,GW,4,0,2,0.033,,3,60,C,31.5673,-81.4182,0,,,,10,0,false,0
 31332,,,,,,,,,,,,,,,,,0,,,,,,,
-31333,Walthourville,GA,Walthourville Water System,GA1790020,3858,GW,8,0,1,0.0028,,3,90,A,31.7705,-81.6208,0,,,,10,0,false,0
+31333,Walthourville,GA,Walthourville Water System,GA1790020,3858,GW,8,0,1,0.0028,,3,90,A,31.7705,-81.6208,0,,4,0,10,0,false,0
 31401,Savannah,GA,Savannah-main,GA0510003,168958,GW,11,0,2,0.0039,,3,77,B,32.0749,-81.0883,0,,8,0,10,0,false,0
 31402,Savannah,GA,Savannah-main,GA0510003,168958,GW,11,0,2,0.0039,,3,82,B,32.0835,-81.0998,0,,8,0,10,0,false,0
 31403,Savannah,GA,Savannah-main,GA0510003,168958,GW,11,0,2,0.0039,,3,91,A,31.9714,-81.0716,0,,8,0,10,0,false,0
@@ -13446,7 +13446,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 31408,Savannah,GA,Savannah-main,GA0510003,168958,GW,11,0,2,0.0039,,3,77,B,32.1082,-81.1746,0,,8,0,10,1,false,0
 31409,Savannah,GA,Savannah-main,GA0510003,168958,GW,11,0,2,0.0039,,3,91,A,32.0093,-81.157,0,,8,0,10,0,false,0
 31410,Savannah,GA,Savannah-main,GA0510003,168958,GW,11,0,2,0.0039,,3,72,B,32.0175,-80.997,0,,8,0,10,0,false,0
-31411,Savannah,GA,The Landings Subdivision,GA0510033,11058,GW,11,0,2,0.0039,,3,72,B,31.9268,-81.0381,0,,,,10,0,false,0
+31411,Savannah,GA,The Landings Subdivision,GA0510033,11058,GW,11,0,2,0.0039,,3,72,B,31.9268,-81.0381,0,,3,0,10,0,false,0
 31412,Savannah,GA,Savannah-main,GA0510003,168958,GW,11,0,2,0.0039,,3,87,A,32.0835,-81.0998,0,,8,0,10,0,false,0
 31414,Savannah,GA,Savannah-main,GA0510003,168958,GW,11,0,2,0.0039,,3,87,A,31.9714,-81.0716,0,,8,0,10,0,false,0
 31415,Savannah,GA,Savannah-main,GA0510003,168958,GW,11,0,2,0.0039,,3,72,B,32.0753,-81.1289,0,,8,0,10,0,false,0
@@ -13455,14 +13455,14 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 31419,Savannah,GA,Savannah-main,GA0510003,168958,GW,11,0,2,0.0039,,3,72,B,31.9959,-81.2358,0,,8,0,10,1,false,0
 31420,Savannah,GA,Savannah-main,GA0510003,168958,GW,11,0,2,0.0039,,3,91,A,31.9714,-81.0716,0,,8,0,10,0,false,0
 31421,Savannah,GA,Savannah-main,GA0510003,168958,GW,11,0,2,0.0039,,3,87,A,31.9714,-81.0716,0,,8,0,10,0,false,0
-31501,Waycross,GA,Waycross,GA2990002,15987,GW,3,0,0,0.00075,,3,89,A,31.2243,-82.3596,0,,,,10,0,false,0
-31502,Waycross,GA,Waycross,GA2990002,15987,GW,3,0,0,0.00075,,3,98,A,31.2137,-82.3557,0,,,,10,0,false,0
-31503,Waycross,GA,Waycross,GA2990002,15987,GW,3,0,0,0.00075,,3,94,A,31.2137,-82.3557,0,,,,10,0,false,0
-31510,Alma,GA,Alma,GA0050000,4096,GW,7,0,0,0.0012,,3,92,A,31.5465,-82.4633,0,,,,10,0,false,0
+31501,Waycross,GA,Waycross,GA2990002,15987,GW,3,0,0,0.00075,,3,89,A,31.2243,-82.3596,0,,8,2,10,0,false,0
+31502,Waycross,GA,Waycross,GA2990002,15987,GW,3,0,0,0.00075,,3,98,A,31.2137,-82.3557,0,,8,2,10,0,false,0
+31503,Waycross,GA,Waycross,GA2990002,15987,GW,3,0,0,0.00075,,3,94,A,31.2137,-82.3557,0,,8,2,10,0,false,0
+31510,Alma,GA,Alma,GA0050000,4096,GW,7,0,0,0.0012,,3,92,A,31.5465,-82.4633,0,,3,0,10,0,false,0
 31512,Ambrose,GA,Broxton,GA0690001,1353,GW,33,2,8,0.0007,,3,97,A,31.5367,-82.9976,1,Consumer Confidence Report Rule,,,10,2,false,0
-31513,Baxley,GA,Baxley,GA0010000,5749,GW,0,0,0,0.0016,,3,90,A,31.7837,-82.3486,0,,,,,,,
-31515,Baxley,GA,Baxley,GA0010000,5749,GW,0,0,0,0.0016,,3,99,A,31.7783,-82.3485,0,,,,,,,
-31516,Blackshear,GA,Blackshear,GA2290000,4455,GW,2,0,0,0.0011,,3,94,A,31.2931,-82.2617,0,,,,10,1,true,0
+31513,Baxley,GA,Baxley,GA0010000,5749,GW,0,0,0,0.0016,,3,90,A,31.7837,-82.3486,0,,5,0,,,,
+31515,Baxley,GA,Baxley,GA0010000,5749,GW,0,0,0,0.0016,,3,99,A,31.7783,-82.3485,0,,5,0,,,,
+31516,Blackshear,GA,Blackshear,GA2290000,4455,GW,2,0,0,0.0011,,3,94,A,31.2931,-82.2617,0,,4,0,10,1,true,0
 31518,Bristol,GA,Screven,GA3050002,1043,GW,0,0,0,,,3,66,C,31.4833,-82.215,0,,,,,,,
 31519,Broxton,GA,Broxton,GA0690001,1353,GW,12,0,7,0.0065,,3,72,B,31.6484,-82.905,0,,,,10,0,false,0
 31520,Brunswick,GA,Brunswick,GA1270000,44739,GW,3,1,0,0.0033,,3,79,B,31.1807,-81.4949,1,Consumer Confidence Report Rule,12,0,6,0,false,0
@@ -13477,30 +13477,30 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 31533,Douglas,GA,Douglas,GA0690002,12706,GW,27,2,11,0.0014,,3,88,A,31.4973,-82.8465,1,Consumer Confidence Report Rule,10,0,10,1,false,0
 31534,Douglas,GA,Douglas,GA0690002,12706,GW,27,2,11,0.0014,,3,97,A,31.5088,-82.8499,1,Consumer Confidence Report Rule,10,0,10,1,false,0
 31535,Douglas,GA,Douglas,GA0690002,12706,GW,27,2,11,0.0014,,3,88,A,31.4551,-82.8561,1,Consumer Confidence Report Rule,10,0,10,1,false,0
-31537,Folkston,GA,Folkston,GA0490000,5390,GW,0,0,0,0.003,,3,90,A,30.8508,-82.0116,0,,,,10,4,false,0
-31539,Hazlehurst,GA,Hazlehurst Water System,GA1610001,5778,GW,12,6,0,0.0016,,3,84,B,31.8606,-82.5909,1,Gross Alpha,,,10,7,true,0
+31537,Folkston,GA,Folkston,GA0490000,5390,GW,0,0,0,0.003,,3,90,A,30.8508,-82.0116,0,,4,0,10,4,false,0
+31539,Hazlehurst,GA,Hazlehurst Water System,GA1610001,5778,GW,12,6,0,0.0016,,3,84,B,31.8606,-82.5909,1,Gross Alpha,8,0,10,7,true,0
 31542,Hoboken,GA,Hoboken,GA0250000,528,GW,0,0,0,0.0036,,3,99,A,31.1431,-82.1207,0,,,,,,,
 31543,Hortense,GA,Glynn Company-south Main Land,GA1270150,2554,GW,0,0,0,,,3,73,B,31.3199,-81.9596,0,,,,2,0,false,0
 31544,Jacksonville,GA,Jacksonville,GA2710001,219,GW,1,0,0,0.0035,,3,95,A,31.8481,-82.975,0,,,,10,0,false,0
 31545,Jesup,GA,Jesup Water System,GA3050000,10055,GW,8,0,5,0.0014,,3,84,B,31.6043,-81.8871,0,,5,0,10,0,false,0
 31546,Jesup,GA,Jesup Water System,GA3050000,10055,GW,8,0,5,0.0014,,3,84,B,31.5319,-81.8049,0,,5,0,10,0,false,0
-31547,Kings Bay,GA,Usn-kings Bay Submarine Base,GA0390013,9730,GW,0,0,0,0.011,,3,79,B,30.7906,-81.5607,0,,,,,,,
+31547,Kings Bay,GA,Usn-kings Bay Submarine Base,GA0390013,9730,GW,0,0,0,0.011,,3,79,B,30.7906,-81.5607,0,,6,0,,,,
 31548,Kingsland,GA,Kingsland,GA0390000,22448,GW,5,4,1,0.0025,,3,78,B,30.7977,-81.7075,1,Haloacetic Acids (HAA5),4,1,10,4,false,0
 31549,Lumber City,GA,Lumber City,GA2710002,977,GW,2,0,2,0.0015,,3,91,A,31.9251,-82.7073,0,,,,1,0,false,0
 31550,Manor,GA,Manor Water Association,GA2990000,611,GW,6,0,0,,,3,85,A,31.1088,-82.5742,0,,,,10,0,false,0
 31551,Mershon,GA,PATTERSON,GA2290001,905,GW,0,0,0,,,3,73,B,31.4783,-82.217,0,,,,,,,
 31552,Millwood,GA,MANOR WATER ASSOCIATION,GA2990000,611,GW,0,0,0,,,3,66,C,31.2506,-82.6441,0,,,,10,0,false,0
 31553,Nahunta,GA,Nahunta,GA0250002,1315,GW,1,0,0,0.001,,3,95,A,31.1827,-81.9722,0,,,,2,0,false,0
-31554,Nicholls,GA,Nicholls,GA0690003,3514,GW,1,0,0,0.0011,,3,99,A,31.4498,-82.6032,0,,,,8,0,false,0
+31554,Nicholls,GA,Nicholls,GA0690003,3514,GW,1,0,0,0.0011,,3,99,A,31.4498,-82.6032,0,,4,0,8,0,false,0
 31555,Odum,GA,Jesup Water System,GA3050000,10055,GW,0,0,0,,,3,87,A,31.6999,-81.9943,0,,5,0,10,0,false,0
 31556,Offerman,GA,PATTERSON,GA2290001,905,GW,0,0,0,,,3,66,C,31.4126,-82.1155,0,,,,,,,
-31557,Patterson,GA,Blackshear,GA2290000,4455,GW,0,0,0,,,3,88,A,31.3903,-82.1274,0,,,,6,0,false,0
+31557,Patterson,GA,Blackshear,GA2290000,4455,GW,0,0,0,,,3,88,A,31.3903,-82.1274,0,,4,0,6,0,false,0
 31558,Saint Marys,GA,Kingsland,GA0390000,22448,GW,0,0,0,0.0005,,3,85,A,30.7305,-81.5465,0,,4,1,10,4,false,0
 31560,Screven,GA,Screven,GA3050002,1043,GW,13,1,8,0.0055,,3,96,A,31.5168,-82.0397,1,Consumer Confidence Report Rule,,,10,1,false,0
 31561,Sea Island,GA,Sea Island Company,GA1270025,1859,GW,1,0,0,0.0039,,3,85,A,31.1989,-81.3322,0,,,,2,0,false,0
-31562,Saint George,GA,FOLKSTON,GA0490000,5390,GW,0,0,0,,,3,65,C,30.5224,-82.0376,0,,,,,,,
+31562,Saint George,GA,FOLKSTON,GA0490000,5390,GW,0,0,0,,,3,65,C,30.5224,-82.0376,0,,4,0,,,,
 31563,Surrency,GA,Surrency,GA0010001,491,GW,0,0,0,0.0015,,3,95,A,31.6489,-82.1982,0,,,,,,,
-31564,Waresboro,GA,WAYCROSS,GA2990002,15987,GW,0,0,0,,,3,66,C,31.248,-82.4737,0,,,,4,0,false,0
+31564,Waresboro,GA,WAYCROSS,GA2990002,15987,GW,0,0,0,,,3,66,C,31.248,-82.4737,0,,8,2,4,0,false,0
 31565,Waverly,GA,Estates at Sanctuary Cove,GA0390069,47,GW,0,0,0,,,3,82,B,31.0427,-81.5697,0,,,,,,,
 31566,Waynesville,GA,Glynn Company-south Main Land,GA1270150,2554,GW,0,0,0,,,3,65,C,31.2448,-81.8039,0,,,,2,0,false,0
 31567,West Green,GA,DENTON,GA1610000,253,GW,0,0,0,,,3,66,C,31.6143,-82.7243,0,,,,9,0,false,0
@@ -13514,26 +13514,26 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 31604,Valdosta,GA,Valdosta,GA1850002,48959,GW,22,18,17,0.0012,,3,70,B,30.828,-83.2522,2,"Haloacetic Acids (HAA5);Total Trihalomethanes (TTHM)",3,11,10,15,true,0
 31605,Valdosta,GA,Valdosta,GA1850002,48959,GW,22,18,17,0.0012,,3,70,B,30.946,-83.2474,2,"Haloacetic Acids (HAA5);Total Trihalomethanes (TTHM)",3,11,10,15,true,0
 31606,Valdosta,GA,Valdosta,GA1850002,48959,GW,22,18,17,0.0012,,3,70,B,30.7989,-83.1891,2,"Haloacetic Acids (HAA5);Total Trihalomethanes (TTHM)",3,11,10,15,true,0
-31620,Adel,GA,Adel,GA0750000,5970,GW,1,0,0,0.00074,,3,95,A,31.1251,-83.4213,0,,,,10,0,false,0
-31622,Alapaha,GA,Nashville,GA0190002,4631,GW,5,0,2,0.026,,3,65,C,31.394,-83.2132,0,,,,10,0,false,0
+31620,Adel,GA,Adel,GA0750000,5970,GW,1,0,0,0.00074,,3,95,A,31.1251,-83.4213,0,,9,4,10,0,false,0
+31622,Alapaha,GA,Nashville,GA0190002,4631,GW,5,0,2,0.026,,3,65,C,31.394,-83.2132,0,,8,2,10,0,false,0
 31623,Argyle,GA,Argyle,GA0650013,173,GW,0,0,0,0.0355,1.7125,3,66,C,31.0744,-82.644,0,,,,,,,
 31624,Axson,GA,PEARSON,GA0030000,2200,GW,0,0,0,,,3,66,C,31.3035,-82.7319,0,,,,9,0,false,0
 31625,Barney,GA,MORVEN,GA0270001,680,GW,0,0,0,,,3,66,C,31.0074,-83.5219,0,,,,2,0,false,0
 31626,Boston,GA,Boston,GA2750000,1315,GW,3,0,1,0.002,,3,92,A,30.7855,-83.7971,0,,,,10,0,false,0
 31627,Cecil,GA,Cecil,GA0750001,446,GW,5,0,2,0.0032,,3,94,A,31.0403,-83.3915,0,,,,10,0,false,0
-31629,Dixie,GA,Quitman,GA0270002,5612,GW,0,0,0,,,3,66,C,30.7722,-83.6792,0,,,,10,0,false,0
-31630,Du Pont,GA,Homerville,GA0650000,3210,GW,2,0,0,0.0265,,3,65,C,30.9885,-82.8715,0,,,,10,0,false,0
+31629,Dixie,GA,Quitman,GA0270002,5612,GW,0,0,0,,,3,66,C,30.7722,-83.6792,0,,4,0,10,0,false,0
+31630,Du Pont,GA,Homerville,GA0650000,3210,GW,2,0,0,0.0265,,3,65,C,30.9885,-82.8715,0,,10,3,10,0,false,0
 31631,Fargo,GA,Fargo,GA0650001,392,GW,0,0,0,0.0016,,3,95,A,30.6819,-82.5665,0,,,,,,,
-31632,Hahira,GA,Hahira,GA1850000,3572,GW,30,21,14,0.0053,,3,69,C,30.9913,-83.3727,2,"Total Trihalomethanes (TTHM);Haloacetic Acids (HAA5)",,,10,15,true,0
-31634,Homerville,GA,Homerville,GA0650000,3210,GW,5,0,0,0.00031,,3,93,A,31.0509,-82.7613,0,,,,10,0,false,0
+31632,Hahira,GA,Hahira,GA1850000,3572,GW,30,21,14,0.0053,,3,69,C,30.9913,-83.3727,2,"Total Trihalomethanes (TTHM);Haloacetic Acids (HAA5)",4,1,10,15,true,0
+31634,Homerville,GA,Homerville,GA0650000,3210,GW,5,0,0,0.00031,,3,93,A,31.0509,-82.7613,0,,10,3,10,0,false,0
 31635,Lakeland,GA,Lakeland,GA1730000,2796,GW,4,4,4,0.0016,,3,79,B,31.0381,-83.0889,1,Total Trihalomethanes (TTHM),,,10,12,true,0
 31636,Lake Park,GA,Lowndes Company-south Lowndes,GA1850019,8303,GW,21,16,17,0.0012,,3,70,B,30.6906,-83.1753,1,Haloacetic Acids (HAA5),13,1,10,15,true,0
 31637,Lenox,GA,Lenox,GA0750002,1083,GW,0,0,0,0.0012,,3,99,A,31.2664,-83.4481,0,,,,10,0,false,0
-31638,Morven,GA,Quitman,GA0270002,5612,GW,1,0,0,0.0023,,3,95,A,30.9416,-83.4993,0,,,,2,0,false,0
-31639,Nashville,GA,Nashville,GA0190002,4631,GW,2,0,0,0.0014,,3,94,A,31.2074,-83.2319,0,,,,10,4,true,0
+31638,Morven,GA,Quitman,GA0270002,5612,GW,1,0,0,0.0023,,3,95,A,30.9416,-83.4993,0,,4,0,2,0,false,0
+31639,Nashville,GA,Nashville,GA0190002,4631,GW,2,0,0,0.0014,,3,94,A,31.2074,-83.2319,0,,8,2,10,4,true,0
 31641,Naylor,GA,Boyette Farms,GA1730019,254,GW,2,0,2,0.001,,3,95,A,30.8985,-83.1224,0,,,,6,0,false,0
 31642,Pearson,GA,Pearson,GA0030000,2200,GW,11,0,6,0.0025,,3,85,A,31.3106,-82.8591,0,,,,10,8,true,0
-31643,Quitman,GA,Quitman,GA0270002,5612,GW,5,0,2,0.0013,,3,85,A,30.7797,-83.5567,0,,,,10,0,false,0
+31643,Quitman,GA,Quitman,GA0270002,5612,GW,5,0,2,0.0013,,3,85,A,30.7797,-83.5567,0,,4,0,10,0,false,0
 31645,Ray City,GA,Ray City,GA0190003,1345,GW,0,0,0,0.00098,,3,95,A,31.0825,-83.2143,0,,,,10,4,true,0
 31646,,,,,,,,,,,,,,,,,0,,,,,,,
 31647,Sparks,GA,Sparks,GA0750003,1968,GW,3,0,0,0.003,,3,94,A,31.179,-83.4476,0,,,,10,0,false,0
@@ -13550,31 +13550,31 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 31706,Albany,GA,Albany,GA0950000,101245,GW,2,0,0,0.0022,,3,94,A,31.5593,-84.1765,0,,10,0,7,0,false,0
 31707,Albany,GA,Albany,GA0950000,101245,GW,2,0,0,0.0022,,3,84,B,31.5789,-84.2118,0,,10,0,10,3,true,0
 31708,Albany,GA,Albany,GA0950000,101245,GW,2,0,0,0.0022,,3,94,A,31.5911,-84.1324,0,,10,0,7,0,false,0
-31709,Americus,GA,Americus,GA2610000,15082,GW,15,0,6,0.0039,,3,81,B,32.0404,-84.2153,0,,,,10,0,false,0
-31711,Andersonville,GA,Americus,GA2610000,15082,GW,0,0,0,0.0011,,3,99,A,32.1559,-84.164,0,,,,4,0,false,0
-31712,Arabi,GA,Ashburn,GA2870000,5176,GW,0,0,0,0.0109,,3,80,B,31.8496,-83.7277,0,,,,5,0,false,0
-31714,Ashburn,GA,Ashburn,GA2870000,5176,GW,4,0,0,0.0016,,3,93,A,31.7059,-83.6608,0,,,,5,0,false,0
+31709,Americus,GA,Americus,GA2610000,15082,GW,15,0,6,0.0039,,3,81,B,32.0404,-84.2153,0,,3,0,10,0,false,0
+31711,Andersonville,GA,Americus,GA2610000,15082,GW,0,0,0,0.0011,,3,99,A,32.1559,-84.164,0,,3,0,4,0,false,0
+31712,Arabi,GA,Ashburn,GA2870000,5176,GW,0,0,0,0.0109,,3,80,B,31.8496,-83.7277,0,,5,0,5,0,false,0
+31714,Ashburn,GA,Ashburn,GA2870000,5176,GW,4,0,0,0.0016,,3,93,A,31.7059,-83.6608,0,,5,0,5,0,false,0
 31716,Baconton,GA,Baconton,GA2050000,1202,GW,4,0,0,0.0013,,3,88,A,31.3878,-84.1135,0,,,,10,7,true,0
 31717,,,,,,,,,,,,,,,,,0,,,,,,,
-31719,Americus,GA,Americus,GA2610000,15082,GW,15,0,6,0.0039,,3,81,B,32.0833,-84.2975,0,,,,10,0,false,0
+31719,Americus,GA,Americus,GA2610000,15082,GW,15,0,6,0.0039,,3,81,B,32.0833,-84.2975,0,,3,0,10,0,false,0
 31720,Barwick,GA,Barwick,GA0270000,626,GW,1,0,1,0.0013,,3,97,A,30.8902,-83.7407,0,,,,2,0,false,0
 31721,Albany,GA,Albany,GA0950000,101245,GW,2,0,0,0.0022,,3,89,A,31.5105,-84.3087,0,,10,0,10,3,true,0
 31722,Berlin,GA,Berlin,GA0710000,643,GW,0,0,0,0.0008,,3,99,A,31.0682,-83.6238,0,,,,,,,
 31725,,,,,,,,,,,,,,,,,0,,,,,,,
 31727,Brookfield,GA,TIFTON-TIFT COUNTY WATER SYSTEM,GA2770001,27589,GW,0,0,0,,,3,66,C,31.4417,-83.5037,0,,12,0,,,,
 31728,,,,,,,,,,,,,,,,,0,,,,,,,
-31730,Camilla,GA,Camilla,GA2050001,6428,GW,5,0,0,0.0011,,3,83,B,31.2199,-84.2297,0,,,,10,7,true,0
+31730,Camilla,GA,Camilla,GA2050001,6428,GW,5,0,0,0.0011,,3,83,B,31.2199,-84.2297,0,,2,0,10,7,true,0
 31733,Chula,GA,TIFTON-TIFT COUNTY WATER SYSTEM,GA2770001,27589,GW,0,0,0,,,3,73,B,31.5439,-83.5509,0,,12,0,,,,
 31735,Cobb,GA,DESOTO,GA2610002,311,GW,0,0,0,,,3,73,B,31.9617,-83.9581,0,,,,10,0,false,0
 31737,,,,,,,,,,,,,,,,,0,,,,,,,
 31738,Coolidge,GA,Coolidge,GA2750001,667,GW,1,0,0,0.0018,,3,99,A,30.9859,-83.8752,0,,,,6,0,false,0
-31739,Cotton,GA,PELHAM,GA2050003,4007,GW,0,0,0,,,3,66,C,31.1616,-84.0668,0,,,,10,7,true,0
-31743,De Soto,GA,Lee County Utilities Authority,GA1770068,20194,GW,6,0,1,0.0006,,3,95,A,31.9502,-84.0271,0,,,,10,3,true,0
+31739,Cotton,GA,PELHAM,GA2050003,4007,GW,0,0,0,,,3,66,C,31.1616,-84.0668,0,,5,2,10,7,true,0
+31743,De Soto,GA,Lee County Utilities Authority,GA1770068,20194,GW,6,0,1,0.0006,,3,95,A,31.9502,-84.0271,0,,5,1,10,3,true,0
 31744,Doerun,GA,Doerun,GA0710001,1094,GW,8,0,3,0.0027,,3,91,A,31.3136,-83.9253,0,,,,10,0,false,0
 31745,,,,,,,,,,,,,,,,,0,,,,,,,
 31747,Ellenton,GA,Ellenton,GA0710002,359,GW,0,0,0,0.0011,,3,99,A,31.1789,-83.5889,0,,,,,,,
 31749,Enigma,GA,Enigma,GA0190001,1296,GW,12,0,1,0.0038,,3,92,A,31.3736,-83.3552,0,,,,10,0,false,0
-31750,Fitzgerald,GA,Fitzgerald,GA0170000,15382,GW,0,0,0,0.0014,,3,90,A,31.7248,-83.2495,0,,,,,,,
+31750,Fitzgerald,GA,Fitzgerald,GA0170000,15382,GW,0,0,0,0.0014,,3,90,A,31.7248,-83.2495,0,,4,0,,,,
 31753,Funston,GA,Funston,GA0710003,653,GW,3,0,0,0.0025,,3,98,A,31.2054,-83.8776,0,,,,10,0,false,0
 31754,,,,,,,,,,,,,,,,,0,,,,,,,
 31756,Hartsfield,GA,Funston,GA0710003,653,GW,0,0,0,,,3,66,C,31.2173,-83.9704,0,,,,10,0,false,0
@@ -13583,30 +13583,30 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 31760,Irwinville,GA,REBECCA,GA2870001,248,GW,0,0,0,,,3,66,C,31.7063,-83.4086,0,,,,,,,
 31761,,,,,,,,,,,,,,,,,0,,,,,,,
 31762,,,,,,,,,,,,,,,,,0,,,,,,,
-31763,Leesburg,GA,Lee County Utilities Authority,GA1770068,20194,GW,8,2,2,0.0015,,3,78,B,31.6812,-84.1593,1,Nickel,,,10,3,true,0
+31763,Leesburg,GA,Lee County Utilities Authority,GA1770068,20194,GW,8,2,2,0.0015,,3,78,B,31.6812,-84.1593,1,Nickel,5,1,10,3,true,0
 31764,Leslie,GA,Leslie,GA2610003,427,GW,6,0,0,0.0019,,3,96,A,31.954,-84.0783,0,,,,10,0,false,0
 31765,Meigs,GA,Meigs,GA2750002,1096,GW,4,0,1,0.0027,,3,96,A,31.0625,-84.0824,0,,,,10,7,true,0
 31768,Moultrie,GA,Moultrie,GA0710004,17067,GW,5,0,2,0.0024,,3,80,B,31.1792,-83.7641,0,,12,1,10,0,false,0
-31769,Mystic,GA,OCILLA,GA1550002,3137,GW,0,0,0,,,3,66,C,31.6209,-83.2498,0,,,,2,0,false,0
+31769,Mystic,GA,OCILLA,GA1550002,3137,GW,0,0,0,,,3,66,C,31.6209,-83.2498,0,,4,0,2,0,false,0
 31770,,,,,,,,,,,,,,,,,0,,,,,,,
 31771,Norman Park,GA,Norman Park,GA0710005,1134,GW,8,0,3,0.0011,,3,87,A,31.2462,-83.6549,0,,,,10,0,false,0
 31772,Oakfield,GA,WARWICK,GA3210004,408,GW,0,0,0,,,3,73,B,31.7798,-83.9706,0,,,,,,,
-31773,Ochlocknee,GA,Cairo,GA1310000,9637,GW,2,0,1,0.0017,,3,93,A,30.9742,-84.055,0,,,,10,0,false,0
-31774,Ocilla,GA,Ocilla,GA1550002,3137,GW,3,0,1,0.0054,,3,95,A,31.5929,-83.2565,0,,,,9,0,false,0
+31773,Ochlocknee,GA,Cairo,GA1310000,9637,GW,2,0,1,0.0017,,3,93,A,30.9742,-84.055,0,,6,0,10,0,false,0
+31774,Ocilla,GA,Ocilla,GA1550002,3137,GW,3,0,1,0.0054,,3,95,A,31.5929,-83.2565,0,,4,0,9,0,false,0
 31775,Omega,GA,Omega,GA2770000,1436,GW,1,0,1,0.0026,,3,93,A,31.33,-83.5974,0,,,,10,0,false,0
 31776,Moultrie,GA,Moultrie,GA0710004,17067,GW,5,0,2,0.0024,,3,90,A,31.1727,-83.7924,0,,12,1,10,0,false,0
 31778,Pavo,GA,Pavo,GA2750004,815,GW,2,0,0,0.0067,,3,90,A,30.9401,-83.7409,0,,,,6,0,false,0
-31779,Pelham,GA,Pelham,GA2050003,4007,GW,10,6,8,0.0076,,3,65,C,31.1272,-84.1564,1,Nickel,,,10,7,true,0
+31779,Pelham,GA,Pelham,GA2050003,4007,GW,10,6,8,0.0076,,3,65,C,31.1272,-84.1564,1,Nickel,5,2,10,7,true,0
 31780,Plains,GA,Plains,GA2610004,942,GW,2,0,0,0.0026,,3,98,A,32.0339,-84.3586,0,,,,5,0,false,0
-31781,Poulan,GA,Sylvester,GA3210003,7076,GW,0,0,0,0.002,,3,99,A,31.5384,-83.7843,0,,,,,,,
+31781,Poulan,GA,Sylvester,GA3210003,7076,GW,0,0,0,0.002,,3,99,A,31.5384,-83.7843,0,,3,0,,,,
 31782,Putney,GA,ALBANY,GA0950000,101245,GW,0,0,0,,,3,73,B,31.5431,-84.2196,0,,10,0,2,0,false,0
 31783,Rebecca,GA,Rebecca,GA2870001,248,GW,0,0,0,0.004,,3,99,A,31.7979,-83.5235,0,,,,,,,
-31784,Sale City,GA,PELHAM,GA2050003,4007,GW,10,0,0,0.0021,,3,94,A,31.26,-84.0422,0,,,,10,7,true,0
+31784,Sale City,GA,PELHAM,GA2050003,4007,GW,10,0,0,0.0021,,3,94,A,31.26,-84.0422,0,,5,2,10,7,true,0
 31787,Smithville,GA,Smithville,GA1770001,770,GW,1,0,0,0.0045,1.5,3,99,A,31.8847,-84.2271,0,,,,8,0,false,0
 31788,Moultrie,GA,Moultrie,GA0710004,17067,GW,5,0,2,0.0024,,3,90,A,31.0855,-83.6821,0,,12,1,10,0,false,0
 31789,Sumner,GA,Sumner,GA3210002,662,GW,2,0,1,0.0019,,3,97,A,31.513,-83.7385,0,,,,8,0,false,0
 31790,Sycamore,GA,Sycamore,GA2870002,729,GW,0,0,0,0.0011,,3,99,A,31.6553,-83.6064,0,,,,,,,
-31791,Sylvester,GA,Sylvester,GA3210003,7076,GW,1,0,0,0.0022,,3,90,A,31.5393,-83.8607,0,,,,2,0,false,0
+31791,Sylvester,GA,Sylvester,GA3210003,7076,GW,1,0,0,0.0022,,3,90,A,31.5393,-83.8607,0,,3,0,2,0,false,0
 31792,Thomasville,GA,Thomasville,GA2750005,32613,GW,19,0,4,0.0011,,3,76,B,30.8385,-83.9696,0,,7,1,10,0,false,0
 31793,Tifton,GA,Tifton-tift County Water System,GA2770001,27589,GW,12,0,1,0.0011,1.6,3,83,B,31.4619,-83.5873,0,,12,0,10,0,false,0
 31794,Tifton,GA,Tifton-tift County Water System,GA2770001,27589,GW,12,0,1,0.0011,1.6,3,78,B,31.4639,-83.4999,0,,12,0,10,0,false,0
@@ -13615,10 +13615,10 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 31798,Wray,GA,Broxton,GA0690001,1353,GW,0,0,0,,,3,66,C,31.5952,-83.1075,0,,,,10,0,false,0
 31799,Thomasville,GA,Thomasville,GA2750005,32613,GW,19,0,4,0.0011,,3,81,B,30.8366,-83.9788,0,,7,1,10,0,false,0
 31801,Box Springs,GA,COLUMBUS,GA2150000,229000,SW,0,0,0,,,2,53,D,32.5195,-84.5927,0,,6,0,6,0,false,0
-31803,Buena Vista,GA,Marion County Water System,GA1970003,5875,GW,30,11,9,0.0011,,3,66,C,32.2542,-84.4898,1,Gross Beta,,,10,11,true,0
+31803,Buena Vista,GA,Marion County Water System,GA1970003,5875,GW,30,11,9,0.0011,,3,66,C,32.2542,-84.4898,1,Gross Beta,7,1,10,11,true,0
 31804,Cataula,GA,WAVERLY HALL,GA1450003,746,GW,1,0,0,0.0047,,2,83,B,32.6242,-84.9207,0,,,,10,0,false,0
 31805,Cusseta,GA,Chattahoochee County,GA0530002,2956,GW,4,0,2,0.0016,,3,94,A,32.299,-84.7645,0,,,,9,0,false,0
-31806,Ellaville,GA,Ellaville,GA2490000,3295,GW,3,0,1,0.00054,,3,96,A,32.239,-84.3039,0,,,,7,0,false,0
+31806,Ellaville,GA,Ellaville,GA2490000,3295,GW,3,0,1,0.00054,,3,96,A,32.239,-84.3039,0,,7,2,7,0,false,0
 31807,Ellerslie,GA,WAVERLY HALL,GA1450003,746,GW,0,0,0,,,2,53,D,32.6312,-84.7895,0,,,,10,0,false,0
 31808,Fortson,GA,HARRIS COUNTY WATER SYSTEM,GA1450011,22922,SW,0,0,0,,,2,63,C,32.6288,-85.0017,0,,8,2,2,0,false,0
 31810,Geneva,GA,Geneva,GA2630003,248,GW,2,0,0,,,2,71,B,32.5799,-84.5508,0,,,,6,0,false,0
@@ -13626,7 +13626,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 31812,Junction City,GA,Junction City,GA2630002,156,GW,1,0,0,0.0005,,2,83,B,32.608,-84.4574,0,,,,6,0,false,0
 31814,Louvale,GA,BROOKLYN WATER SYSTEM,GA2590012,2429,GW,0,0,0,,,3,66,C,32.1752,-84.8252,0,,,,10,0,false,0
 31815,Lumpkin,GA,Richland,GA2590002,1450,GW,22,0,8,0.0023,,3,81,B,32.0435,-84.8022,0,,,,10,0,false,0
-31816,Manchester,GA,Manchester,GA1990003,5397,SW,5,1,3,0.0027,,2,78,B,32.8721,-84.6312,1,Consumer Confidence Report Rule,,,10,1,true,0
+31816,Manchester,GA,Manchester,GA1990003,5397,SW,5,1,3,0.0027,,2,78,B,32.8721,-84.6312,1,Consumer Confidence Report Rule,4,0,10,1,true,0
 31820,Midland,GA,COLUMBUS,GA2150000,229000,SW,0,0,0,,,3,73,B,32.5616,-84.8559,0,,6,0,,,,
 31821,Omaha,GA,BROOKLYN WATER SYSTEM,GA2590012,2429,GW,0,0,0,,,3,66,C,32.1176,-84.9711,0,,,,10,0,false,0
 31822,Pine Mountain,GA,Pine Mountain,GA1450001,2135,GW,11,0,2,0.0042,,2,75,B,32.8735,-84.896,0,,,,10,0,false,0
@@ -13639,7 +13639,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 31830,Warm Springs,GA,Warm Springs,GA1990004,1017,GW,3,0,1,0.0013,2.1,2,80,B,32.9063,-84.7167,0,,,,10,1,true,0
 31831,Waverly Hall,GA,Waverly Hall,GA1450003,746,GW,6,0,1,0.0019,,2,79,B,32.6793,-84.7425,0,,,,10,0,false,0
 31832,Weston,GA,Weston,GA3070001,102,GW,8,0,1,,,3,83,B,31.9637,-84.5756,0,,,,10,0,false,0
-31833,West Point,GA,West Point,GA2850002,5800,SW,2,0,0,0.00069,,2,77,B,32.8337,-85.1197,0,,,,10,0,false,0
+31833,West Point,GA,West Point,GA2850002,5800,SW,2,0,0,0.00069,,2,77,B,32.8337,-85.1197,0,,10,3,10,0,false,0
 31836,Woodland,GA,Woodland,GA2630001,529,GW,0,0,0,0.0067,,2,79,B,32.79,-84.5654,0,,,,,,,
 31901,Columbus,GA,Columbus,GA2150000,229000,SW,0,0,0,0.0014,,3,95,A,32.473,-84.9795,0,,6,0,,,,
 31902,Columbus,GA,Columbus,GA2150000,229000,SW,0,0,0,0.0014,,3,95,A,32.5243,-84.9558,0,,6,0,,,,
@@ -17529,15 +17529,15 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 39776,Woodland,MS,SUN CREEK WATER INC-PHEBA,MS0130003,1911,GW,0,0,0,,,2,53,D,33.8066,-89.0256,0,,9,0,10,0,true,0
 39813,Arlington,GA,Arlington,GA0370000,1220,GW,9,1,3,0.00061,,3,94,A,31.442,-84.7241,1,Consumer Confidence Report Rule,,,10,1,false,0
 39815,Attapulgus,GA,Attapulgus,GA0870000,750,GW,13,13,13,,,3,55,C,30.7493,-84.4846,1,Barium,,,10,13,true,0
-39817,Bainbridge,GA,Bainbridge,GA0870001,15125,GW,7,0,1,0.0012,,3,85,A,30.9381,-84.5934,0,,,,10,0,false,0
-39818,Bainbridge,GA,Bainbridge,GA0870001,15125,GW,7,0,1,0.0012,,3,90,A,30.8845,-84.5655,0,,,,10,0,false,0
-39819,Bainbridge,GA,Bainbridge,GA0870001,15125,GW,7,0,1,0.0012,,3,85,A,30.9039,-84.569,0,,,,10,13,true,0
-39823,Blakely,GA,Blakely,GA0990000,5716,GW,16,0,1,0.0014,,3,86,A,31.3791,-84.9353,0,,,,10,0,false,0
-39824,Bluffton,GA,Blakely,GA0990000,5716,GW,3,0,0,0.0007,,3,98,A,31.52,-84.867,0,,,,7,0,false,0
+39817,Bainbridge,GA,Bainbridge,GA0870001,15125,GW,7,0,1,0.0012,,3,85,A,30.9381,-84.5934,0,,3,0,10,0,false,0
+39818,Bainbridge,GA,Bainbridge,GA0870001,15125,GW,7,0,1,0.0012,,3,90,A,30.8845,-84.5655,0,,3,0,10,0,false,0
+39819,Bainbridge,GA,Bainbridge,GA0870001,15125,GW,7,0,1,0.0012,,3,85,A,30.9039,-84.569,0,,3,0,10,13,true,0
+39823,Blakely,GA,Blakely,GA0990000,5716,GW,16,0,1,0.0014,,3,86,A,31.3791,-84.9353,0,,8,4,10,0,false,0
+39824,Bluffton,GA,Blakely,GA0990000,5716,GW,3,0,0,0.0007,,3,98,A,31.52,-84.867,0,,8,4,7,0,false,0
 39825,Brinson,GA,Brinson,GA0870002,281,GW,7,0,1,0.0019,,3,90,A,30.9788,-84.7373,0,,,,10,0,false,0
 39826,Bronwood,GA,Bronwood,GA2730000,529,GW,5,0,1,0.0028,,3,95,A,31.8308,-84.364,0,,,,10,0,false,0
-39827,Cairo,GA,Cairo,GA1310000,9637,GW,9,0,1,0.001,,3,93,A,30.9528,-84.2069,0,,,,10,0,false,0
-39828,Cairo,GA,Cairo,GA1310000,9637,GW,9,0,1,0.001,,3,89,A,30.8768,-84.2091,0,,,,10,0,false,0
+39827,Cairo,GA,Cairo,GA1310000,9637,GW,9,0,1,0.001,,3,93,A,30.9528,-84.2069,0,,6,0,10,0,false,0
+39828,Cairo,GA,Cairo,GA1310000,9637,GW,9,0,1,0.001,,3,89,A,30.8768,-84.2091,0,,6,0,10,0,false,0
 39829,Calvary,GA,Quail Ridge South Subdivision,GA1310048,330,GW,1,0,0,0.0095,,3,84,B,30.7462,-84.3125,0,,,,3,0,false,0
 39832,Cedar Springs,GA,JAKIN,GA0990002,262,GW,0,0,0,,,3,66,C,31.1745,-85.037,0,,,,,,,
 39834,Climax,GA,Attapulgus,GA0870000,750,GW,0,0,0,0.00125,,3,99,A,30.8757,-84.445,0,,,,10,13,true,0
@@ -17545,7 +17545,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 39837,Colquitt,GA,Colquitt,GA2010000,1998,GW,4,0,1,0.0024,,3,92,A,31.173,-84.731,0,,,,10,0,false,0
 39840,Cuthbert,GA,Cuthbert,GA2430000,2835,GW,6,0,3,0.0015,,3,92,A,31.7706,-84.7936,0,,,,10,0,false,0
 39841,Damascus,GA,Damascus,GA0990001,240,GW,0,0,0,,,3,88,A,31.2984,-84.7175,0,,,,,,,
-39842,Dawson,GA,Dawson,GA2730001,4857,GW,3,0,0,0.0028,,3,94,A,31.7703,-84.5238,0,,,,10,0,false,0
+39842,Dawson,GA,Dawson,GA2730001,4857,GW,3,0,0,0.0028,,3,94,A,31.7703,-84.5238,0,,2,0,10,0,false,0
 39845,Donalsonville,GA,Donalsonville,GA2530000,2963,GW,2,0,0,0.0026,,3,84,B,31.0505,-84.8801,0,,,,6,0,false,0
 39846,Edison,GA,Edison,GA0370001,1382,GW,13,0,2,0.001,,3,90,A,31.5607,-84.7381,0,,,,10,1,false,0
 39851,Fort Gaines,GA,Clay County Water System,GA0610029,1085,GW,9,0,4,0.0011,,3,89,A,31.6264,-85.0548,0,,,,10,0,false,0
@@ -24259,7 +24259,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 55187,Saint Paul,MN,Minneapolis,MN1270024,425300,SW,0,0,0,,,2,53,D,45.0059,-93.1059,0,,14,0,3,0,true,0
 55188,Saint Paul,MN,Minneapolis,MN1270024,425300,SW,0,0,0,,,2,53,D,45.0059,-93.1059,0,,14,0,3,0,true,0
 55300,,,,,,,,,,,,,,,,,0,,,,,,,
-55301,Albertville,MN,Joint Powers Water Board,MN1860024,30922,GW,0,0,0,0.001,1.52,1,66,C,45.2534,-93.6469,0,,,,,,,
+55301,Albertville,MN,Joint Powers Water Board,MN1860024,30922,GW,0,0,0,0.001,1.52,1,66,C,45.2534,-93.6469,0,,3,0,,,,
 55302,Annandale,MN,Annandale,MN1860002,3430,GW,0,0,0,0.001,,1,65,C,45.2483,-94.1061,0,,11,0,,,,
 55303,Anoka,MN,Anoka,MN1020001,18000,GW,0,0,0,0.002,,2,78,B,45.2825,-93.4186,0,,24,1,2,0,true,0
 55304,Andover,MN,Andover,MN1020034,21455,GW,0,0,0,0.001,,2,83,B,45.2377,-93.2724,0,,16,0,,,,
@@ -24298,7 +24298,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 55338,Green Isle,MN,Green Isle,MN1720005,599,GW,0,0,0,0.002,,1,70,B,44.6791,-94.0083,0,,11,0,,,,
 55339,Hamburg,MN,Norwood-Young America,MN1100019,3850,GW,0,0,0,0.003,,1,66,C,44.7315,-93.9643,0,,12,0,1,0,false,0
 55340,Hamel,MN,Medina,MN1270023,4205,GW,0,0,0,,,1,55,C,45.08,-93.576,0,,12,0,,,,
-55341,Hanover,MN,Joint Powers Water Board,MN1860024,30922,GW,0,0,0,,,1,40,D,45.1602,-93.6734,0,,,,,,,
+55341,Hanover,MN,Joint Powers Water Board,MN1860024,30922,GW,0,0,0,,,1,40,D,45.1602,-93.6734,0,,3,0,,,,
 55342,Hector,MN,Hector,MN1650009,1127,GW,0,0,0,0.003,1.54,1,70,B,44.7485,-94.7058,0,,7,0,,,,
 55343,Hopkins,MN,Hopkins,MN1270016,19462,GW,0,0,0,0.001,1.45,1,65,C,44.914,-93.4481,0,,11,0,1,0,false,0
 55344,Eden Prairie,MN,Eden Prairie,MN1270010,63726,GW,0,0,0,0.001,,1,70,B,44.8574,-93.4376,0,,0,0,,,,
@@ -24328,11 +24328,11 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 55369,Osseo,MN,Osseo,MN1270042,2650,GW,0,0,0,0.001,,1,70,B,45.1284,-93.4589,0,,12,0,6,0,true,0
 55370,Plato,MN,Plato,MN1430007,319,GW,0,0,0,0.001,,1,66,C,44.7657,-94.0506,0,,9,0,2,0,true,0
 55371,Princeton,MN,Princeton,MN1480008,5146,GW,1,0,0,0.002,,2,78,B,45.5851,-93.5961,0,,11,0,4,0,true,0
-55372,Prior Lake,MN,Prior Lake,MN1700007,25282,GW,0,0,0,0.002,,1,60,C,44.7107,-93.4101,0,,,,10,2,true,0
+55372,Prior Lake,MN,Prior Lake,MN1700007,25282,GW,0,0,0,0.002,,1,60,C,44.7107,-93.4101,0,,3,0,10,2,true,0
 55373,Rockford,MN,Rockford,MN1860018,4863,GW,0,0,0,,,1,53,D,45.0882,-93.7237,0,,9,0,,,,
 55374,Rogers,MN,Rogers,MN1270047,14430,GW,0,0,0,0.001,,1,70,B,45.1715,-93.5814,0,,11,0,3,0,true,0
 55375,Saint Bonifacius,MN,Victoria,MN1100009,10546,GW,0,0,0,,,1,40,D,44.9041,-93.749,0,,12,0,,,,
-55376,Saint Michael,MN,Joint Powers Water Board,MN1860024,30922,GW,0,0,0,,,1,53,D,45.2064,-93.6593,0,,,,,,,
+55376,Saint Michael,MN,Joint Powers Water Board,MN1860024,30922,GW,0,0,0,,,1,53,D,45.2064,-93.6593,0,,3,0,,,,
 55377,Santiago,MN,Becker,MN1710008,5034,GW,0,0,0,,,1,40,D,45.5402,-93.8154,0,,17,0,2,0,true,0
 55378,Savage,MN,Savage,MN1700008,30285,SW,1,1,1,0.001,,1,66,C,44.7615,-93.3434,1,Gross Beta,,,9,2,true,0
 55379,Shakopee,MN,Shakopee,MN1700009,47000,GW,2,0,0,0.003,,1,64,C,44.7793,-93.5197,0,,0,0,10,0,true,0
@@ -24353,7 +24353,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 55395,Winsted,MN,Winsted,MN1430010,2226,GW,1,0,0,,,1,62,C,44.9585,-94.0552,0,,13,0,10,0,true,0
 55396,Winthrop,MN,Winthrop,MN1720008,1330,GW,2,1,0,0.003,,1,65,C,44.5436,-94.3698,1,Stage 2 DBP Rule,9,0,4,1,true,0
 55397,Young America,MN,Norwood-Young America,MN1100019,3850,GW,0,0,0,,,1,53,D,44.7929,-93.918,0,,12,0,4,0,true,0
-55398,Zimmerman,MN,Zimmerman,MN1710006,6772,GW,0,0,0,0.002,,1,70,B,45.4553,-93.5879,0,,,,,,,
+55398,Zimmerman,MN,Zimmerman,MN1710006,6772,GW,0,0,0,0.002,,1,70,B,45.4553,-93.5879,0,,3,1,,,,
 55401,Minneapolis,MN,Minneapolis,MN1270024,425300,SW,1,0,1,0.002,,1,68,C,44.9835,-93.2683,0,,14,0,6,0,true,0
 55402,Minneapolis,MN,Minneapolis,MN1270024,425300,SW,1,0,1,0.002,,1,63,C,44.9762,-93.2759,0,,14,0,6,0,true,0
 55403,Minneapolis,MN,Minneapolis,MN1270024,425300,SW,1,0,1,0.002,,1,68,C,44.9673,-93.2828,0,,14,0,6,0,true,0
@@ -24575,7 +24575,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 55906,Rochester,MN,Rochester,MN1550010,123624,GW,3,0,0,0.007,,1,54,D,44.1078,-92.4053,0,,19,0,10,0,true,0
 55909,Adams,MN,Adams,MN1500001,672,GW,0,0,0,0.002,,1,70,B,43.5591,-92.7305,0,,11,0,,,,
 55910,Altura,MN,Altura,MN1850018,493,GW,0,0,0,0.003,,1,65,C,44.1361,-91.9745,0,,8,0,,,,
-55912,Austin,MN,Austin Utilities,MN1500002,26174,GW,4,0,0,0.001,,1,53,D,43.6695,-92.9784,0,,,,10,0,true,0
+55912,Austin,MN,Austin Utilities,MN1500002,26174,GW,4,0,0,0.001,,1,53,D,43.6695,-92.9784,0,,5,0,10,0,true,0
 55917,Blooming Prairie,MN,Blooming Prairie,MN1740001,1987,GW,0,0,0,0.003,,1,70,B,43.8977,-93.0608,0,,5,0,,,,
 55918,Brownsdale,MN,Brownsdale,MN1500017,682,GW,0,0,0,0.002,,1,70,B,43.7248,-92.8738,0,,11,0,,,,
 55919,Brownsville,MN,Hokah,MN1280004,555,GW,0,0,0,,,1,53,D,43.6707,-91.3012,0,,0,0,1,0,false,0
@@ -32616,7 +32616,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 74354,Miami,OK,Miami,OK2005813,13704,GW,16,2,5,0.0021,,3,70,B,36.8764,-94.8719,1,Stage 2 DBP Rule,12,1,10,5,true,0
 74355,Miami,OK,Miami,OK2005813,13704,GW,16,2,5,0.0021,,3,85,A,36.8341,-94.877,1,Stage 2 DBP Rule,12,1,10,2,false,0
 74358,North Miami,OK,North Miami,OK3005801,433,GW,19,1,16,,,3,83,B,36.9173,-94.8797,1,Stage 2 DBP Rule,9,1,10,1,true,0
-74359,Oaks,OK,DELAWARE CO RWSG&SWM DISTRICT 11,OK3002157,750,SW,0,0,0,,,2,53,D,36.1662,-94.8547,0,,,,10,1,true,0
+74359,Oaks,OK,DELAWARE CO RWSG&SWM DISTRICT 11,OK3002157,750,SW,0,0,0,,,2,53,D,36.1662,-94.8547,0,,4,0,10,1,true,0
 74360,Picher,OK,COMMERCE,OK2005810,2645,GW,0,0,0,,,3,66,C,36.98,-94.8173,0,,6,1,10,1,true,0
 74361,Pryor,OK,Pryor,OK3004611,8784,SW,8,2,3,0.0013,,2,68,C,36.2921,-95.3129,1,Stage 2 DBP Rule,8,1,10,5,true,0
 74362,Pryor,OK,Pryor,OK3004611,8784,SW,8,2,3,0.0013,,2,78,B,36.2925,-95.2228,1,Stage 2 DBP Rule,8,1,10,3,true,0
@@ -32625,7 +32625,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 74365,Salina,OK,Salina Pwa,OK1021603,1422,SW,1,0,0,,,2,70,B,36.3116,-95.1158,0,,9,2,10,5,true,0
 74366,Spavinaw,OK,Ketchum Pwa,OK1021612,4025,SW,0,0,0,0.0011,,2,83,B,36.3912,-95.0466,0,,19,0,10,14,true,0
 74367,Strang,OK,Ketchum Pwa,OK1021612,4025,SW,0,0,0,,,2,63,C,36.4141,-95.0773,0,,19,0,10,3,true,0
-74368,Twin Oaks,OK,Delaware Company Rwsg&swm District 11,OK3002157,750,SW,10,1,2,,,2,67,C,36.2054,-94.8513,1,Stage 2 DBP Rule,,,10,1,true,0
+74368,Twin Oaks,OK,Delaware Company Rwsg&swm District 11,OK3002157,750,SW,10,1,2,,,2,67,C,36.2054,-94.8513,1,Stage 2 DBP Rule,4,0,10,1,true,0
 74369,Welch,OK,Welch Pwa,OK2001801,800,GW,28,16,15,0.0052,,3,70,B,36.902,-95.1295,3,"Gross Beta;Consumer Confidence Report Rule;Stage 2 DBP Rule",9,22,10,15,true,0
 74370,Wyandotte,OK,Ottawa Company Rwd #5,OK2005840,750,GW,31,2,14,0.0041,,3,82,B,36.7796,-94.7002,1,Stage 2 DBP Rule,4,2,10,3,true,0
 74401,Muskogee,OK,Muskogee,OK1021607,38310,SW,35,27,20,0.0054,,3,69,C,35.7058,-95.5002,2,"Haloacetic Acids (HAA5);Total Trihalomethanes (TTHM)",13,1,10,15,true,0
