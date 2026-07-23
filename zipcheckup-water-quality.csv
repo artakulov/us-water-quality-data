@@ -8281,15 +8281,15 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 20632,Faulkner,MD,Swan Point,MD0080046,945,GW,0,0,0,,,1,40,D,38.4382,-76.9729,0,,5,0,2,0,false,0
 20634,Great Mills,MD,LORD CALVERT TRAILER PARK,MD0180213,892,GW,0,0,0,,,2,55,C,38.2674,-76.4954,0,,5,0,10,1,false,0
 20635,Helen,MD,TOWN OF LEONARDTOWN,MD0180006,5000,GW,0,0,0,,,2,53,D,38.3121,-76.6077,0,,5,2,3,0,false,0
-20636,Hollywood,MD,Lexington Park,MD0180007,43030,GW,2,0,0,-0.005,,2,82,B,38.3524,-76.5626,0,,11,1,10,0,false,0
+20636,Hollywood,MD,Lexington Park,MD0180007,43030,GW,2,0,0,0,,2,82,B,38.3524,-76.5626,0,,11,1,10,0,false,0
 20637,Hughesville,MD,INDEPENDENCE VILLAGE,MD0080019,88,GW,0,0,0,,,2,63,C,38.5207,-76.7817,0,,13,0,10,1,false,0
 20639,Huntingtown,MD,PRINCE FREDERICK,MD0040011,4371,GW,7,2,2,,,1,50,D,38.6095,-76.6003,1,Stage 2 DBP Rule,10,0,10,2,false,0
-20640,Indian Head,MD,Town of Indian Head,MD0080020,4100,GW,1,0,0,-0.002,,2,83,B,38.6001,-77.1622,0,,7,0,10,1,false,0
+20640,Indian Head,MD,Town of Indian Head,MD0080020,4100,GW,1,0,0,0,,2,83,B,38.6001,-77.1622,0,,7,0,10,1,false,0
 20643,Ironsides,MD,DU MAR ESTATES WATER COMPANY,MD0080010,150,GW,0,0,0,,,2,53,D,38.5039,-77.1483,0,,6,1,6,1,false,0
 20645,Issue,MD,Swan Point,MD0080046,945,GW,0,0,0,,,2,55,C,38.2926,-76.9059,0,,5,0,3,0,false,0
 20646,La Plata,MD,Waldorf - Charles County Dpw,MD0080049,84296,SW,2,0,0,0.0013,,2,77,B,38.5257,-76.9865,0,,0,0,10,0,false,0
-20650,Leonardtown,MD,Town of Leonardtown,MD0180006,5000,GW,6,3,1,-0.002,,2,70,B,38.2774,-76.638,2,"Consumer Confidence Report Rule;Stage 2 DBP Rule",5,2,10,3,false,0
-20653,Lexington Park,MD,Lord Calvert Trailer Park,MD0180213,892,GW,3,1,1,-0.005,,2,77,B,38.2495,-76.4529,1,Stage 2 DBP Rule,5,0,10,2,false,0
+20650,Leonardtown,MD,Town of Leonardtown,MD0180006,5000,GW,6,3,1,0,,2,70,B,38.2774,-76.638,2,"Consumer Confidence Report Rule;Stage 2 DBP Rule",5,2,10,3,false,0
+20653,Lexington Park,MD,Lord Calvert Trailer Park,MD0180213,892,GW,3,1,1,0,,2,77,B,38.2495,-76.4529,1,Stage 2 DBP Rule,5,0,10,2,false,0
 20656,Loveville,MD,TOWN OF LEONARDTOWN,MD0180006,5000,GW,0,0,0,,,2,53,D,38.3593,-76.6833,0,,5,2,3,0,false,0
 20657,Lusby,MD,Chesapeake Ranch Estates,MD0040004,9500,GW,5,1,1,,,1,51,D,38.3661,-76.4346,1,Stage 2 DBP Rule,6,0,10,1,false,0
 20658,Marbury,MD,Du Mar Estates Water Company,MD0080010,150,GW,5,1,2,,,2,71,B,38.5633,-77.1596,1,Stage 2 DBP Rule,6,1,6,1,false,0
@@ -8299,12 +8299,12 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 20662,Nanjemoy,MD,DU MAR ESTATES WATER COMPANY,MD0080010,150,GW,0,0,0,,,2,63,C,38.4462,-77.1983,0,,6,1,6,1,false,0
 20664,Newburg,MD,Swan Point,MD0080046,945,GW,22,1,2,0.001,,2,72,B,38.3298,-76.9175,1,Stage 2 DBP Rule,5,0,10,1,false,0
 20667,Park Hall,MD,Lexington Park,MD0180007,43030,GW,0,0,0,,,2,63,C,38.2177,-76.4429,0,,11,1,10,1,false,0
-20670,Patuxent River,MD,Patuxent Naval Air Station (navfac-wash),MD0180022,22000,GW,3,0,1,-0.002,,2,80,B,38.2791,-76.4381,0,,,,10,0,false,0
+20670,Patuxent River,MD,Patuxent Naval Air Station (navfac-wash),MD0180022,22000,GW,3,0,1,0,,2,80,B,38.2791,-76.4381,0,,,,10,0,false,0
 20674,Piney Point,MD,LORD CALVERT TRAILER PARK,MD0180213,892,GW,0,0,0,,,2,50,D,38.1397,-76.5047,0,,5,0,4,1,false,0
 20675,Pomfret,MD,Waldorf - Charles County Dpw,MD0080049,84296,SW,0,0,0,,,1,53,D,38.5855,-77.0093,0,,0,0,6,0,false,0
 20676,Port Republic,MD,Scientists Cliffs,MD0040014,1425,GW,1,0,0,0.003,,1,70,B,38.4952,-76.5349,0,,5,0,2,0,false,0
 20677,Port Tobacco,MD,CHARLES COUNTY GARDENS WATER,MD0080008,551,GW,0,0,0,,,1,45,D,38.4994,-77.0419,0,,11,0,1,0,false,0
-20678,Prince Frederick,MD,Prince Frederick,MD0040011,4371,GW,1,0,1,-0.002,,1,63,C,38.5336,-76.5955,0,,10,0,9,0,false,0
+20678,Prince Frederick,MD,Prince Frederick,MD0040011,4371,GW,1,0,1,0,,1,63,C,38.5336,-76.5955,0,,10,0,9,0,false,0
 20680,Ridge,MD,LORD CALVERT TRAILER PARK,MD0180213,892,GW,0,0,0,,,2,55,C,38.1169,-76.3711,0,,5,0,4,1,false,0
 20682,Rock Point,MD,AQUALAND CAMPGROUND,MD1081005,240,GW,0,0,0,,,2,53,D,38.2836,-76.8481,0,,2,1,2,0,false,0
 20684,Saint Inigoes,MD,LORD CALVERT TRAILER PARK,MD0180213,892,GW,0,0,0,,,2,63,C,38.1441,-76.4083,0,,5,0,4,1,false,0
@@ -8474,9 +8474,9 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 20918,Silver Spring,MD,Fairland Crossing Apartments,MD0150102,1248,SW,0,0,0,,,1,55,C,38.9907,-77.0261,0,,0,0,,,,
 20993,Silver Spring,MD,Fairland Crossing Apartments,MD0150102,1248,SW,0,0,0,,,1,55,C,39.0336,-76.9861,0,,0,0,,,,
 20997,Silver Spring,MD,Fairland Crossing Apartments,MD0150102,1248,SW,0,0,0,,,1,55,C,38.9907,-77.0261,0,,0,0,,,,
-21001,Aberdeen,MD,City of Aberdeen,MD0120001,18006,SW,0,0,0,-0.002,,1,60,C,39.5109,-76.1805,0,,9,0,10,0,false,0
+21001,Aberdeen,MD,City of Aberdeen,MD0120001,18006,SW,0,0,0,0,,1,60,C,39.5109,-76.1805,0,,9,0,10,0,false,0
 21005,Aberdeen Proving Ground,MD,CITY OF ABERDEEN,MD0120001,18006,SW,0,0,0,,,1,40,D,39.4771,-76.1208,0,,9,0,7,0,false,0
-21009,Abingdon,MD,Harford County D.p.w.,MD0120016,104567,SW,2,0,0,-0.002,,1,64,C,39.4744,-76.2997,0,,1,0,7,0,false,0
+21009,Abingdon,MD,Harford County D.p.w.,MD0120016,104567,SW,2,0,0,0,,1,64,C,39.4744,-76.2997,0,,1,0,7,0,false,0
 21010,Gunpowder,MD,HARFORD COUNTY D.P.W.,MD0120016,104567,SW,0,0,0,,,1,40,D,39.3982,-76.2743,0,,1,0,7,0,false,0
 21012,Arnold,MD,Glen Burnie-broadneck,MD0020017,290606,GW,0,0,0,,,2,50,D,39.0476,-76.4941,0,,0,0,10,1,true,0
 21013,Baldwin,MD,GLEN MEADOWS RETIREMENT COMMUNITY,MD0030208,468,SW,0,0,0,,,2,53,D,39.5194,-76.4927,0,,4,0,7,1,false,0
@@ -8498,9 +8498,9 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 21036,Dayton,MD,LUTHERAN VILLAGE AT MILLER'S GRANT,MD0130007,315,SW,0,0,0,,,1,40,D,39.2339,-76.9968,0,,3,2,4,1,false,0
 21037,Edgewater,MD,CITY OF ANNAPOLIS,MD0020001,35000,GW,0,0,0,,,2,45,D,38.9149,-76.5424,0,,10,0,6,0,false,0
 21040,Edgewood,MD,HARFORD COUNTY D.P.W.,MD0120016,104567,SW,0,0,0,,,1,45,D,39.4277,-76.3055,0,,1,0,7,0,false,0
-21041,Ellicott City,MD,Lutheran Village at Miller's Grant,MD0130007,315,SW,5,1,2,-0.002,true,1,69,C,39.2364,-76.9419,1,Stage 2 DBP Rule,3,2,9,1,false,0
-21042,Ellicott City,MD,Lutheran Village at Miller's Grant,MD0130007,315,SW,5,1,2,-0.002,true,1,59,C,39.2726,-76.8614,1,Stage 2 DBP Rule,3,2,10,1,false,0
-21043,Ellicott City,MD,CITY OF BALTIMORE,MD0300002,1600000,SW,5,1,2,-0.002,true,1,54,D,39.2548,-76.8001,1,Stage 2 DBP Rule,0,0,10,2,false,0
+21041,Ellicott City,MD,Lutheran Village at Miller's Grant,MD0130007,315,SW,5,1,2,0,true,1,69,C,39.2364,-76.9419,1,Stage 2 DBP Rule,3,2,9,1,false,0
+21042,Ellicott City,MD,Lutheran Village at Miller's Grant,MD0130007,315,SW,5,1,2,0,true,1,59,C,39.2726,-76.8614,1,Stage 2 DBP Rule,3,2,10,1,false,0
+21043,Ellicott City,MD,CITY OF BALTIMORE,MD0300002,1600000,SW,5,1,2,0,true,1,54,D,39.2548,-76.8001,1,Stage 2 DBP Rule,0,0,10,2,false,0
 21044,Columbia,MD,Howard County D.p.w. Distribution,MD0130002,286158,SW,6,0,0,0.003,,1,62,C,39.2141,-76.8788,0,,18,0,10,0,false,0
 21045,Columbia,MD,Howard County D.p.w. Distribution,MD0130002,286158,SW,6,0,0,0.003,,1,62,C,39.2051,-76.8322,0,,18,0,10,0,false,0
 21046,Columbia,MD,Howard County D.p.w. Distribution,MD0130002,286158,SW,6,0,0,0.003,,1,62,C,39.1702,-76.8538,0,,18,0,10,0,false,0
@@ -8510,7 +8510,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 21051,Fork,MD,GLEN MEADOWS RETIREMENT COMMUNITY,MD0030208,468,SW,0,0,0,,,2,63,C,39.4731,-76.4484,0,,4,0,7,1,false,0
 21052,Fort Howard,MD,CITY OF BALTIMORE,MD0300002,1600000,SW,0,0,0,,,2,63,C,39.207,-76.4456,0,,0,0,10,1,false,0
 21053,Freeland,MD,Hebron Woods Mobile Home Park,MD0220224,250,GW,5,2,0,0.007,,1,57,C,39.694,-76.7223,1,Stage 2 DBP Rule,5,0,6,2,false,0
-21054,Gambrills,MD,Glen Burnie-broadneck,MD0020017,290606,GW,3,1,0,-0.005,,2,82,B,39.0407,-76.6819,1,Stage 2 DBP Rule,0,0,10,2,true,0
+21054,Gambrills,MD,Glen Burnie-broadneck,MD0020017,290606,GW,3,1,0,0,,2,82,B,39.0407,-76.6819,1,Stage 2 DBP Rule,0,0,10,2,true,0
 21056,Gibson Island,MD,CITY OF ANNAPOLIS,MD0020001,35000,GW,0,0,0,,,2,63,C,39.0751,-76.4324,0,,10,0,4,0,false,0
 21057,Glen Arm,MD,CITY OF BALTIMORE,MD0300002,1600000,SW,8,2,0,0.001,,1,68,C,39.4575,-76.5153,1,Stage 2 DBP Rule,0,0,10,3,false,0
 21060,Glen Burnie,MD,Glen Burnie-broadneck,MD0020017,290606,GW,0,0,0,,,2,55,C,39.1702,-76.5798,0,,0,0,10,2,true,0
@@ -8537,7 +8537,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 21104,Marriottsville,MD,Howard County D.p.w. Distribution,MD0130002,286158,SW,0,0,0,,,1,53,D,39.3342,-76.9132,0,,18,0,10,1,false,0
 21105,Maryland Line,MD,HEBRON WOODS MOBILE HOME PARK,MD0220224,250,GW,0,0,0,,,3,66,C,39.7114,-76.6595,0,,5,0,1,1,false,0
 21106,Mayo,MD,CITY OF ANNAPOLIS,MD0020001,35000,GW,0,0,0,,,2,53,D,38.8876,-76.5119,0,,10,0,4,0,false,0
-21108,Millersville,MD,Glen Burnie-broadneck,MD0020017,290606,GW,5,1,1,-0.005,,2,74,B,39.1041,-76.619,1,Chromium,0,0,10,2,true,0
+21108,Millersville,MD,Glen Burnie-broadneck,MD0020017,290606,GW,5,1,1,0,,2,74,B,39.1041,-76.619,1,Chromium,0,0,10,2,true,0
 21111,Monkton,MD,CITY OF BALTIMORE,MD0300002,1600000,SW,0,0,0,,,2,55,C,39.5662,-76.5979,0,,0,0,10,2,false,0
 21113,Odenton,MD,Glen Burnie-broadneck,MD0020017,290606,GW,0,0,0,,,2,55,C,39.0762,-76.6996,0,,0,0,10,2,true,0
 21114,Crofton,MD,Crofton-odenton,MD0020008,62986,GW,0,0,0,0.002,,2,78,B,39.0112,-76.6802,0,,7,1,3,0,false,0
@@ -8553,7 +8553,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 21136,Reisterstown,MD,CITY OF BALTIMORE,MD0300002,1600000,SW,0,0,0,,,1,53,D,39.46,-76.8135,0,,0,0,10,1,false,0
 21139,Riderwood,MD,CITY OF BALTIMORE,MD0300002,1600000,SW,0,0,0,,,2,63,C,39.4093,-76.6486,0,,0,0,10,1,false,0
 21140,Riva,MD,Broad Creek,MD0020004,23179,GW,0,0,0,,,2,63,C,38.9504,-76.5854,0,,3,0,6,0,false,0
-21144,Severn,MD,Lake Village Townhomes,MD0020019,2400,GW,2,1,0,-0.005,,2,77,B,39.1275,-76.698,1,Stage 2 DBP Rule,6,0,10,2,true,0
+21144,Severn,MD,Lake Village Townhomes,MD0020019,2400,GW,2,1,0,0,,2,77,B,39.1275,-76.698,1,Stage 2 DBP Rule,6,0,10,2,true,0
 21146,Severna Park,MD,Glen Burnie-broadneck,MD0020017,290606,GW,3,1,0,0.0013,,2,72,B,39.0811,-76.5577,1,Stage 2 DBP Rule,0,0,10,2,true,0
 21150,Simpsonville,MD,LUTHERAN VILLAGE AT MILLER'S GRANT,MD0130007,315,SW,0,0,0,,,1,40,D,39.2364,-76.9419,0,,3,2,4,1,false,0
 21152,Sparks Glencoe,MD,CITY OF BALTIMORE,MD0300002,1600000,SW,0,0,0,,,2,55,C,39.5483,-76.6819,0,,0,0,10,1,false,0
@@ -8636,14 +8636,14 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 21298,Baltimore,MD,City of Baltimore,MD0300002,1600000,SW,11,2,1,0.00274,,1,68,C,39.2847,-76.6205,2,"Consumer Confidence Report Rule;Stage 2 DBP Rule",0,0,10,3,false,0
 21340,,,,,,,,,,,,,,,,,0,,,,,,,
 21362,,,,,,,,,,,,,,,,,0,,,,,,,
-21401,Annapolis,MD,City of Annapolis,MD0020001,35000,GW,1,0,0,-0.002,,2,73,B,38.9898,-76.5501,0,,10,0,6,0,false,0
-21402,Annapolis,MD,U.s. Naval Academy,MD0020042,8700,GW,1,0,0,-0.002,,2,83,B,38.9871,-76.4715,0,,4,0,10,1,true,0
-21403,Annapolis,MD,City of Annapolis,MD0020001,35000,GW,1,0,0,-0.002,,2,68,C,38.9524,-76.491,0,,10,0,6,0,false,0
-21404,Annapolis,MD,City of Annapolis,MD0020001,35000,GW,1,0,0,-0.002,,2,83,B,38.9784,-76.4922,0,,10,0,4,0,false,0
-21405,Annapolis,MD,Broad Creek,MD0020004,23179,GW,1,0,0,-0.002,,2,83,B,39.0305,-76.5515,0,,3,0,6,0,false,0
-21409,Annapolis,MD,Glen Burnie-broadneck,MD0020017,290606,GW,1,0,0,-0.002,,2,73,B,39.0416,-76.4377,0,,0,0,10,1,true,0
-21411,Annapolis,MD,City of Annapolis,MD0020001,35000,GW,1,0,0,-0.002,,2,83,B,38.9742,-76.5949,0,,10,0,4,0,false,0
-21412,Annapolis,MD,City of Annapolis,MD0020001,35000,GW,1,0,0,-0.002,,2,83,B,38.9742,-76.5949,0,,10,0,4,0,false,0
+21401,Annapolis,MD,City of Annapolis,MD0020001,35000,GW,1,0,0,0,,2,73,B,38.9898,-76.5501,0,,10,0,6,0,false,0
+21402,Annapolis,MD,U.s. Naval Academy,MD0020042,8700,GW,1,0,0,0,,2,83,B,38.9871,-76.4715,0,,4,0,10,1,true,0
+21403,Annapolis,MD,City of Annapolis,MD0020001,35000,GW,1,0,0,0,,2,68,C,38.9524,-76.491,0,,10,0,6,0,false,0
+21404,Annapolis,MD,City of Annapolis,MD0020001,35000,GW,1,0,0,0,,2,83,B,38.9784,-76.4922,0,,10,0,4,0,false,0
+21405,Annapolis,MD,Broad Creek,MD0020004,23179,GW,1,0,0,0,,2,83,B,39.0305,-76.5515,0,,3,0,6,0,false,0
+21409,Annapolis,MD,Glen Burnie-broadneck,MD0020017,290606,GW,1,0,0,0,,2,73,B,39.0416,-76.4377,0,,0,0,10,1,true,0
+21411,Annapolis,MD,City of Annapolis,MD0020001,35000,GW,1,0,0,0,,2,83,B,38.9742,-76.5949,0,,10,0,4,0,false,0
+21412,Annapolis,MD,City of Annapolis,MD0020001,35000,GW,1,0,0,0,,2,83,B,38.9742,-76.5949,0,,10,0,4,0,false,0
 21501,Cumberland,MD,City of Cumberland,MD0010008,27039,SW,0,0,0,0.001,,2,83,B,39.6529,-78.7625,0,,19,0,,,,
 21502,Cumberland,MD,City of Cumberland,MD0010008,27039,SW,0,0,0,0.001,,2,73,B,39.5992,-78.8444,0,,19,0,,,,
 21503,Cumberland,MD,City of Cumberland,MD0010008,27039,SW,0,0,0,0.001,,2,83,B,39.6529,-78.7625,0,,19,0,,,,
@@ -8686,7 +8686,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 21612,Bozman,MD,CLAIBORNE,MD0200002,60,GW,0,0,0,,,3,65,C,38.7515,-76.2764,0,,6,9,10,2,false,0
 21613,Cambridge,MD,City of Cambridge Water,MD0090002,15000,GW,2,1,0,0.0041,,3,79,B,38.5643,-76.0874,1,Stage 2 DBP Rule,13,0,1,1,false,0
 21617,Centreville,MD,Town of Centreville,MD0170001,3322,GW,5,1,0,0.005,,3,89,A,39.0564,-76.045,1,Consumer Confidence Report Rule,8,0,10,1,false,0
-21619,Chester,MD,Stevensville,MD0170019,9155,GW,9,2,3,-0.002,,3,80,B,38.9583,-76.2842,1,Stage 2 DBP Rule,10,0,10,2,true,0
+21619,Chester,MD,Stevensville,MD0170019,9155,GW,9,2,3,0,,3,80,B,38.9583,-76.2842,1,Stage 2 DBP Rule,10,0,10,2,true,0
 21620,Chestertown,MD,Town of Chestertown,MD0140002,5400,GW,2,1,0,0.0012,,3,84,B,39.2125,-76.0802,1,Stage 2 DBP Rule,11,0,5,2,false,0
 21622,Church Creek,MD,CITY OF CAMBRIDGE WATER,MD0090002,15000,GW,0,0,0,,,3,60,C,38.4278,-76.1696,0,,13,0,,,,
 21623,Church Hill,MD,Town of Centreville,MD0170001,3322,GW,2,1,0,0.001,,3,98,A,39.146,-75.988,1,Stage 2 DBP Rule,8,0,10,2,false,0
@@ -8701,7 +8701,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 21634,Fishing Creek,MD,CHESAPEAKE RANCH ESTATES,MD0040004,9500,GW,0,0,0,,,1,40,D,38.3223,-76.2244,0,,6,0,,,,
 21635,Galena,MD,TOWN OF CECILTON,MD0070004,477,GW,0,0,0,,,2,63,C,39.3374,-75.8717,0,,3,1,10,2,false,0
 21636,Goldsboro,MD,TOWN OF GREENSBORO,MD0050003,1878,GW,0,0,0,,,3,66,C,39.023,-75.7926,0,,5,0,4,0,false,0
-21638,Grasonville,MD,Prospect Bay,MD0170009,913,GW,4,2,0,-0.005,,3,78,B,38.9456,-76.1997,1,Stage 2 DBP Rule,7,0,5,2,false,0
+21638,Grasonville,MD,Prospect Bay,MD0170009,913,GW,4,2,0,0,,3,78,B,38.9456,-76.1997,1,Stage 2 DBP Rule,7,0,5,2,false,0
 21639,Greensboro,MD,Town of Greensboro,MD0050003,1878,GW,21,1,14,0.001,,3,89,A,38.9616,-75.8059,1,Stage 2 DBP Rule,5,0,10,1,false,0
 21640,Henderson,MD,Town of Centreville,MD0170001,3322,GW,0,0,0,,,3,73,B,39.0672,-75.7948,0,,8,0,10,1,false,0
 21641,Hillsboro,MD,NELPINE MOBILE HOME PARK,MD0050210,70,GW,0,0,0,,,3,73,B,38.9206,-75.9388,0,,4,0,,,,
@@ -8716,7 +8716,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 21651,Millington,MD,Town of Millington,MD0140010,625,GW,2,0,1,0.001,,3,88,A,39.2743,-75.8951,0,,6,0,9,0,false,0
 21652,Neavitt,MD,TOWN OF OXFORD,MD0200005,726,GW,0,0,0,,,2,55,C,38.7246,-76.2824,0,,9,0,4,0,false,0
 21653,Newcomb,MD,TOWN OF OXFORD,MD0200005,726,GW,0,0,0,,,2,63,C,38.7518,-76.178,0,,9,0,4,0,false,0
-21654,Oxford,MD,Town of Oxford,MD0200005,726,GW,4,1,0,-0.005,,3,79,B,38.6864,-76.1538,1,Stage 2 DBP Rule,9,0,6,1,false,0
+21654,Oxford,MD,Town of Oxford,MD0200005,726,GW,4,1,0,0,,3,79,B,38.6864,-76.1538,1,Stage 2 DBP Rule,9,0,6,1,false,0
 21655,Preston,MD,Town of Preston,MD0050005,750,GW,3,1,0,0.0011,,3,89,A,38.7465,-75.9163,1,Stage 2 DBP Rule,9,0,10,1,false,0
 21656,Price,MD,TOWN OF CHESTERTOWN,MD0140002,5400,GW,0,0,0,,,3,66,C,39.0346,-76.0921,0,,11,0,1,1,false,0
 21657,Queen Anne,MD,Town of Centreville,MD0170001,3322,GW,0,0,0,0.0007,,3,95,A,38.9456,-75.9777,0,,8,0,10,1,false,0
@@ -8726,7 +8726,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 21661,Rock Hall,MD,Town of Rock Hall,MD0140006,1750,GW,1,0,1,0.0035,,3,78,B,39.1344,-76.2305,0,,7,0,1,0,false,0
 21662,Royal Oak,MD,TOWN OF OXFORD,MD0200005,726,GW,0,0,0,,,2,55,C,38.714,-76.2097,0,,9,0,4,0,false,0
 21663,Saint Michaels,MD,CLAIBORNE,MD0200002,60,GW,0,0,0,,,3,60,C,38.783,-76.2215,0,,6,9,10,2,false,0
-21664,Secretary,MD,Town of Secretary,MD0090007,535,GW,0,0,0,-0.001,,3,95,A,38.6093,-75.9474,0,,6,0,,,,
+21664,Secretary,MD,Town of Secretary,MD0090007,535,GW,0,0,0,0,,3,95,A,38.6093,-75.9474,0,,6,0,,,,
 21665,Sherwood,MD,CLAIBORNE,MD0200002,60,GW,0,0,0,,,3,65,C,38.7374,-76.3278,0,,6,9,10,2,false,0
 21666,Stevensville,MD,Stevensville,MD0170019,9155,GW,5,0,1,,,3,68,C,38.9394,-76.3371,0,,10,0,10,0,false,0
 21667,Still Pond,MD,TOWN OF BETTERTON,MD0140001,481,GW,0,0,0,,,3,66,C,39.3293,-76.0455,0,,11,0,,,,
@@ -8756,7 +8756,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 21713,Boonsboro,MD,Boonsboro - Keedysville,MD0210002,4250,SW,5,1,0,0.00326,,1,69,C,39.552,-77.6957,1,Stage 2 DBP Rule,10,0,10,1,false,0
 21714,Braddock Heights,MD,Fountaindale South,MD0100013,2610,SW,0,0,0,,,1,53,D,39.4203,-77.5051,0,,7,0,3,0,false,0
 21715,Brownsville,MD,CITY OF BRUNSWICK,MD0100005,7312,SW,0,0,0,,,1,40,D,39.3869,-77.658,0,,6,0,5,0,false,0
-21716,Brunswick,MD,City of Brunswick,MD0100005,7312,SW,2,0,0,-0.005,,1,69,C,39.3164,-77.623,0,,6,0,5,0,false,0
+21716,Brunswick,MD,City of Brunswick,MD0100005,7312,SW,2,0,0,0,,1,69,C,39.3164,-77.623,0,,6,0,5,0,false,0
 21717,Buckeystown,MD,NEW DESIGN - FREDERICK COUNTY,MD0100030,74911,SW,0,0,0,,,1,53,D,39.3309,-77.4274,0,,0,0,10,0,false,0
 21718,Burkittsville,MD,CITY OF BRUNSWICK,MD0100005,7312,SW,0,0,0,,,1,40,D,39.3923,-77.6275,0,,6,0,5,0,false,0
 21719,Cascade,MD,Highfield,MD0210001,1141,GW,2,1,0,0.026,,1,32,F,39.6958,-77.4955,1,Stage 2 DBP Rule,6,0,1,1,false,0
@@ -8765,7 +8765,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 21722,Clear Spring,MD,CITY OF HAGERSTOWN,MD0210010,92200,SW,0,0,0,,,1,45,D,39.6658,-77.9064,0,,13,0,7,0,false,0
 21723,Cooksville,MD,LUTHERAN VILLAGE AT MILLER'S GRANT,MD0130007,315,SW,0,0,0,,,1,40,D,39.3211,-77.0051,0,,3,2,4,1,false,0
 21725,,,,,,,,,,,,,,,,,0,,,,,,,
-21727,Emmitsburg,MD,Town of Emmitsburg,MD0100010,2400,SW,5,0,0,-0.005,,1,63,C,39.694,-77.3357,0,,6,5,5,0,false,0
+21727,Emmitsburg,MD,Town of Emmitsburg,MD0100010,2400,SW,5,0,0,0,,1,63,C,39.694,-77.3357,0,,6,5,5,0,false,0
 21733,Fairplay,MD,CITY OF HAGERSTOWN,MD0210010,92200,SW,0,0,0,,,1,40,D,39.5594,-77.7604,0,,13,0,,,,
 21734,Funkstown,MD,Town of Funkstown Distribution System,MD0210008,1300,SW,0,0,0,,,1,57,C,39.609,-77.7044,0,,3,0,,,,
 21737,Glenelg,MD,LUTHERAN VILLAGE AT MILLER'S GRANT,MD0130007,315,SW,0,0,0,,,1,53,D,39.2546,-77.0198,0,,3,2,4,1,false,0
@@ -8812,7 +8812,7 @@ zip,city,state,system_name,pwsid,population,water_source,total_violations,health
 21794,West Friendship,MD,Howard County D.p.w. Distribution,MD0130002,286158,SW,0,0,0,,,1,40,D,39.2934,-76.966,0,,18,0,6,1,false,0
 21795,Williamsport,MD,Town of Williamsport Distribution System,MD0210021,2400,SW,6,1,1,0.003,,1,59,C,39.593,-77.8087,1,Stage 2 DBP Rule,3,0,10,1,false,0
 21797,Woodbine,MD,TOWN OF MOUNT AIRY,MD0060007,9890,GW,0,0,0,,,1,53,D,39.3464,-77.0647,0,,8,1,6,0,false,0
-21798,Woodsboro,MD,Town of Woodsboro,MD0100027,846,GW,6,0,2,-0.005,,1,64,C,39.5311,-77.2972,0,,9,0,10,0,false,0
+21798,Woodsboro,MD,Town of Woodsboro,MD0100027,846,GW,6,0,2,0,,1,64,C,39.5311,-77.2972,0,,9,0,10,0,false,0
 21801,Salisbury,MD,City of Salisbury,MD0220004,30343,GW,4,1,0,0.0183,,3,59,C,38.3824,-75.6336,1,Stage 2 DBP Rule,17,0,10,3,false,0
 21802,Salisbury,MD,City of Salisbury,MD0220004,30343,GW,4,1,0,0.0183,,3,65,C,38.3884,-75.6276,1,Stage 2 DBP Rule,17,0,9,3,false,0
 21803,Salisbury,MD,City of Salisbury,MD0220004,30343,GW,4,1,0,0.0183,,3,69,C,38.3884,-75.6276,1,Stage 2 DBP Rule,17,0,9,3,false,0
