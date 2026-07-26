@@ -4,15 +4,18 @@
   "license": "CC-BY-4.0",
   "source": "U.S. EPA Safe Drinking Water Information System (SDWIS)",
   "url": "https://zipcheckup.com",
-  "updated": "2026-07-24",
+  "updated": "2026-07-26",
   "total_zips": 42679,
+  "known_water_zip_count": 29217,
+  "water_unavailable_zip_count": 13462,
   "total_violations": 275456,
   "states_covered": 51,
-  "zips_without_enforcement_data": 7579,
+  "zips_without_enforcement_data": 17060,
   "fields": {
     "zip": "5-digit ZIP code",
     "city": "City name",
     "state": "2-letter state abbreviation",
+    "water_data_available": "true only when this ZIP has a current directly mapped EPA public water system; false means all water/system/CCR/enforcement-derived fields are unavailable, not zero",
     "system_name": "Primary water system name",
     "pwsid": "EPA Public Water System ID",
     "population": "Population served",
@@ -39,7 +42,7 @@
   "null_semantics": "A null / empty value means the underlying source did not have a record for that ZIP code (data not available / not yet matched), NOT a measured value of zero or false. This applies to all nullable fields above (lead_level_mg_l, copper_action_level_exceedance, radon_zone, home_safety_score, ccr_* , enforcement_action_count, enforcement_health_violations, has_active_issues, boil_water_advisories). Do not impute 0/false for absent records.",
   "erratum": {
     "affected_version": "pre-2026-06-10 exports (v1)",
-    "issue": "Earlier dataset versions emitted enforcement_action_count=0, enforcement_health_violations=0, has_active_issues=false, and boil_water_advisories=0 for ZIP codes that had no enforcement record in the source (7579 ZIPs in this export). This conflated \"data not available\" with \"measured zero / no active issues\".",
+    "issue": "Earlier dataset versions emitted enforcement_action_count=0, enforcement_health_violations=0, has_active_issues=false, and boil_water_advisories=0 for ZIP codes that had no enforcement record in the source (17060 ZIPs in this export). This conflated \"data not available\" with \"measured zero / no active issues\".",
     "correction": "From this version, those four fields are emitted as null (empty in CSV) when the ZIP is absent from the enforcement source. A 0/false now appears only when it is an actual measured value for a ZIP present in the source."
   }
 }
