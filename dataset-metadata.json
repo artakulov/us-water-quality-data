@@ -6,7 +6,7 @@
       "name": "CC-BY-4.0"
     }
   ],
-  "description": "U.S. drinking water quality and home safety data for 42,679+ ZIP codes. EPA violations, lead/copper levels, PFAS, radon, flood risk, and Home Safety Scores from 59 federal/state sources. Updated weekly from zipcheckup.com.",
+  "description": "Versioned U.S. home-safety evidence for 42,679 ZIP-code records, including 23,795 records with mapped water-system data. Fields include source-bounded violation records, typed lead evidence, copper action-level exceedance flags, PFAS evidence, radon zones, historical NFIP claim records, and Home Safety Score model 4.0.0 outputs from 66 registered federal and state sources. Missing values remain unknown. Source vintage varies by record and is not aggregated. Source-specific cadences vary.",
   "keywords": [
     "water quality",
     "EPA",

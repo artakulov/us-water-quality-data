@@ -1,48 +1,122 @@
 {
-  "name": "ZipCheckup U.S. Water Quality Dataset",
-  "description": "Water quality violations, 90th-percentile lead levels, copper action-level exceedance flags, radon zones, and Home Safety Scores for U.S. ZIP codes. Based on EPA SDWIS data. Note: EPA transmits no verified copper unit, so copper is reported as an action-level (CU90) exceedance flag, not a concentration.",
+  "schema_version": 4,
+  "name": "ZipCheckup U.S. Home Safety and Water Quality Dataset",
+  "description": "Multi-source Home Safety Score plus accepted EPA SDWIS and ECHO water evidence for U.S. ZIP codes. Water records carry explicit measurement status, accepted quarter and record-year window, four-state violation counts, per-PWSID totals, and typed recent events. EPA transmits no verified copper unit, so copper is reported as an action-level (CU90) exceedance flag, not a concentration.",
   "license": "CC-BY-4.0",
-  "source": "U.S. EPA Safe Drinking Water Information System (SDWIS)",
+  "source": "ZipCheckup multi-source civic data; see score model and field provenance",
   "url": "https://zipcheckup.com",
-  "updated": "2026-07-26",
+  "updated": null,
+  "materialized_at": "2026-08-17T10:55:18.381Z",
+  "vintage": {
+    "schema_version": 1,
+    "source_current_at": null,
+    "materialized_at": "2026-08-17T10:55:18.381Z",
+    "freshness": {
+      "state": "unknown",
+      "reason": "mixed_per_record_sources_not_aggregated"
+    }
+  },
+  "artifacts": {
+    "csv": {
+      "file": "zipcheckup-water-quality.csv",
+      "sha256": "0e6b19711d2a852eef9f38ae3e3a05e42eb5cacd1ddeed53e98410cf89245808"
+    },
+    "json": {
+      "file": "zipcheckup-water-quality.json",
+      "sha256": "8d7540c411159a75665ee5e532642964d5d157e5086dac0bd3d79feb1fddf00d"
+    }
+  },
   "total_zips": 42679,
-  "known_water_zip_count": 29217,
-  "water_unavailable_zip_count": 13462,
-  "total_violations": 275456,
+  "known_water_zip_count": 23795,
+  "water_unavailable_zip_count": 18884,
+  "violation_known_zip_count": 23795,
+  "violation_unknown_zip_count": 18884,
+  "total_violations": 344324,
   "states_covered": 51,
-  "zips_without_enforcement_data": 17060,
+  "zips_without_enforcement_data": 23789,
+  "input_roots": {
+    "water_quality": {
+      "files": 42679,
+      "sha256": "1cd83ad31cf93334a5a5cfdde98319f31448c5c1fb349b11679df9637c72591c"
+    },
+    "home_safety_score": {
+      "bytes": 43738258,
+      "sha256": "d824e5057cde4fa2f2418bcd49d5d02c73cbb0c2012616e2f8cdd421325993b5",
+      "series": "home-safety-v4-cross-vertical",
+      "model_version": "4.0.0",
+      "registry_version": "1.1.0"
+    },
+    "ccr_enriched": {
+      "records": 25156,
+      "bytes": 85304578,
+      "sha256": "9039627f18d78bdd8cb1f7c5eedc8e241207e2de73c64330e52faa2aa15b46a1"
+    },
+    "enforcement_actions": {
+      "records": 18890,
+      "bytes": 22044452,
+      "sha256": "38068bb08826ecb866f3909a56381428ebb7307fcb06df19627452367f88a63e"
+    }
+  },
   "fields": {
     "zip": "5-digit ZIP code",
     "city": "City name",
     "state": "2-letter state abbreviation",
-    "water_data_available": "true only when this ZIP has a current directly mapped EPA public water system; false means all water/system/CCR/enforcement-derived fields are unavailable, not zero",
+    "water_data_available": "true only when this ZIP has a directly mapped EPA public water system in the exported snapshot; false means all water/system/CCR/enforcement-derived fields are unavailable, not zero. This field does not assert source freshness.",
     "system_name": "Primary water system name",
     "pwsid": "EPA Public Water System ID",
     "population": "Population served",
     "water_source": "SW=Surface Water, GW=Groundwater",
-    "total_violations": "Total violations in past 5 years",
-    "health_violations": "Health-based violations in past 5 years",
-    "unresolved_violations": "Currently unresolved violations",
+    "water_violation_measurement_status": "measured when the accepted ECHO roster covers every directly mapped PWSID; null when direct water evidence is unavailable",
+    "water_violation_source_quarter": "Accepted ECHO submission quarter, for example 2026Q2",
+    "water_violation_from_year": "Inclusive lower record-year bound for accepted violation evidence",
+    "water_violation_through_year": "Inclusive upper record-year bound for accepted violation evidence",
+    "total_violations": "All accepted violation records inside the explicit inclusive record-year window",
+    "health_violations": "Accepted records classified as health-based inside the explicit window",
+    "resolved_violations": "Accepted records with resolved status",
+    "archived_violations": "Accepted records with archived status; excluded from current noncompliance",
+    "addressed_violations": "Accepted records with addressed status; included in current noncompliance under this source contract",
+    "unaddressed_violations": "Accepted records with unaddressed status; included in current noncompliance",
+    "current_noncompliance_violations": "addressed_violations + unaddressed_violations",
+    "resolved_health_violations": "Health-based subset with resolved status",
+    "archived_health_violations": "Health-based subset with archived status",
+    "addressed_health_violations": "Health-based subset with addressed status",
+    "unaddressed_health_violations": "Health-based subset with unaddressed status",
+    "current_noncompliance_health_violations": "addressed_health_violations + unaddressed_health_violations",
+    "unresolved_violations": "Compatibility alias equal to current_noncompliance_violations",
+    "violation_systems": "JSON array of measured per-PWSID count partitions that conserve to the ZIP totals",
+    "recent_violations": "JSON array of recent accepted events with identity, PWSID, year, date, category, exact four-state status and health classification",
     "lead_level_mg_l": "90th percentile lead level (mg/L), null if no data",
     "copper_action_level_exceedance": "true = a copper action-level (CU90) exceedance record exists for this ZIP; null = no exceedance record on file / unknown (NOT clean). EPA transmits no verified copper unit, so no concentration is published.",
     "radon_zone": "EPA radon zone (1=highest, 3=lowest), null if no data",
-    "home_safety_score": "Composite score 0-100, null if insufficient data",
-    "home_safety_grade": "A/B/C/D/F letter grade",
+    "home_safety_score": "Home Safety Score model output from 0 through 100; null when required score coverage is incomplete",
+    "home_safety_grade": "A/B/C/D/F letter grade; null when the score is unavailable",
+    "home_safety_series": "Stable score-series identifier",
+    "home_safety_model_version": "Semantic model version",
+    "home_safety_registry_version": "Append-only vertical registry version",
+    "home_safety_component_scores": "Object containing every model component score or null",
+    "home_safety_component_status": "Object containing observed, missing, or insufficient_coverage status for each component",
+    "home_safety_domain_scores": "Object containing each equally weighted model-domain score or null",
+    "home_safety_coverage": "Reconciled score-availability counts and missing component/domain IDs",
     "latitude": "ZIP centroid latitude",
     "longitude": "ZIP centroid longitude",
     "contaminant_count": "Number of distinct health-based contaminants",
     "health_contaminant_names": "Semicolon-separated list of health-based contaminant names",
     "ccr_contaminant_count": "Number of contaminants reported in Consumer Confidence Report (CCR), null if no CCR data",
-    "ccr_violation_count": "Number of violations reported in CCR, null if no CCR data",
+    "ccr_violation_count": "Evidence-bound CCR violation count. 0 is emitted only for an accepted measured-zero claim; null means unknown/unaccepted.",
+    "ccr_violation_status": "measured_zero, reported_nonzero, or unknown under the evidence-bound CCR claim contract.",
+    "ccr_violation_report_year": "Exact report year for an accepted CCR violation claim; null when unknown.",
+    "ccr_violation_scope": "Named source scope for an accepted CCR violation claim; null when unknown.",
+    "ccr_violation_claim": "Full evidence-bound CCR violation claim object.",
+    "ccr_lsl_claim": "Field-level evidence-bound CCR lead-service-line claim object; missing counts remain unknown, never zero.",
     "enforcement_action_count": "Total EPA/state enforcement actions against the water system. null = enforcement data not available for this ZIP (NOT measured-zero).",
     "enforcement_health_violations": "Number of health-based violations from enforcement records. null = enforcement data not available for this ZIP (NOT measured-zero).",
-    "has_active_issues": "Whether the system has currently active enforcement or violation issues (true/false). null = enforcement data not available for this ZIP (NOT measured-false).",
-    "boil_water_advisories": "Number of boil water advisories issued. null = enforcement data not available for this ZIP (NOT measured-zero)."
+    "has_active_issues": "Whether the exported source record flags active enforcement or violation issues (true/false). null = enforcement data not available for this ZIP (NOT measured-false).",
+    "boil_water_advisories": "Reserved. Always null until a source-bound authoritative advisory feed with issue/lift timestamps is admitted."
   },
-  "null_semantics": "A null / empty value means the underlying source did not have a record for that ZIP code (data not available / not yet matched), NOT a measured value of zero or false. This applies to all nullable fields above (lead_level_mg_l, copper_action_level_exceedance, radon_zone, home_safety_score, ccr_* , enforcement_action_count, enforcement_health_violations, has_active_issues, boil_water_advisories). Do not impute 0/false for absent records.",
+  "null_semantics": "A null / empty value means the accepted source contract does not cover that ZIP or measure, NOT a measured zero or false. A numeric 0 in the water violation fields is emitted only with water_violation_measurement_status=measured and complete per-PWSID conservation. Do not impute 0/false for absent records.",
   "erratum": {
     "affected_version": "pre-2026-06-10 exports (v1)",
-    "issue": "Earlier dataset versions emitted enforcement_action_count=0, enforcement_health_violations=0, has_active_issues=false, and boil_water_advisories=0 for ZIP codes that had no enforcement record in the source (17060 ZIPs in this export). This conflated \"data not available\" with \"measured zero / no active issues\".",
+    "issue": "Earlier dataset versions emitted enforcement_action_count=0, enforcement_health_violations=0, has_active_issues=false, and boil_water_advisories=0 for ZIP codes that had no enforcement record in the source (23789 ZIPs in this export). This conflated \"data not available\" with \"measured zero / no active issues\".",
     "correction": "From this version, those four fields are emitted as null (empty in CSV) when the ZIP is absent from the enforcement source. A 0/false now appears only when it is an actual measured value for a ZIP present in the source."
   }
 }
