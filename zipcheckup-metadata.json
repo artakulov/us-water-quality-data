@@ -6,11 +6,11 @@
   "source": "ZipCheckup multi-source civic data; see score model and field provenance",
   "url": "https://zipcheckup.com",
   "updated": null,
-  "materialized_at": "2026-08-19T07:17:06.281Z",
+  "materialized_at": "2026-08-19T17:26:03.993Z",
   "vintage": {
     "schema_version": 1,
     "source_current_at": null,
-    "materialized_at": "2026-08-19T07:17:06.281Z",
+    "materialized_at": "2026-08-19T17:26:03.993Z",
     "freshness": {
       "state": "unknown",
       "reason": "mixed_per_record_sources_not_aggregated"
