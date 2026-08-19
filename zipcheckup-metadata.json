@@ -6,11 +6,11 @@
   "source": "ZipCheckup multi-source civic data; see score model and field provenance",
   "url": "https://zipcheckup.com",
   "updated": null,
-  "materialized_at": "2026-08-17T10:55:18.381Z",
+  "materialized_at": "2026-08-19T07:17:06.281Z",
   "vintage": {
     "schema_version": 1,
     "source_current_at": null,
-    "materialized_at": "2026-08-17T10:55:18.381Z",
+    "materialized_at": "2026-08-19T07:17:06.281Z",
     "freshness": {
       "state": "unknown",
       "reason": "mixed_per_record_sources_not_aggregated"
@@ -118,5 +118,12 @@
     "affected_version": "pre-2026-06-10 exports (v1)",
     "issue": "Earlier dataset versions emitted enforcement_action_count=0, enforcement_health_violations=0, has_active_issues=false, and boil_water_advisories=0 for ZIP codes that had no enforcement record in the source (23789 ZIPs in this export). This conflated \"data not available\" with \"measured zero / no active issues\".",
     "correction": "From this version, those four fields are emitted as null (empty in CSV) when the ZIP is absent from the enforcement source. A 0/false now appears only when it is an actual measured value for a ZIP present in the source."
+  },
+  "legacy_artifact_erratum": {
+    "affected_artifact": "ccr-enriched.csv",
+    "affected_versions": "legacy companion export through 2026-08-17",
+    "issue": "The legacy ccr_copper_90th_ppb column mixed mg/L and ppm source values under a ppb label, understating some copper values by 1000x.",
+    "correction": "The legacy companion CSV is retired. The current dataset publishes copper_action_level_exceedance only and does not publish an unverified copper concentration.",
+    "status": "retired"
   }
 }

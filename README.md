@@ -1,6 +1,6 @@
 # U.S. Water Quality & Home Safety Data
 
-> Open dataset from [ZipCheckup](https://zipcheckup.com) | Artifact materialized 2026-08-17 | Source vintage varies by record and is not aggregated
+> Open dataset from [ZipCheckup](https://zipcheckup.com) | Artifact materialized 2026-08-19 | Source vintage varies by record and is not aggregated
 
 ## Coverage
 
@@ -30,6 +30,10 @@ Key fields per ZIP code:
 - **Historical NFIP Claims:** claim records are not current FEMA property-map coverage
 - **Demographics:** population served, median home value, housing age
 
+## Retired Legacy Artifact
+
+The legacy `ccr-enriched.csv` companion file was retired on 2026-08-19. Its `ccr_copper_90th_ppb` column mixed mg/L and ppm source values under a ppb label, understating some copper values by 1000x. Use `copper_action_level_exceedance` in the current dataset. No unverified copper concentration is published.
+
 ## Available On
 
 External mirrors have independent versions and may lag this local artifact. Verify the exact remote version and file hashes before use.
@@ -49,6 +53,6 @@ CC BY 4.0, free to use with attribution to [ZipCheckup](https://zipcheckup.com).
 
 ```
 ZipCheckup. U.S. Water Quality & Home Safety Data.
-Artifact materialized 2026-08-17. Source vintage varies by record and is not aggregated.
+Artifact materialized 2026-08-19. Source vintage varies by record and is not aggregated.
 https://zipcheckup.com | https://github.com/artakulov/us-water-quality-data
 ```
