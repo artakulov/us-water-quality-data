@@ -6,11 +6,11 @@
   "source": "ZipCheckup multi-source civic data; see score model and field provenance",
   "url": "https://zipcheckup.com",
   "updated": null,
-  "materialized_at": "2026-08-19T17:26:03.993Z",
+  "materialized_at": "2026-08-20T10:32:28.530Z",
   "vintage": {
     "schema_version": 1,
     "source_current_at": null,
-    "materialized_at": "2026-08-19T17:26:03.993Z",
+    "materialized_at": "2026-08-20T10:32:28.530Z",
     "freshness": {
       "state": "unknown",
       "reason": "mixed_per_record_sources_not_aggregated"
@@ -85,7 +85,7 @@
     "unresolved_violations": "Compatibility alias equal to current_noncompliance_violations",
     "violation_systems": "JSON array of measured per-PWSID count partitions that conserve to the ZIP totals",
     "recent_violations": "JSON array of recent accepted events with identity, PWSID, year, date, category, exact four-state status and health classification",
-    "lead_level_mg_l": "90th percentile lead level (mg/L), null if no data",
+    "lead_level_mg_l": "Source-reported 90th percentile lead level normalized to mg/L only when the source unit is explicit; null if no accepted measurement. Values at or above 1 mg/L are held for source review and are never auto-rescaled.",
     "copper_action_level_exceedance": "true = a copper action-level (CU90) exceedance record exists for this ZIP; null = no exceedance record on file / unknown (NOT clean). EPA transmits no verified copper unit, so no concentration is published.",
     "radon_zone": "EPA radon zone (1=highest, 3=lowest), null if no data",
     "home_safety_score": "Home Safety Score model output from 0 through 100; null when required score coverage is incomplete",
@@ -99,8 +99,8 @@
     "home_safety_coverage": "Reconciled score-availability counts and missing component/domain IDs",
     "latitude": "ZIP centroid latitude",
     "longitude": "ZIP centroid longitude",
-    "contaminant_count": "Number of distinct health-based contaminants",
-    "health_contaminant_names": "Semicolon-separated list of health-based contaminant names",
+    "contaminant_count": "Number of distinct health-based contaminants; null when no directly mapped EPA water system is available",
+    "health_contaminant_names": "Semicolon-separated list of health-based contaminant names; null when no directly mapped EPA water system is available",
     "ccr_contaminant_count": "Number of contaminants reported in Consumer Confidence Report (CCR), null if no CCR data",
     "ccr_violation_count": "Evidence-bound CCR violation count. 0 is emitted only for an accepted measured-zero claim; null means unknown/unaccepted.",
     "ccr_violation_status": "measured_zero, reported_nonzero, or unknown under the evidence-bound CCR claim contract.",
