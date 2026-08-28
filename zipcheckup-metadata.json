@@ -1,16 +1,17 @@
 {
-  "schema_version": 4,
+  "schema_version": 5,
+  "field_count": 55,
   "name": "ZipCheckup U.S. Home Safety and Water Quality Dataset",
-  "description": "Multi-source Home Safety Score plus accepted EPA SDWIS and ECHO water evidence for U.S. ZIP codes. Water records carry explicit measurement status, accepted quarter and record-year window, four-state violation counts, per-PWSID totals, and typed recent events. EPA transmits no verified copper unit, so copper is reported as an action-level (CU90) exceedance flag, not a concentration.",
+  "description": "Schema-v5 multi-source Home Safety Score plus accepted EPA SDWIS, ECHO, and optional source-bound CCR evidence for U.S. ZIP codes. Water records carry explicit measurement status, accepted quarter and record-year window, four-state violation counts, per-PWSID totals, and typed recent events. EPA transmits no verified copper unit, so copper is reported as an action-level (CU90) exceedance flag, not a concentration.",
   "license": "CC-BY-4.0",
   "source": "ZipCheckup multi-source civic data; see score model and field provenance",
   "url": "https://zipcheckup.com",
   "updated": null,
-  "materialized_at": "2026-08-20T10:32:28.530Z",
+  "materialized_at": "2026-08-28T16:52:27.906Z",
   "vintage": {
     "schema_version": 1,
     "source_current_at": null,
-    "materialized_at": "2026-08-20T10:32:28.530Z",
+    "materialized_at": "2026-08-28T16:52:27.906Z",
     "freshness": {
       "state": "unknown",
       "reason": "mixed_per_record_sources_not_aggregated"
@@ -19,11 +20,11 @@
   "artifacts": {
     "csv": {
       "file": "zipcheckup-water-quality.csv",
-      "sha256": "0e6b19711d2a852eef9f38ae3e3a05e42eb5cacd1ddeed53e98410cf89245808"
+      "sha256": "726522820da7f8231885c08ad642f33d81395a0beb0427654e914678849a4e30"
     },
     "json": {
       "file": "zipcheckup-water-quality.json",
-      "sha256": "8d7540c411159a75665ee5e532642964d5d157e5086dac0bd3d79feb1fddf00d"
+      "sha256": "ac6416255717112c546e6751da1d23fc080886cdea86e6b1411bd2f0bca21605"
     }
   },
   "total_zips": 42679,
@@ -111,7 +112,8 @@
     "enforcement_action_count": "Total EPA/state enforcement actions against the water system. null = enforcement data not available for this ZIP (NOT measured-zero).",
     "enforcement_health_violations": "Number of health-based violations from enforcement records. null = enforcement data not available for this ZIP (NOT measured-zero).",
     "has_active_issues": "Whether the exported source record flags active enforcement or violation issues (true/false). null = enforcement data not available for this ZIP (NOT measured-false).",
-    "boil_water_advisories": "Reserved. Always null until a source-bound authoritative advisory feed with issue/lift timestamps is admitted."
+    "boil_water_advisories": "Reserved. Always null until a source-bound authoritative advisory feed with issue/lift timestamps is admitted.",
+    "ccr_accepted_evidence": "Source-bound accepted CCR period, explicit exact-date absence, typed lead result, copper exceedance flag with concentration withheld, and evidence ref/SHA-256; null when no accepted binding exists."
   },
   "null_semantics": "A null / empty value means the accepted source contract does not cover that ZIP or measure, NOT a measured zero or false. A numeric 0 in the water violation fields is emitted only with water_violation_measurement_status=measured and complete per-PWSID conservation. Do not impute 0/false for absent records.",
   "erratum": {

@@ -1,6 +1,6 @@
 # U.S. Water Quality & Home Safety Data
 
-> Open dataset from [ZipCheckup](https://zipcheckup.com) | Artifact materialized 2026-08-20 | Source vintage varies by record and is not aggregated
+> Open dataset from [ZipCheckup](https://zipcheckup.com) | Artifact materialized 2026-08-28 | Source vintage varies by record and is not aggregated
 
 ## Coverage
 
@@ -53,6 +53,6 @@ CC BY 4.0, free to use with attribution to [ZipCheckup](https://zipcheckup.com).
 
 ```
 ZipCheckup. U.S. Water Quality & Home Safety Data.
-Artifact materialized 2026-08-20. Source vintage varies by record and is not aggregated.
+Artifact materialized 2026-08-28. Source vintage varies by record and is not aggregated.
 https://zipcheckup.com | https://github.com/artakulov/us-water-quality-data
 ```
