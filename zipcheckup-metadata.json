@@ -7,11 +7,11 @@
   "source": "ZipCheckup multi-source civic data; see score model and field provenance",
   "url": "https://zipcheckup.com",
   "updated": null,
-  "materialized_at": "2026-08-28T16:52:27.906Z",
+  "materialized_at": "2026-09-01T21:04:06.069Z",
   "vintage": {
     "schema_version": 1,
     "source_current_at": null,
-    "materialized_at": "2026-08-28T16:52:27.906Z",
+    "materialized_at": "2026-09-01T21:04:06.069Z",
     "freshness": {
       "state": "unknown",
       "reason": "mixed_per_record_sources_not_aggregated"
@@ -42,7 +42,7 @@
     },
     "home_safety_score": {
       "bytes": 43738258,
-      "sha256": "d824e5057cde4fa2f2418bcd49d5d02c73cbb0c2012616e2f8cdd421325993b5",
+      "sha256": "2cc2d427a7a19f9806b66af91354fc483332de1a794acb489c3118e56eb1b85e",
       "series": "home-safety-v4-cross-vertical",
       "model_version": "4.0.0",
       "registry_version": "1.1.0"

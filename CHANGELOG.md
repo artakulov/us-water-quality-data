@@ -1,6 +1,6 @@
 # Dataset Changelog
 
-## 2026-08-28
+## 2026-09-01
 
 **Coverage:** 42,679 ZIP codes | 66 federal/state data sources | 567K+ pages
 
