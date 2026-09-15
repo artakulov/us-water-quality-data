@@ -7,11 +7,11 @@
   "source": "ZipCheckup multi-source civic data; see score model and field provenance",
   "url": "https://zipcheckup.com",
   "updated": null,
-  "materialized_at": "2026-09-01T21:04:06.069Z",
+  "materialized_at": "2026-09-15T21:13:59.000Z",
   "vintage": {
     "schema_version": 1,
     "source_current_at": null,
-    "materialized_at": "2026-09-01T21:04:06.069Z",
+    "materialized_at": "2026-09-15T21:13:59.000Z",
     "freshness": {
       "state": "unknown",
       "reason": "mixed_per_record_sources_not_aggregated"
@@ -20,11 +20,11 @@
   "artifacts": {
     "csv": {
       "file": "zipcheckup-water-quality.csv",
-      "sha256": "726522820da7f8231885c08ad642f33d81395a0beb0427654e914678849a4e30"
+      "sha256": "8d7867292c52c9a588a4191598233a2ea197aab5e4b625b82771e605e564141e"
     },
     "json": {
       "file": "zipcheckup-water-quality.json",
-      "sha256": "ac6416255717112c546e6751da1d23fc080886cdea86e6b1411bd2f0bca21605"
+      "sha256": "625e0132f3357c34d0c9a380a99e78fa33e2468115e688f6b69b7bde81986fc5"
     }
   },
   "total_zips": 42679,
@@ -49,13 +49,13 @@
     },
     "ccr_enriched": {
       "records": 25156,
-      "bytes": 85304578,
-      "sha256": "9039627f18d78bdd8cb1f7c5eedc8e241207e2de73c64330e52faa2aa15b46a1"
+      "bytes": 85305406,
+      "sha256": "e2ed49cf59c0804605d023f2f4ea2d35e4564465f1c5ecba9f2ae1cfc96bd0aa"
     },
     "enforcement_actions": {
       "records": 18890,
-      "bytes": 22044452,
-      "sha256": "38068bb08826ecb866f3909a56381428ebb7307fcb06df19627452367f88a63e"
+      "bytes": 22044499,
+      "sha256": "b21e2c9c46ab5690ee39fa576543b23084f4b8b55dfbe592eb795a2314ed7398"
     }
   },
   "fields": {
