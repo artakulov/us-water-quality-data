@@ -1,13 +1,13 @@
 # U.S. Water Quality & Home Safety Data
 
-> Open dataset from [ZipCheckup](https://zipcheckup.com) | Artifact materialized 2026-09-16 | Source vintage varies by record and is not aggregated
+> Open dataset from [ZipCheckup](https://zipcheckup.com) | Artifact materialized 2026-10-15 | Source vintage varies by record and is not aggregated
 
 ## Coverage
 
 - **42,679** ZIP-code records in the exported dataset
 - **23,795** records with mapped water-system data
 - **66** federal and state data sources (EPA SDWIS, ECHO, LCR, PFAS, FEMA, Census ACS, USGS, CDC, DOE, and more)
-- **567K+** pages on zipcheckup.com
+- **565K+** pages on zipcheckup.com
 
 ## Files
 
@@ -53,6 +53,6 @@ CC BY 4.0, free to use with attribution to [ZipCheckup](https://zipcheckup.com).
 
 ```
 ZipCheckup. U.S. Water Quality & Home Safety Data.
-Artifact materialized 2026-09-16. Source vintage varies by record and is not aggregated.
+Artifact materialized 2026-10-15. Source vintage varies by record and is not aggregated.
 https://zipcheckup.com | https://github.com/artakulov/us-water-quality-data
 ```

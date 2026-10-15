@@ -1,8 +1,8 @@
 # Dataset Changelog
 
-## 2026-09-16
+## 2026-10-15
 
-**Coverage:** 42,679 ZIP codes | 66 federal/state data sources | 567K+ pages
+**Coverage:** 42,679 ZIP codes | 66 federal/state data sources | 565K+ pages
 
 Source vintage varies by record and is not aggregated. Source-specific cadences vary. Artifact materialization is not a source observation date.
 
